@@ -1,0 +1,8 @@
+magura-mt7 — no og:image on page
+talaria-mx4-oem-charger — fetch failed: HTTPError: HTTP Error 403: Forbidden
+vtb-aetos — no usable buy_url
+drivetrain-eride-belt — fetch failed: HTTPError: HTTP Error 404: Not Found
+pegs-kke-ultrabee — no og:image on page
+pegs-tarazon-walmart — no usable buy_url
+street-tarazon-walmart — no usable buy_url
+ultrabee-2025-oem-battery — no og:image on page

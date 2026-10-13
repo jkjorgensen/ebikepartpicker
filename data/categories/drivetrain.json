@@ -1,0 +1,575 @@
+{
+  "category": {
+    "id": "drivetrain",
+    "name": "Drivetrain"
+  },
+  "products": [
+    {
+      "id": "drivetrain-eride-chain-kit",
+      "name": "SHE8011 420 Chain Drive Set - SS2.0 / SS3.0 / SR",
+      "brand": "E Ride Pro",
+      "category": "drivetrain",
+      "price_usd": 99,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "RK 420 chain (42 links), 420-12 front sprocket, 420-30 rear sprocket. Conversion/replacement set for 2.0/3.0/SR; confirm chainline and clearance.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit",
+        "E Ride Pro 3.0": "direct_fit",
+        "E Ride Pro SR": "direct_fit",
+        "Sur-Ron Light Bee X": "verify",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro 4.0": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr",
+        "ss30": "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr",
+        "sr": "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 99,
+          "buy_url": "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/drivetrain-eride-chain-kit.jpg"
+    },
+    {
+      "id": "drivetrain-eride-belt-pulley",
+      "name": "E7004 Upgraded Drive Belt Pulley - Pro-S / SS2.0",
+      "brand": "E Ride Pro",
+      "category": "drivetrain",
+      "price_usd": 89,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7004",
+      "tier": "OEM",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Upgraded-design drive belt pulley (pulley only) for Pro-S/SS2.0. Verify pulley version/model year.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7004"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit",
+        "Sur-Ron Light Bee X": "verify",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7004"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 89,
+          "buy_url": "https://www.eridepro.com/products/e7004"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/drivetrain-eride-belt-pulley.jpg"
+    },
+    {
+      "id": "drivetrain-eride-belt",
+      "name": "E7006 Drive Belt - Pro-S / SS2.0",
+      "brand": "E Ride Pro",
+      "category": "drivetrain",
+      "price_usd": 66,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepros.com/product-page/drive-belt",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM replacement drive belt (belt only) for Pro-S/SS2.0. Check belt length/tooth profile and pulley revision.",
+      "source_urls": [
+        "https://www.eridepros.com/product-page/drive-belt"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit",
+        "Sur-Ron Light Bee X": "verify",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepros.com/product-page/drive-belt"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 66,
+          "buy_url": "https://www.eridepros.com/product-page/drive-belt"
+        }
+      ],
+      "weight_delta_kg": null
+    },
+    {
+      "id": "komodo-chain-520",
+      "name": "O-ring Chain 520-108 \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "drivetrain",
+      "tier": "OEM",
+      "price_usd": 63.19,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/chn120/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 63.19,
+          "buy_url": "https://emotobykes.com/parts/talaria/chn120/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/chn120/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part CHN120. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $63.19, in stock. 520-108 O-ring chain.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-chain-520.png"
+    },
+    {
+      "id": "drivetrain-ventus-chain-kit",
+      "name": "Ventus Primary Chain Drive Conversion Kit",
+      "brand": "Ventus",
+      "category": "drivetrain",
+      "badge": "Chain Kit",
+      "tier": "midrange",
+      "price_usd": 79.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $79 but OUT OF STOCK. Product page limits it to Ryuga spline motors; confirm exact EVO motor spline and variant before ordering.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 79.0,
+          "buy_url": "https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/drivetrain-ventus-chain-kit.png"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-chain-kit",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7004"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt-pulley",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepros.com/product-page/drive-belt"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-eride-belt",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-chain-520",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/chn120/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "drivetrain-ventus-chain-kit",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem"
+      ],
+      "notes": ""
+    }
+  ]
+}

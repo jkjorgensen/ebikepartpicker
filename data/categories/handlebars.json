@@ -1,0 +1,750 @@
+{
+  "category": {
+    "id": "handlebar",
+    "name": "Handlebar"
+  },
+  "compatibility": [
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "OEM fit for Surron LBX per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Eride Pro all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Eride Pro all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Eride Pro all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Eride Pro all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Talaria Sting all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Talaria Sting all models per Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [],
+      "notes": "Komodo is not a Sting model; confirm clamp/controls",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [],
+      "notes": "Not listed by Charged",
+      "product_id": "warp9-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "Light Bee X listed on TB Electric fitment",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "E-Ride Pro SS 2.0 listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "E-Ride Pro SS 3.0 listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "E-Ride Pro 4.0 listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "E-Ride Pro SR listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "Talaria Sting R MX4 listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "Talaria MX5 listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "notes": "Ventus One / One Plus listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "Not listed; Ventus One family",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [],
+      "notes": "Arctic Leopard XE listed, XD is a different model",
+      "product_id": "prickly-50mm-318",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "Light Bee X listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "E-Ride Pro SS 2.0 listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "E-Ride Pro SS 3.0 listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "E-Ride Pro 4.0 listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "E-Ride Pro SR listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "Talaria Sting R MX4 listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "notes": "Talaria MX5 listed; 35mm stem required",
+      "product_id": "prickly-50mm-35",
+      "required_adapters": [
+        "35mm stem or bar mount required"
+      ],
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Surron Light Bee all years per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Eride Pro SS 2.0 per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Eride Pro SS 3.0 per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Eride Pro SR per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Talaria MX4 per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Talaria MX5 per FactoryZ",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "FactoryZ lists Ventus One only; One Plus not confirmed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [],
+      "notes": "Eride Pro 4.0 not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [],
+      "notes": "Not listed",
+      "product_id": "factoryz-3in-rise",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Surron LBX (31.8mm clamp)"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Talaria Sting MX3/MX4"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Talaria Sting MX5"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists E-Ride Pro SS 3.0"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists E-Ride Pro SR"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Ventus One Plus"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "lightbee",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "mx4",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "mx5",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "sr",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "product_id": "renthal-fatbar-lite-35",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Requires 35mm stem/direct mount"
+    }
+  ],
+  "products": [
+    {
+      "badge": "Warp 9",
+      "brand": "Warp 9",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria",
+      "category": "handlebar",
+      "id": "warp9-3in-rise",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "Warp 9 3\" Rise Handlebar",
+      "notes": "31.8mm clamp, 80mm rise, 770mm width, 7075 T7 aluminum",
+      "power_change_kw": 0,
+      "price_usd": 87,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria",
+          "price_usd": 87,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/warp9-3in-rise.jpg"
+    },
+    {
+      "badge": "Prickly",
+      "brand": "Prickly",
+      "buy_url": "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars",
+      "category": "handlebar",
+      "id": "prickly-50mm-318",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "Prickly 50mm Rise Handlebar (31.8mm)",
+      "notes": "Billet 7075, 800mm wide, works with OEM 31.8mm clamp",
+      "power_change_kw": 0,
+      "price_usd": 100,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
+      ],
+      "stock_status": "limited",
+      "tier": "midrange",
+      "vendor": "TB Electric Moto",
+      "vendors": [
+        {
+          "buy_url": "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars",
+          "price_usd": 100,
+          "vendor": "TB Electric Moto"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/prickly-50mm-318.jpg"
+    },
+    {
+      "badge": "Prickly",
+      "brand": "Prickly",
+      "buy_url": "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars",
+      "category": "handlebar",
+      "id": "prickly-50mm-35",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "Prickly 50mm Rise Handlebar (35mm)",
+      "notes": "Requires 35mm stem; not a direct swap for 31.8mm cockpits",
+      "power_change_kw": 0,
+      "price_usd": 100,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
+      ],
+      "stock_status": "limited",
+      "tier": "midrange",
+      "vendor": "TB Electric Moto",
+      "vendors": [
+        {
+          "buy_url": "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars",
+          "price_usd": 100,
+          "vendor": "TB Electric Moto"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/prickly-50mm-35.jpg"
+    },
+    {
+      "badge": "FactoryZ",
+      "brand": "FactoryZ",
+      "buy_url": "https://factoryz.co/products/surron-handlebar-3-inch-rise",
+      "category": "handlebar",
+      "id": "factoryz-3in-rise",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "FactoryZ 3\" Rise Handlebar",
+      "notes": "31.8mm clamp, 7075 T7, sale price $59.99 (reg $69.99)",
+      "power_change_kw": 0,
+      "price_usd": 59.99,
+      "source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "stock_status": "limited",
+      "tier": "budget",
+      "vendor": "FactoryZ",
+      "vendors": [
+        {
+          "buy_url": "https://factoryz.co/products/surron-handlebar-3-inch-rise",
+          "price_usd": 59.99,
+          "vendor": "FactoryZ"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/factoryz-3in-rise.jpg"
+    },
+    {
+      "id": "rippin-moto-rise3",
+      "name": "Rippin Moto RISE3 E-Moto Handlebars",
+      "brand": "Rippin Moto",
+      "category": "handlebar",
+      "badge": "Rippin Moto",
+      "tier": "budget",
+      "price_usd": 89.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/rise3-e-moto-handlebars",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $89 (CORRECTED from $99 in research notes), select colors in stock (Black/Silver out of stock). 7075-T6, 31.8mm clamp, 770mm wide, 77.6mm rise. Page does NOT list Ultra Bee fitment.",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 89.0,
+          "buy_url": "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/rippin-moto-rise3.jpg"
+    },
+    {
+      "id": "renthal-fatbar-lite-35",
+      "name": "Renthal FatBar Lite 35",
+      "brand": "Renthal",
+      "category": "handlebar",
+      "badge": "Renthal",
+      "tier": "budget",
+      "price_usd": 91.26,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $91.26. Gold 40mm-rise in stock; Black 30mm-rise out of stock. REQUIRES 35mm stem/direct mount \u2014 not a stock-clamp replacement.",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 91.26,
+          "buy_url": "https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/renthal-fatbar-lite-35.jpg"
+    }
+  ]
+}

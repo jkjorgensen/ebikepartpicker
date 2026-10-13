@@ -1,0 +1,1032 @@
+{
+  "category": {
+    "id": "plastics",
+    "name": "Plastics"
+  },
+  "products": [
+    {
+      "id": "guts-seat-cover",
+      "name": "Guts Racing Seat Cover",
+      "brand": "Guts Racing",
+      "category": "plastics",
+      "badge": "Guts",
+      "tier": "budget",
+      "price_usd": 79.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "Made to order \u2014 pick bike + colors",
+      "variant": "custom",
+      "weight_delta_kg": null,
+      "image": "img/parts/guts-seat-cover.png"
+    },
+    {
+      "id": "luna-float-seat",
+      "name": "Luna Float Seat",
+      "brand": "Luna",
+      "category": "plastics",
+      "badge": "Float Seat",
+      "tier": "budget",
+      "price_usd": 55,
+      "vendor": "Luna Cycle",
+      "buy_url": "https://lunacycle.com/sur-ron-float-seat/",
+      "vendors": [
+        {
+          "vendor": "Luna Cycle",
+          "price_usd": 55,
+          "buy_url": "https://lunacycle.com/sur-ron-float-seat/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://lunacycle.com/sur-ron-float-seat/"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/luna-float-seat.jpg"
+    },
+    {
+      "id": "ventus-graphics",
+      "name": "Ventus OEM Graphics Kit",
+      "brand": "Ventus",
+      "category": "plastics",
+      "badge": "Graphics",
+      "tier": "budget",
+      "price_usd": 40,
+      "vendor": "Ventus Bikes US",
+      "buy_url": "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes US",
+          "price_usd": 40,
+          "buy_url": "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "OEM decal kit",
+      "variant": "custom",
+      "weight_delta_kg": null,
+      "image": "img/parts/ventus-graphics.png"
+    },
+    {
+      "id": "plastics-talaria-mx4-oem-graphics",
+      "name": "Talaria Sting R MX4 OEM Graphic Kit",
+      "brand": "Talaria",
+      "category": "plastics",
+      "badge": "Graphics",
+      "tier": "budget",
+      "price_usd": 59.99,
+      "vendor": "Talaria Canada",
+      "buy_url": "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Input URL was a category listing, not a product page - replaced with the exact MX4 orange graphic kit page ($59.99, in stock). Tower grey also in stock; blue variant out of stock. Choose the exact color/model variant.",
+      "variant": "custom",
+      "vendors": [
+        {
+          "vendor": "Talaria Canada",
+          "price_usd": 59.99,
+          "buy_url": "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/plastics-talaria-mx4-oem-graphics.jpg"
+    },
+    {
+      "id": "plastics-ultrabee-graphics",
+      "name": "Pre-Designed Ultra Bee Graphics Kit - Plastics Only",
+      "brand": "ThrottleCo",
+      "category": "plastics",
+      "badge": "Graphics",
+      "tier": "midrange",
+      "price_usd": 120.0,
+      "vendor": "ThrottleCo",
+      "buy_url": "https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $120 (on sale from $130). Covers rear fender, side fenders, and battery-lid plastics. Number plates, fork guard, front fender, frame decals sold separately. Finish upgrades (sparkle/chrome/holographic) cost extra.",
+      "variant": "custom",
+      "vendors": [
+        {
+          "vendor": "ThrottleCo",
+          "price_usd": 120.0,
+          "buy_url": "https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/plastics-ultrabee-graphics.jpg"
+    },
+    {
+      "id": "plastics-lightbee-numberplate",
+      "name": "Sur-Ron Light Bee Front Number Plate",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "badge": "Number Plate",
+      "tier": "budget",
+      "price_usd": 3.5,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate",
+      "stock_status": "verify",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $3.50 but availability conflicts: page text says Sold out while JSON-LD says InStock - verify before ordering. Year coverage not clearly established; verify model-year mounting points.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 3.5,
+          "buy_url": "https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/plastics-lightbee-numberplate.jpg"
+    },
+    {
+      "id": "ecd-wrap-ultrabee-solid",
+      "name": "ECD Customs Ultra Bee Solid Color Frame Wrap",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 110,
+      "vendor": "TB Electric",
+      "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap",
+      "vendors": [
+        {
+          "vendor": "TB Electric",
+          "price_usd": 110,
+          "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Solid-color frame wrap. Ultra Bee-specific cut.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ecd-wrap-talaria-solid",
+      "name": "ECD Customs Talaria Sting MX3/MX4 Solid Color Frame Wrap",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 110,
+      "vendor": "TB Electric",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap",
+      "vendors": [
+        {
+          "vendor": "TB Electric",
+          "price_usd": 110,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Solid-color frame wrap for the Talaria Sting MX platform.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ecd-wrap-lbx-solid",
+      "name": "ECD Customs Surron LBX Solid Color Frame Wrap",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 110,
+      "vendor": "TB Electric",
+      "buy_url": "https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap",
+      "vendors": [
+        {
+          "vendor": "TB Electric",
+          "price_usd": 110,
+          "buy_url": "https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Solid-color frame wrap. Light Bee X-specific cut.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ecd-wrap-79bike-solid",
+      "name": "ECD Customs 79Bike Falcon Solid Color Frame Wrap",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 110,
+      "vendor": "TB Electric",
+      "buy_url": "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus",
+      "vendors": [
+        {
+          "vendor": "TB Electric",
+          "price_usd": 110,
+          "buy_url": "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Solid-color frame wrap for the 79Bike Falcon M/Pro/GT.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ecd-wrap-ridge",
+      "name": "ECD Customs RIDGE Frame Wrap \u2014 79Bike / Ventus One+",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": null,
+      "vendor": "ECD Wraps",
+      "buy_url": "https://ecdwraps.com/products/79bike-ventusone-ridge",
+      "vendors": [
+        {
+          "vendor": "ECD Wraps",
+          "price_usd": null,
+          "buy_url": "https://ecdwraps.com/products/79bike-ventusone-ridge"
+        }
+      ],
+      "stock_status": null,
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ecdwraps.com/products/79bike-ventusone-ridge"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "RIDGE graphic frame wrap. Price not listed \u2014 TBD.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "armysctv-talaria-custom",
+      "name": "ArmySCTV 100% Custom Graphics Kit \u2014 Talaria MX3/MX4",
+      "brand": "ArmySCTV",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": null,
+      "vendor": "ArmySCTV",
+      "buy_url": "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4",
+      "vendors": [
+        {
+          "vendor": "ArmySCTV",
+          "price_usd": null,
+          "buy_url": "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4"
+        }
+      ],
+      "stock_status": null,
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Fully custom graphics kit. Price not listed \u2014 TBD.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ecr-graphics-talaria",
+      "name": "ECR Graphics Kit (180 Decals) \u2014 Talaria MX3/MX4",
+      "brand": "ECR Graphics",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": null,
+      "vendor": "Electric Cycle Rider",
+      "buy_url": "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4",
+      "vendors": [
+        {
+          "vendor": "Electric Cycle Rider",
+          "price_usd": null,
+          "buy_url": "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4"
+        }
+      ],
+      "stock_status": null,
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Graphics kit via 180 Decals. Price not listed \u2014 TBD.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "rawrr-mantis-graphic-kit",
+      "name": "Rawrr 72V Mantis Graphic Kit",
+      "brand": "Rawrr",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 199.99,
+      "vendor": "Rawrr",
+      "buy_url": "https://www.riderawrr.com/product/mantis-graphic-kit",
+      "vendors": [
+        {
+          "vendor": "Rawrr",
+          "price_usd": 199.99,
+          "buy_url": "https://www.riderawrr.com/product/mantis-graphic-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.riderawrr.com/product/mantis-graphic-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "OEM graphic kit for the 72V Mantis.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "rev797-wrap-022",
+      "name": "Rev797 Graphics/Wrap 022 \u2014 Multi-bike",
+      "brand": "Rev797",
+      "category": "plastics",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": null,
+      "vendor": "Rev797",
+      "buy_url": "https://www.rev797.com/products/graphics-wrap-022",
+      "vendors": [
+        {
+          "vendor": "Rev797",
+          "price_usd": null,
+          "buy_url": "https://www.rev797.com/products/graphics-wrap-022"
+        }
+      ],
+      "stock_status": null,
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Wrap 022 graphic. Price not listed \u2014 TBD.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Confirm cover pattern with vendor"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Confirm cover pattern with vendor"
+    },
+    {
+      "product_id": "luna-float-seat",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://lunacycle.com/sur-ron-float-seat/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ventus-graphics",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
+      ],
+      "notes": "OEM decal kit"
+    },
+    {
+      "product_id": "ventus-graphics",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
+      ],
+      "notes": "OEM decal kit"
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-talaria-mx4-oem-graphics",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-ultrabee-graphics",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "plastics-lightbee-numberplate",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ecd-wrap-ultrabee-solid",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap"
+      ],
+      "notes": "ECD Customs lists a dedicated Sur-Ron Ultra Bee solid-color frame wrap."
+    },
+    {
+      "product_id": "ecd-wrap-talaria-solid",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap"
+      ],
+      "notes": "ECD Customs lists this wrap for the Talaria Sting MX3/MX4."
+    },
+    {
+      "product_id": "ecd-wrap-lbx-solid",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap"
+      ],
+      "notes": "ECD Customs lists a dedicated Sur-Ron LBX solid-color frame wrap."
+    },
+    {
+      "product_id": "ecd-wrap-79bike-solid",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
+      ],
+      "notes": "ECD Customs lists this wrap for the 79Bike Falcon M/Pro/GT."
+    },
+    {
+      "product_id": "ecd-wrap-79bike-solid",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
+      ],
+      "notes": "ECD Customs lists this wrap for the 79Bike Falcon M/Pro/GT."
+    },
+    {
+      "product_id": "ecd-wrap-ridge",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ecdwraps.com/products/79bike-ventusone-ridge"
+      ],
+      "notes": "ECD Wraps lists the RIDGE design for 79Bike Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "ecd-wrap-ridge",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ecdwraps.com/products/79bike-ventusone-ridge"
+      ],
+      "notes": "ECD Wraps lists the RIDGE design for 79Bike Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "ecd-wrap-ridge",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ecdwraps.com/products/79bike-ventusone-ridge"
+      ],
+      "notes": "ECD Wraps lists the RIDGE design for 79Bike Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "armysctv-talaria-custom",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4"
+      ],
+      "notes": "ArmySCTV lists this custom kit for the Talaria Sting MX3 and R-MX4."
+    },
+    {
+      "product_id": "ecr-graphics-talaria",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4"
+      ],
+      "notes": "Electric Cycle Rider lists this ECR graphics kit for the Talaria Sting MX3/MX4."
+    },
+    {
+      "product_id": "rawrr-mantis-graphic-kit",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.riderawrr.com/product/mantis-graphic-kit"
+      ],
+      "notes": "Rawrr lists this graphic kit for the 72V Mantis."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    },
+    {
+      "product_id": "rev797-wrap-022",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.rev797.com/products/graphics-wrap-022"
+      ],
+      "notes": "Rev797 lists Wrap 022 for Ultra Bee, Komodo, Sting MX4, Falcon Pro/GT and Ventus One Plus."
+    }
+  ]
+}

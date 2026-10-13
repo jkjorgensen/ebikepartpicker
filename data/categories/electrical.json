@@ -1,0 +1,469 @@
+{
+  "category": {
+    "id": "electrical",
+    "name": "Electrical"
+  },
+  "products": [
+    {
+      "id": "electrical-torp-egg-rider",
+      "name": "TORP EggRider Display",
+      "brand": "TORP",
+      "category": "electrical",
+      "badge": "Display",
+      "tier": "midrange",
+      "price_usd": 110.0,
+      "vendor": "Sur Ron USA",
+      "buy_url": "https://ridesurronusa.com/product/torp-egg-rider-display/",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ridesurronusa.com/product/torp-egg-rider-display/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $110 in stock (input had no price). TORP-controller accessory, not universal OEM display. Connects to TORP controller wiring loom; some Light Bee/Ultra Bee loom revisions need the 5-connector replacement wiring loom. Compatible with TORP TC500 (LBX, MX4) and TC1000 (LBX, Ultra Bee).",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur Ron USA",
+          "price_usd": 110.0,
+          "buy_url": "https://ridesurronusa.com/product/torp-egg-rider-display/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/electrical-torp-egg-rider.png"
+    },
+    {
+      "id": "electrical-surron-oem-dashboard",
+      "name": "Sur-Ron Light Bee Replacement Dashboard",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "badge": "Dashboard",
+      "tier": "budget",
+      "price_usd": 56.0,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/light-bee-replacement-dashboard",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://shop.sur-ron.com/collections/electronics",
+        "https://shop.sur-ron.com/products/light-bee-replacement-dashboard"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Exact product page exists on shop.sur-ron.com but its URL is not indexed anywhere; buy_url left null rather than linking a collection. Listed at $56 (was $60), SOLD OUT. Match exact Light Bee generation and connector before ordering. Exact product page recovered 2026-10-12; page shows sold out.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 56.0,
+          "buy_url": "https://shop.sur-ron.com/products/light-bee-replacement-dashboard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/electrical-surron-oem-dashboard.jpg"
+    },
+    {
+      "id": "electrical-surron-horn",
+      "name": "Sur-Ron Light Bee OEM Horn",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "badge": "Horn",
+      "tier": "budget",
+      "price_usd": 8.0,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/light-bee-horn",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://shop.sur-ron.com/collections/electronics",
+        "https://shop.sur-ron.com/products/light-bee-horn"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Exact product page exists on shop.sur-ron.com but its URL is not indexed anywhere; buy_url left null rather than linking a collection. Listed at $8.00 and NOT marked sold out on the electronics collection page. Verify connector and mounting location. Exact product page recovered 2026-10-12; page shows sold out.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 8.0,
+          "buy_url": "https://shop.sur-ron.com/products/light-bee-horn"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/electrical-surron-horn.jpg"
+    },
+    {
+      "id": "electrical-gigigo-headlight",
+      "name": "GiGigo Gi02-S Headlight",
+      "brand": "GiGigo",
+      "category": "electrical",
+      "badge": "Headlight",
+      "tier": "midrange",
+      "price_usd": 199.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/gigigo-gi02-s-headlight",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/gigigo-gi02-s-headlight"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $199, in stock. Listed as EVO upgrade; confirm voltage range, connector, mounting and current draw.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 199.0,
+          "buy_url": "https://ventusbikes.us/products/gigigo-gi02-s-headlight"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/electrical-gigigo-headlight.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "lightbee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "mx4",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-torp-egg-rider",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-oem-dashboard",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-surron-horn",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "electrical-gigigo-headlight",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/gigigo-gi02-s-headlight"
+      ],
+      "notes": ""
+    }
+  ]
+}

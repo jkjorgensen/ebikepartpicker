@@ -1,0 +1,433 @@
+{
+  "category": {
+    "id": "shock",
+    "name": "Shock"
+  },
+  "compatibility": [
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-arma"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-arma"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-arma"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://extusa.bike/products/sur-ron-ext-arma-pre-order"
+      ],
+      "notes": "EXT lists all Talaria models",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://extusa.bike/products/sur-ron-ext-arma-pre-order"
+      ],
+      "notes": "EXT lists all E-Ride Pro models",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+      ],
+      "notes": "",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-arma"
+      ],
+      "notes": "Ventus One / One Plus listed",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "Ventus One family; confirm tune with vendor",
+      "product_id": "ext-arma-mx",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "283x80mm",
+      "product_id": "tech-er30-283",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "",
+      "product_id": "kke-performance",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring"
+      ],
+      "notes": "OEM replacement",
+      "product_id": "oem-kke-white",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter"
+      ],
+      "notes": "",
+      "product_id": "dnm-250x70",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter"
+      ],
+      "notes": "",
+      "product_id": "dnm-250x70",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [],
+      "notes": "Same chassis as MX4; confirm with vendor",
+      "product_id": "dnm-250x70",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "product_id": "komodo-shock-absorber-oem",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/shk219/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "283x80 listed in Ventus One upgrades collection; EVO fitment not independently confirmed"
+    },
+    {
+      "product_id": "rfloxa-raf55rv-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"Fitment: Surron Ultra Bee\""
+    },
+    {
+      "product_id": "sirris-r46-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"bolts directly onto a stock Ultra Bee\""
+    }
+  ],
+  "products": [
+    {
+      "badge": "KKE",
+      "brand": "KKE",
+      "buy_url": "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock",
+      "category": "shock",
+      "id": "kke-performance",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "KKE Performance Rear Shock",
+      "notes": "",
+      "power_change_kw": 0,
+      "price_usd": 249.99,
+      "source_urls": [],
+      "stock_status": "sold_out",
+      "tier": "budget",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock",
+          "price_usd": 249.99,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/kke-performance.jpg"
+    },
+    {
+      "badge": "OEM KKE",
+      "brand": "KKE",
+      "buy_url": "https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring",
+      "category": "shock",
+      "id": "oem-kke-white",
+      "is_upgrade": false,
+      "last_checked": "2026-10-11",
+      "name": "OEM KKE Rear Shock (white spring)",
+      "notes": "OEM replacement",
+      "power_change_kw": 0,
+      "price_usd": 278,
+      "source_urls": [],
+      "stock_status": "sold_out",
+      "tier": "budget",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring",
+          "price_usd": 278,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/oem-kke-white.jpg"
+    },
+    {
+      "badge": "DNM",
+      "brand": "DNM",
+      "buy_url": "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter",
+      "category": "shock",
+      "id": "dnm-250x70",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "DNM Rear Shock 250x70",
+      "notes": "",
+      "power_change_kw": 0,
+      "price_usd": 299.99,
+      "source_urls": [],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "vendor": "GoldenMotor.bike",
+      "vendors": [
+        {
+          "buy_url": "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter",
+          "price_usd": 299.99,
+          "vendor": "GoldenMotor.bike"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/dnm-250x70.jpg"
+    },
+    {
+      "badge": "TECH ER30",
+      "brand": "TECH",
+      "buy_url": "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee",
+      "category": "shock",
+      "id": "tech-er30-283",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "TECH ER30 Rear Shock (283x80)",
+      "notes": "",
+      "power_change_kw": 0,
+      "price_usd": 979,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee",
+          "price_usd": 979,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/tech-er30-283.jpg"
+    },
+    {
+      "badge": "EXT Arma",
+      "brand": "EXT",
+      "buy_url": "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron",
+      "category": "shock",
+      "id": "ext-arma-mx",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "EXT Arma MX Rear Shock",
+      "notes": "",
+      "power_change_kw": 0,
+      "price_usd": 950,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron",
+        "https://tbelectricmoto.com/products/ext-arma"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron",
+          "price_usd": 950,
+          "vendor": "Charged Cycle Works"
+        },
+        {
+          "buy_url": "https://tbelectricmoto.com/products/ext-arma",
+          "price_usd": 950,
+          "vendor": "TB Electric Moto"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/ext-arma-mx.jpg"
+    },
+    {
+      "id": "komodo-shock-absorber-oem",
+      "name": "Shock Absorber Black \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "shock",
+      "tier": "OEM",
+      "price_usd": 316.52,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/shk219/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 316.52,
+          "buy_url": "https://emotobykes.com/parts/talaria/shk219/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/shk219/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part SHK219. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $316.52, in stock. Exact product page recovered during verification (research had only a collection URL).",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-shock-absorber-oem.png"
+    },
+    {
+      "id": "rfloxa-raf55rv-ultrabee",
+      "name": "RFloXa RAF55RV Rear Shock for Surron Ultra Bee",
+      "brand": "RFloXa",
+      "category": "shock",
+      "badge": "RFloXa",
+      "tier": "performance",
+      "price_usd": 650.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-raf55rv",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-raf55rv"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $650 across all spring variants (450/550/650 lb), in stock. 320mm eye-to-eye, 85mm travel. Page fitment: Surron Ultra Bee.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 650.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-raf55rv"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/rfloxa-raf55rv-ultrabee.jpg"
+    },
+    {
+      "id": "sirris-r46-ultrabee",
+      "name": "Sirris R46 Shock for Surron Ultra Bee",
+      "brand": "Sirris",
+      "category": "shock",
+      "badge": "Sirris",
+      "tier": "performance",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee",
+      "stock_status": "in_stock",
+      "weight_kg": 1.76,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $899, in stock at product level; select spring-rate variants sell out (check page). Page \"highly recommends the Sirris rear triangle\" for guaranteed fitment. 46mm piston, 320x85mm, bolts directly onto a stock Ultra Bee.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-r46-ultrabee.png"
+    }
+  ]
+}

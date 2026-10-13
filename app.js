@@ -93,10 +93,8 @@ function checkFit(bikeId, opt){
 }
 function previewSrc(){
   var b = bike();
-  var pv = (catOption(catById('plastics'))||{}).variant;
-  var wv = (catOption(catById('wheels'))||{}).variant;
-  if(pv) return 'img/bike-'+b.id+'-plastics-'+pv+'.png?v='+IMGV;
-  if(wv) return 'img/bike-'+b.id+'-wheels-'+wv+'.png?v='+IMGV;
+  /* Stock photo only: the AI part-swap composites had mangled spokes/hubs,
+     and the standard is real stock photos, never AI lookalikes. */
   return 'img/bike-'+b.id+'.png?v='+IMGV;
 }
 
@@ -239,7 +237,10 @@ function initSizeChips(containerId){
       b.className = 'sizechip' + (window.__bikeSizeFilter===d[0] ? ' on' : '');
       b.textContent = d[1];
       b.setAttribute('aria-pressed', window.__bikeSizeFilter===d[0] ? 'true' : 'false');
-      b.addEventListener('click', function(){
+      /* keep focus off the chip so the bike input doesn't blur-close */
+      b.addEventListener('mousedown', function(e){ e.preventDefault(); });
+      b.addEventListener('click', function(e){
+        e.stopPropagation(); /* keep the document click-closer from shutting the list we just opened */
         window.__bikeSizeFilter = d[0];
         document.querySelectorAll('.sizechips').forEach(function(h){
           h.querySelectorAll('.sizechip').forEach(function(c){
@@ -248,8 +249,15 @@ function initSizeChips(containerId){
             c.setAttribute('aria-pressed', on?'true':'false');
           });
         });
-        /* close any open bike dropdowns so they re-render filtered */
-        document.querySelectorAll('.combo-list').forEach(function(l){ l.hidden = true; });
+        /* open the matching bike picker, filtered to this size */
+        var map = {startSizeChips:'startBikeInput', builderSizeChips:'bikeSelectInput'};
+        var inp = document.getElementById(map[containerId]);
+        if(inp){
+          inp.value = '';
+          if(inp._renderItems) inp._renderItems(true);
+        } else {
+          document.querySelectorAll('.combo-list').forEach(function(l){ l.hidden = true; });
+        }
       });
       host.appendChild(b);
     });
@@ -295,9 +303,9 @@ function initBikePicker(inputId, listId, onPick){
     }
     list.hidden = false;
   }
+  input._renderItems = renderItems; /* lets size chips open the filtered list */
   input.addEventListener('input', renderItems);
-  input.addEventListener('focus', function(){ input.select(); renderItems(true); });
-  input.addEventListener('blur', function(){
+  input.addEventListener('focus', function(){ input.select(); renderItems(true); });  input.addEventListener('blur', function(){
     setTimeout(function(){ close(); syncBikeInputs(); }, 150);
   });
   input.addEventListener('keydown', function(e){
@@ -453,7 +461,7 @@ function renderPick(c, b, host){
     row.appendChild(pl);
     if(bb && bb.url){
       var a = document.createElement('a'); a.className='buy'; a.href=bb.url;
-      a.target='_blank'; a.rel='noopener'; a.textContent='Buy';
+      a.target='_blank'; a.rel='noopener'; a.textContent='Buy this part';
       row.appendChild(a);
     }
     wrap.appendChild(row);
@@ -578,7 +586,7 @@ function render(){
 
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
-  img.alt = b.name+' preview';
+  img.alt = 'Electric dirt bike '+b.name;
 
   var badges = $('badges'); badges.innerHTML='';
   CATEGORIES.forEach(function(c){
@@ -600,7 +608,10 @@ function render(){
   renderPtrain();
 
   renderStep();
-  $('checkedDate').textContent = CHECKED;
+  /* real catalog-checked date; if the data has none, drop the dangling "checked" */
+  var cd = $('checkedDate'), cw = $('checkedWrap');
+  if(typeof CHECKED!=='undefined' && CHECKED){ if(cd) cd.textContent = CHECKED; }
+  else if(cw){ cw.style.display = 'none'; }
 }
 
 /* ---------- builds tab ---------- */
@@ -634,7 +645,7 @@ window.openBikeInBuilder = function(bikeId){
 function partCard(opts){
   var host = opts.host, b = bikeById(opts.bikeId);
   var card = document.createElement('div'); card.className='card';
-  var img = document.createElement('img'); img.src=opts.img; img.alt=b.name; img.loading='lazy';
+  var img = document.createElement('img'); img.src=opts.img; img.alt='Electric dirt bike '+b.name; img.loading='lazy';
   card.appendChild(img);
   var body = document.createElement('div'); body.className='body';
   var own = document.createElement('div'); own.className='owner'; own.textContent=opts.kicker;
@@ -677,7 +688,7 @@ function renderBuilds(){
     var b = bikeById(bid);
     var btn = document.createElement('button');
     btn.className = 'gbike' + (bid===state.guideBike ? ' on' : '');
-    var im = document.createElement('img'); im.src='img/bike-'+bid+'.png?v='+IMGV; im.alt=b.name; im.loading='lazy';
+    var im = document.createElement('img'); im.src='img/bike-'+bid+'.png?v='+IMGV; im.alt='Electric dirt bike '+b.name; im.loading='lazy';
     var nm = document.createElement('span'); nm.textContent=b.name;
     btn.appendChild(im); btn.appendChild(nm);
     btn.addEventListener('click', function(){ state.guideBike=bid; renderBuilds(); });
@@ -703,6 +714,7 @@ function showTab(which){
   $('tabBuilder').classList.toggle('on', which==='builder');
   $('tabBuilds').classList.toggle('on', which==='builds');
   $('tabUpcoming').classList.toggle('on', which==='upcoming');
+  var tu = $('tabUsed'); if(tu) tu.classList.toggle('on', which==='used');
   var tq = $('tabQuiz'); if(tq) tq.classList.toggle('on', which==='quiz');
   var tc = $('tabCompare'); if(tc) tc.classList.toggle('on', which==='compare');
   $('builderPane').hidden = which!=='builder';
@@ -710,12 +722,15 @@ function showTab(which){
   $('upcomingPane').hidden = which!=='upcoming';
   var qp = $('quizPane'); if(qp) qp.hidden = which!=='quiz';
   var cp = $('comparePane'); if(cp) cp.hidden = which!=='compare';
+  var up = $('usedPane'); if(up) up.hidden = which!=='used';
   if(which==='builds') renderBuilds();
   if(which==='upcoming') renderUpcoming();
+  if(which==='used' && typeof renderUsed==='function') renderUsed();
 }
 $('tabBuilder').addEventListener('click', function(){ showTab('builder'); });
 $('tabBuilds').addEventListener('click', function(){ showTab('builds'); });
 $('tabUpcoming').addEventListener('click', function(){ showTab('upcoming'); });
+var tabUsedEl = $('tabUsed'); if(tabUsedEl) tabUsedEl.addEventListener('click', function(){ showTab('used'); });
 
 /* ---------- upcoming bikes ---------- */
 var STATUS_LABEL = {'shipping':'Shipping now','preorder':'Pre-order','announced':'Announced','rumored':'Rumored'};
@@ -725,7 +740,7 @@ function renderUpcoming(){
     var card = document.createElement('div'); card.className='card';
     var img = document.createElement('img');
     img.src = u.bikeId ? 'img/bike-'+u.bikeId+'.png?v='+IMGV : 'img/bike-lightbee.png?v='+IMGV;
-    img.alt = u.name; img.loading='lazy';
+    img.alt = 'Electric dirt bike '+u.name; img.loading='lazy';
     card.appendChild(img);
     var body = document.createElement('div'); body.className='body';
     var top = document.createElement('div'); top.className='urow';
@@ -850,6 +865,34 @@ $('btnBack').addEventListener('click', function(){
 $('btnNext').addEventListener('click', function(){
   if(state.step<totalSteps()-1){ state.step++; render(); window.scrollTo(0,0); }
 });
+/* Notify-me signup (start page): no backend — opens a prefilled email */
+(function(){
+  var btn = $('notifyBtn'), inp = $('notifyEmail'), err = $('notifyErr');
+  if(!btn || !inp) return;
+  function submit(){
+    var v = inp.value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){ if(err) err.hidden = false; return; }
+    if(err) err.hidden = true;
+    var subj = 'Notify list signup';
+    var body = 'Please notify me when new bikes and parts are added.\n\nEmail: '+v;
+    location.href = 'mailto:ebikepartspicker@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
+    toast('Opening your mail app to confirm the signup.');
+  }
+  btn.addEventListener('click', submit);
+  inp.addEventListener('keydown', function(e){ if(e.key==='Enter') submit(); });
+})();
+/* Share my build: same hash format the builder already saves/restores */
+var shb = $('btnShareBuild');
+if(shb) shb.addEventListener('click', function(){
+  saveHash();
+  var url = location.href;
+  function done(){ toast('Build link copied — share it anywhere.'); }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(done, function(){ toast('Copy failed — copy the address bar link instead.'); });
+  } else {
+    toast('Copy this link: '+url);
+  }
+});
 function doReset(){
   CATEGORIES.forEach(function(c){ state.sel[c.id]=0; }); state.step=0; render(); saveHash(); toast('Build reset.');
 }
@@ -881,7 +924,7 @@ document.addEventListener('click', function(e){
 initBikePicker('startBikeInput', 'startBikeList', function(id){
   state.bike = id; syncBikeInputs();
   var hero = $('heroImg'), b = bikeById(id);
-  if(hero && b){ hero.src = 'img/bike-'+b.id+'.png?v='+IMGV; hero.alt = b.name; }
+  if(hero && b){ hero.src = 'img/bike-'+b.id+'.png?v='+IMGV; hero.alt = 'Electric dirt bike '+b.name; }
 });
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();
@@ -889,13 +932,19 @@ initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
 initSizeChips('startSizeChips');
 initSizeChips('builderSizeChips');
 syncBikeInputs();
-/* start-page live stats */
+/* start-page live stats: real catalog counts, or hide the row — never dashes */
 (function(){
-  var pc = CATEGORIES.reduce(function(n,c){ return n + Math.max(0, c.options.length-1); }, 0);
-  var sb=$('statBikes'), sp=$('statParts'), sc=$('statCats');
-  if(sb) sb.textContent = BIKES.length;
-  if(sp) sp.textContent = pc;
-  if(sc) sc.textContent = CATEGORIES.length;
+  var row = document.querySelector('.stats');
+  try{
+    if(typeof BIKES==='undefined' || typeof CATEGORIES==='undefined' || !BIKES.length) throw 0;
+    var pc = CATEGORIES.reduce(function(n,c){ return n + Math.max(0, c.options.length-1); }, 0);
+    var sb=$('statBikes'), sp=$('statParts'), sc=$('statCats');
+    if(sb) sb.textContent = BIKES.length;
+    if(sp) sp.textContent = pc;
+    if(sc) sc.textContent = CATEGORIES.length;
+  }catch(e){
+    if(row) row.style.display = 'none';
+  }
 })();
 /* shared build link? skip the start page */
 if(location.hash){

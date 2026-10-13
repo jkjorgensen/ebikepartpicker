@@ -1,0 +1,467 @@
+{
+  "category": {
+    "id": "linkage",
+    "name": "Linkage"
+  },
+  "products": [
+    {
+      "id": "linkage-ultrabeemx",
+      "name": "EBMX Upgraded OEM Linkage for Sur-Ron Ultra Bee",
+      "brand": "EBMX",
+      "category": "linkage",
+      "price_usd": 105,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 105,
+          "buy_url": "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Requires EBMX Ultra Bee triangle, sold separately \u2014 not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
+      "source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "EBMX",
+      "weight_delta_kg": null,
+      "image": "img/parts/linkage-ultrabeemx.jpg"
+    },
+    {
+      "id": "linkage-ultrabee-emx",
+      "name": "Ultra Bee Rear Suspension Linkage & Triangle Upgrade Kit",
+      "brand": "EMXDesigns",
+      "category": "linkage",
+      "price_usd": 114.99,
+      "vendor": "EMXDesigns",
+      "buy_url": "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit",
+      "vendors": [
+        {
+          "vendor": "EMXDesigns",
+          "price_usd": 114.99,
+          "buy_url": "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+        }
+      ],
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Complete linkage + triangle kit advertised as direct bolt-on for Ultra Bee. Confirm year and linkage geometry before ordering.",
+      "source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "EMXDesigns",
+      "weight_delta_kg": null,
+      "image": "img/parts/linkage-ultrabee-emx.jpg"
+    },
+    {
+      "id": "linkage-talaria-mx34",
+      "name": "Rippin Moto Rear Suspension Linkage Kit for Talaria MX3/MX4",
+      "brand": "Rippin Moto",
+      "category": "linkage",
+      "price_usd": 99.99,
+      "vendor": "Rippin Moto",
+      "buy_url": "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4",
+      "vendors": [
+        {
+          "vendor": "Rippin Moto",
+          "price_usd": 99.99,
+          "buy_url": "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Price confirmed $99.99. MX3/MX4 fitment published (6061-T6 aluminum; linkage + triangle included). MX5 Pro and Komodo not assumed to share geometry.",
+      "source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Rippin Moto",
+      "weight_delta_kg": null,
+      "image": "img/parts/linkage-talaria-mx34.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": "Requires EBMX Ultra Bee triangle (sold separately)"
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-ultrabee-emx",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "linkage-talaria-mx34",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
+      ],
+      "notes": ""
+    }
+  ]
+}

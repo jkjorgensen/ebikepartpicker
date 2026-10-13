@@ -1,0 +1,348 @@
+{
+  "category": {
+    "id": "seats",
+    "name": "Seats"
+  },
+  "products": [
+    {
+      "id": "seat-guts-lightbee-cover",
+      "name": "Guts Seat Cover - Sur-Ron Light Bee",
+      "brand": "Guts Racing",
+      "category": "seats",
+      "badge": "Seat Cover",
+      "tier": "premium",
+      "price_usd": 79.99,
+      "vendor": "Zynx Designs",
+      "buy_url": "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $79.99. Gripper cover only - stock or aftermarket seat base required, not a complete seat. Multiple color/rib variants at $79.99.",
+      "variant": "custom",
+      "weight_delta_kg": null,
+      "image": "img/parts/seat-guts-lightbee-cover.png"
+    },
+    {
+      "id": "seat-eride-long-kit",
+      "name": "SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR",
+      "brand": "E Ride Pro",
+      "category": "seats",
+      "badge": "Long Seat Kit",
+      "tier": "premium",
+      "price_usd": 490.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she8022-long-seat-kits",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.eridepro.com/products/she8022-long-seat-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $490, in stock. Complete long-seat conversion kit. Manufacturer fitment is SS2.0/SS3.0/SR only - Pro 4.0 not listed. Check model-year compatibility and included subframe/fender hardware.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 490.0,
+          "buy_url": "https://www.eridepro.com/products/she8022-long-seat-kits"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/seat-eride-long-kit.jpg"
+    },
+    {
+      "id": "seat-talaria-mx34-oem",
+      "name": "Talaria Sting MX3/MX4 Replacement Seat",
+      "brand": "Talaria",
+      "category": "seats",
+      "badge": "Seat",
+      "tier": "budget",
+      "price_usd": 40.99,
+      "vendor": "Zeal Racing",
+      "buy_url": "https://zealracing.com/products/seat-r-mx4",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://zealracing.com/products/seat-r-mx4"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price $40.99 verified but the Replacement Seat variant (part 41010-56002-000) is SOLD OUT at Zeal Racing. MX3/MX4 OEM parts page; MX5 and Komodo fitment not assumed.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Zeal Racing",
+          "price_usd": 40.99,
+          "buy_url": "https://zealracing.com/products/seat-r-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/seat-talaria-mx34-oem.png"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-eride-long-kit",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-talaria-mx34-oem",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    }
+  ]
+}

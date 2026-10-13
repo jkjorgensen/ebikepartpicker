@@ -1,0 +1,785 @@
+{
+  "category": {
+    "id": "titanium",
+    "name": "Titanium Hardware"
+  },
+  "products": [
+    {
+      "id": "ti-full-kit-lightbee",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 Light Bee X (80+ pc)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 239.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 239.99,
+          "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V, 80+ pieces. Blue, burnt blue, black, gold, green, purple, rainbow, raw. Price verified on collection page; select the LBX kit variant.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-full-kit-ultrabee",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 Ultra Bee (113/133 pc)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 274.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 274.99,
+          "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits",
+        "https://titaniumsurron.com/collections/featured-items?page=3"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. 113 pieces, or 133 with the fork kit. Price 'from $274.99' on Titanium Surron; select the Ultra Bee kit variant.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-full-kit-erp",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 E-Ride Pro 2.0/3.0/SR",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 244.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 244.99,
+          "buy_url": "https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. Model-specific variants; select correct jackshaft bolt/nut and brake lever clamp options.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-full-kit-talaria-mx",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 Talaria MX3/MX4/MX5",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 239.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 239.99,
+          "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. Covers the Talaria Sting MX platform; select the MX kit variant on the collection page.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-full-kit-altis-sigma",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 Altis Sigma",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 239.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 239.99,
+          "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. Altis Sigma-specific full body kit.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-full-kit-komodo",
+      "name": "Titanium Surron Full Body Bolt Kit \u2014 Talaria Komodo",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": null,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": null,
+          "buy_url": "https://titaniumsurron.com/collections/titanium-bolt-kits"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. Komodo-specific kit listed on Titanium Surron; price not captured \u2014 TBD.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "warp9-chassis-kit-ultrabee",
+      "name": "Warp 9 Titanium Chassis Kit \u2014 Ultra Bee",
+      "brand": "Warp 9",
+      "category": "titanium",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 399.0,
+      "vendor": "Faster Minis",
+      "buy_url": "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee",
+      "vendors": [
+        {
+          "vendor": "Faster Minis",
+          "price_usd": 399.0,
+          "buy_url": "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Cockpit, triple clamp, fork guard, controller, chain guard, skid plate, motor mount, subframe, battery tray and footpeg bracket hardware. Verified fitment: Surron Ultra Bee.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-wheel-kit-revrides",
+      "name": "Titanium Wheel Bolt Kit \u2014 Multi-bike (REVRides)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 89.99,
+      "vendor": "REVRides",
+      "buy_url": "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro",
+      "vendors": [
+        {
+          "vendor": "REVRides",
+          "price_usd": 89.99,
+          "buy_url": "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V. Axle nut, sprocket bolts, front/rear rotor bolts, caliper bolts, pad pins. Select rotor-size/spacer variant. Standard fitment explicitly excludes Talaria MX5.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-sprocket-bolts-5pk",
+      "name": "Titanium Sprocket Bolts 5-pack (M8x16)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": null,
+      "vendor": "REVRides",
+      "buy_url": "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria",
+      "vendors": [
+        {
+          "vendor": "REVRides",
+          "price_usd": null,
+          "buy_url": "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V M8x16mm. Price not captured \u2014 TBD. Check thread engagement against your sprocket.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-stem-bolts",
+      "name": "Titanium Direct Mount Stem Bolt Kit (M6x20, 8 pc)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 34.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 34.99,
+          "buy_url": "https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V, eight M6x20mm bolts. Fitment determined by stem bolt spec \u2014 verify your stem uses M6x20.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "warp9-bar-mount-ti",
+      "name": "Warp 9 Bar Mount Titanium Bolt Kit",
+      "brand": "Warp 9",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 69.0,
+      "vendor": "Warp 9 Racing",
+      "buy_url": "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit",
+      "vendors": [
+        {
+          "vendor": "Warp 9 Racing",
+          "price_usd": 69.0,
+          "buy_url": "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Burnt blue titanium bolts for Warp 9 Transformer direct bar mounts (high and low positions). Bracket not included.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "warp9-rotor-bolts-boost",
+      "name": "Warp 9 Boost Spacer Front Rotor Bolts (M5x16, 6 pc)",
+      "brand": "Warp 9",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 33.0,
+      "vendor": "Warp 9 Racing",
+      "buy_url": "https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts",
+      "vendors": [
+        {
+          "vendor": "Warp 9 Racing",
+          "price_usd": 33.0,
+          "buy_url": "https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Six extended M5x16mm burnt-blue titanium rotor bolts for 5mm boost spacer setups. Spacer not included; T25 Torx.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-motor-bolts-erp",
+      "name": "Titanium Motor Mount Bolt Kit \u2014 E-Ride Pro (4 pc)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 29.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 29.99,
+          "buy_url": "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V, four bolts (two per side). Direct OEM replacement per seller. Safety-critical: use manufacturer torque specs.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-fork-kit-rst",
+      "name": "Titanium RST Fork Bolt Kit",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 44.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 44.99,
+          "buy_url": "https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Grade 5 Ti-6Al-4V triple-clamp and axle pinch bolts for stock RST forks. Suspension-critical: verify torque with fork manufacturer.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ti-linkage-kit-erp",
+      "name": "Titanium Rear Linkage Bolt Kit \u2014 E-Ride Pro (8 pc)",
+      "brand": "Titanium Surron",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 49.99,
+      "vendor": "Titanium Surron",
+      "buy_url": "https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp",
+      "vendors": [
+        {
+          "vendor": "Titanium Surron",
+          "price_usd": 49.99,
+          "buy_url": "https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Eight-piece rear suspension/linkage kit. Currently out of stock. Verify grade and torque before use.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "mxbolts-talaria-kit",
+      "name": "MXBolts Talaria Sting MX Titanium Bolt Kit",
+      "brand": "MXBolts",
+      "category": "titanium",
+      "badge": null,
+      "tier": "mid",
+      "price_usd": 149.99,
+      "vendor": "MXBolts",
+      "buy_url": "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit",
+      "vendors": [
+        {
+          "vendor": "MXBolts",
+          "price_usd": 149.99,
+          "buy_url": "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Key covers, battery, controller, subframe, motor and peg bracket hardware. Burnt blue, pink/purple, green finishes.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": null
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "ti-full-kit-lightbee",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Titanium Surron sells a dedicated Light Bee X / Segway X160/X260 full-body kit (80+ pieces)."
+    },
+    {
+      "product_id": "ti-full-kit-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Titanium Surron sells a dedicated Ultra Bee full-body kit (113 pieces, 133 with fork kit)."
+    },
+    {
+      "product_id": "ti-full-kit-erp",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-erp",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-erp",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-talaria-mx",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-talaria-mx",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-altis-sigma",
+      "bike_id": "altis-sigma",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-full-kit-komodo",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-chassis-kit-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee"
+      ],
+      "notes": "Faster Minis (Warp 9 retailer) lists fitment explicitly for the Surron Ultra Bee."
+    },
+    {
+      "product_id": "ti-wheel-kit-revrides",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+      ],
+      "notes": "REVRides lists model-specific wheel-kit variants including Sur-Ron Light Bee X."
+    },
+    {
+      "product_id": "ti-wheel-kit-revrides",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+      ],
+      "notes": "REVRides lists model-specific wheel-kit variants including Talaria Sting MX4."
+    },
+    {
+      "product_id": "ti-wheel-kit-revrides",
+      "bike_id": "altis-sigma",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-wheel-kit-revrides",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-wheel-kit-revrides",
+      "bike_id": "mx5",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+      ],
+      "notes": "REVRides explicitly excludes the Talaria MX5 from this wheel kit's standard fitment."
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-sprocket-bolts-5pk",
+      "bike_id": "altis-sigma",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-stem-bolts",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Generic Talaria Sting fitment mapped to MX4"
+    },
+    {
+      "product_id": "ti-stem-bolts",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Generic Talaria Sting fitment mapped to MX4"
+    },
+    {
+      "product_id": "warp9-bar-mount-ti",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-bar-mount-ti",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-rotor-bolts-boost",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-rotor-bolts-boost",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-motor-bolts-erp",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-motor-bolts-erp",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-motor-bolts-erp",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-fork-kit-rst",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-linkage-kit-erp",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ti-linkage-kit-erp",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "mxbolts-talaria-kit",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit"
+      ],
+      "notes": "MXBolts lists this titanium kit for the Talaria Sting MX platform."
+    }
+  ]
+}

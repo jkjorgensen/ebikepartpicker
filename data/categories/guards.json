@@ -1,0 +1,488 @@
+{
+  "category": {
+    "id": "guards",
+    "name": "Guards"
+  },
+  "products": [
+    {
+      "id": "guards-eride-motor-guard",
+      "name": "E7020 Motor Protection Guard \u2014 Pro-S / SS2.0",
+      "brand": "E Ride Pro",
+      "category": "guards",
+      "price_usd": 9,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7020",
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9,
+          "buy_url": "https://www.eridepro.com/products/e7020"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM motor protection guard. Official page lists Pro-S/SS2.0.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "E Ride Pro",
+      "weight_delta_kg": null,
+      "image": "img/parts/guards-eride-motor-guard.png"
+    },
+    {
+      "id": "guards-ultrabee-skid",
+      "name": "Sur-Ron Ultra Bee OEM Skid Plate",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 42,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/skid-plate",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42,
+          "buy_url": "https://chargedcycleworks.com/products/skid-plate"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Stock replacement plastic skid plate; protects motor underside.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Sur-Ron",
+      "weight_delta_kg": null,
+      "image": "img/parts/guards-ultrabee-skid.gif"
+    },
+    {
+      "id": "guards-lightbee-chain",
+      "name": "Sur-Ron Light Bee Upper Chain Guard",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 7.8,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/sur-ron-chain-protection-box",
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 7.8,
+          "buy_url": "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Chain guard with bolts, not a complete skid plate. No drilling required. Sold out on shop.sur-ron.com as of 2026-10-12 check.",
+      "source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Sur-Ron",
+      "weight_delta_kg": null,
+      "image": "img/parts/guards-lightbee-chain.png"
+    },
+    {
+      "id": "stormbee-upgrade-parts-kit",
+      "name": "Storm Bee Upgrade Parts (Brake Levers / Guards)",
+      "brand": "MXpartshop",
+      "category": "guards",
+      "price_usd": 59.9,
+      "vendor": "MXpartshop",
+      "buy_url": "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Variant product page \u2014 displayed $59.90 is the brake-levers variant. Also: chain adjuster $40, foot pegs $65, caliper guard $59.90, sprocket guard $60, rear disc guard $79.90, underbody guard $130, frame sliders $142 (black sold out). Confirm the selected variant and availability at checkout.",
+      "source_urls": [
+        "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "MXpartshop",
+          "price_usd": 59.9,
+          "buy_url": "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-upgrade-parts-kit.jpg"
+    },
+    {
+      "id": "guards-prickly-motor-cover",
+      "name": "Prickly Motor Cover",
+      "brand": "Prickly",
+      "category": "guards",
+      "badge": "Motor Cover",
+      "tier": "midrange",
+      "price_usd": 80.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/prickly-motor-cover",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/prickly-motor-cover"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $80, in stock. Protection part \u2014 not a cooling upgrade. Verify motor case and mounting compatibility.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 80.0,
+          "buy_url": "https://ventusbikes.us/products/prickly-motor-cover"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/guards-prickly-motor-cover.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-eride-motor-guard",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7020"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-lightbee-chain",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "stormbee-upgrade-parts-kit",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "guards-prickly-motor-cover",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/prickly-motor-cover"
+      ],
+      "notes": ""
+    }
+  ]
+}

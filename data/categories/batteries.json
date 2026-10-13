@@ -1,0 +1,685 @@
+{
+  "category": {
+    "id": "batteries",
+    "name": "Batteries"
+  },
+  "compatibility": [
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee"
+      ],
+      "notes": "61kW RS50 cells",
+      "product_id": "dhs-72v-65ah-ub",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
+      ],
+      "notes": "44kW RS50 cells; also fits Ventus One",
+      "product_id": "dhs-80v-45ah-lbx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
+      ],
+      "notes": "Listed for Ventus One",
+      "product_id": "dhs-80v-45ah-lbx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
+      ],
+      "notes": "Listed for Ventus One",
+      "product_id": "dhs-80v-45ah-lbx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting"
+      ],
+      "notes": "",
+      "product_id": "ewatt-72v-63ah-t",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting"
+      ],
+      "notes": "Talaria Sting platform",
+      "product_id": "ewatt-72v-63ah-t",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee"
+      ],
+      "notes": "",
+      "product_id": "ventus-evo-gt-72v",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "ewatt-72v-63ah-t",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ewattusa.com/product/l7263h/"
+      ],
+      "notes": "Manufacturer: direct upgrade for Light Bee L1E/X and Segway X260/X160"
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": "2025 Ultra Bee only"
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ultrabee-2025-oem-battery",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": "SS2.0 and Pro-S listed by manufacturer"
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": "Type A only; 2024-earlier bikes need power cable replacement"
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7271-battery",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-pro40-oem-battery",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "dhs-88v-60ah-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Ultra Bee-specific pack; aftermarket controller + lid required"
+    },
+    {
+      "product_id": "ventus-ultrabee-96v-56ah",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Explicit Ultra Bee product; 12V converter removal + aftermarket controller required"
+    }
+  ],
+  "products": [
+    {
+      "badge": "DHS 65Ah",
+      "brand": "DHS",
+      "buy_url": "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee",
+      "category": "batteries",
+      "id": "dhs-72v-65ah-ub",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "DHS 72V 65Ah Race Battery (61kW)",
+      "notes": "Unlocks full controller output; does not raise the kW number alone",
+      "power_change_kw": 0,
+      "price_usd": 2599,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee",
+          "price_usd": 2599,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": 24.04,
+      "weight_delta_kg": 3.84,
+      "image": "img/parts/dhs-72v-65ah-ub.jpg",
+      "batt_max_kw": 43.2,
+      "batt_peak_kw": 61,
+      "batt_rating_source": "600A continuous / 850A peak @ 72V, Charged Cycle Works"
+    },
+    {
+      "badge": "DHS 45Ah",
+      "brand": "DHS",
+      "buy_url": "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee",
+      "category": "batteries",
+      "id": "dhs-80v-45ah-lbx",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "DHS 80V 45Ah Race Battery (44kW)",
+      "notes": "Unlocks full controller output; does not raise the kW number alone",
+      "power_change_kw": 0,
+      "price_usd": 2299,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee",
+          "price_usd": 2299,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": 19.05,
+      "weight_delta_kg": 7.45,
+      "image": "img/parts/dhs-80v-45ah-lbx.jpg",
+      "batt_max_kw": 24,
+      "batt_peak_kw": 44,
+      "batt_rating_source": "300A continuous / 550A peak @ 80V, Charged Cycle Works"
+    },
+    {
+      "badge": "eWatt 63Ah",
+      "brand": "eWatt",
+      "buy_url": "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting",
+      "category": "batteries",
+      "id": "ewatt-72v-63ah-t",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "eWatt 72V 63Ah Race Battery",
+      "notes": "Unlocks full controller output; does not raise the kW number alone. L7263H specs: 72V/63Ah (4536Wh), 28kW peak, 15S, 19.65kg, IP65. Manufacturer lists direct upgrade for Sur-Ron Light Bee L1E/X and Segway X260/X160.",
+      "power_change_kw": 0,
+      "price_usd": 3000,
+      "source_urls": [
+        "https://ewattusa.com/product/l7263h/",
+        "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting",
+          "price_usd": 3000,
+          "vendor": "Charged Cycle Works"
+        },
+        {
+          "vendor": "E-WATT USA",
+          "price_usd": 2990.0,
+          "buy_url": "https://ewattusa.com/product/l7263h/"
+        }
+      ],
+      "weight_kg": 20.41,
+      "weight_delta_kg": 7.56,
+      "image": "img/parts/ewatt-72v-63ah-t.jpg",
+      "batt_peak_kw": 28,
+      "batt_rating_source": "peak-only rating published by eWatt; no continuous rating"
+    },
+    {
+      "badge": "EVO GT",
+      "brand": "Ventus",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee",
+      "category": "batteries",
+      "id": "ventus-evo-gt-72v",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "Ventus EVO GT 72V 50Ah Battery",
+      "notes": "Unlocks full controller output; does not raise the kW number alone",
+      "power_change_kw": 0,
+      "price_usd": 2200,
+      "source_urls": [],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee",
+          "price_usd": 2200,
+          "vendor": "Charged Cycle Works"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/ventus-evo-gt-72v.jpg",
+      "batt_max_kw": 19.2,
+      "batt_peak_kw": 32,
+      "batt_rating_source": "VTB spec sheet: 19.2 kW standard / 400A peak @ 72V"
+    },
+    {
+      "id": "ultrabee-2025-oem-battery",
+      "name": "Sur-Ron Ultra Bee 74V 60Ah OEM Battery (2025)",
+      "brand": "Sur-Ron",
+      "category": "batteries",
+      "price_usd": 1869.0,
+      "vendor": "Peak Power E-Motos",
+      "buy_url": "https://peakpoweremotos.com/parts/ultra-bee-battery",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Original 74V 60Ah (4,440Wh) pack the 2025 Ultra Bee ships with; fits 2025 Ultra Bee ONLY (confirm part number vs VIN/model year). Sealed factory box; 2 units in stock at check. Independently imported by JR IMPORT LLC - not affiliated with Sur-Ron's US distributor.",
+      "source_urls": [
+        "https://peakpoweremotos.com/parts/ultra-bee-battery"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "Peak Power E-Motos",
+          "price_usd": 1869.0,
+          "buy_url": "https://peakpoweremotos.com/parts/ultra-bee-battery"
+        }
+      ],
+      "weight_delta_kg": null
+    },
+    {
+      "id": "eride-e7271-battery",
+      "name": "E7271 72V 50Ah Battery - SS3.0 Type A / SS2.0 / Pro-S",
+      "brand": "E Ride Pro",
+      "category": "batteries",
+      "price_usd": 2099.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7271",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "72V 50Ah OEM upgrade battery. Manufacturer lists SS3.0 Type A, SS2.0 and Pro-S fitment; SS3.0 fitment is Type A only. 2024 or earlier bikes need a power cable replacement due to a redesigned battery connector - compare the connector in product photos.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7271"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 2099.0,
+          "buy_url": "https://www.eridepro.com/products/e7271"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eride-e7271-battery.jpg"
+    },
+    {
+      "id": "eride-pro40-oem-battery",
+      "name": "E Ride Pro 4.0 72V 50Ah Pouch Cell Battery",
+      "brand": "E Ride Pro",
+      "category": "batteries",
+      "price_usd": 2099.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Official E Ride Pro Pro 4.0 72V 50Ah pouch-cell pack. Research flagged it sold out, but the listing shows InStock as of 2026-10-12 - confirm before purchase.",
+      "source_urls": [
+        "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 2099.0,
+          "buy_url": "https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eride-pro40-oem-battery.jpg"
+    },
+    {
+      "id": "dhs-88v-60ah-ultrabee",
+      "name": "DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!",
+      "brand": "DHS",
+      "category": "batteries",
+      "badge": "DHS",
+      "tier": "premium",
+      "price_usd": 2899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw",
+      "stock_status": "in_stock",
+      "weight_kg": 24.95,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $2,899, in stock. 88V requires an aftermarket controller; kit includes an extended battery lid. EBMX X-9000 V3 owners need an additional harness.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2899.0,
+          "buy_url": "https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw"
+        }
+      ],
+      "weight_delta_kg": 4.75,
+      "image": "img/parts/dhs-88v-60ah-ultrabee.jpg",
+      "batt_max_kw": 52.8,
+      "batt_peak_kw": 74.8,
+      "batt_rating_source": "600A continuous / 850A peak @ 88V, Charged Cycle Works"
+    },
+    {
+      "id": "ventus-ultrabee-96v-56ah",
+      "name": "Ventus Ultra Bee Battery 96V 56AH",
+      "brand": "Ventus",
+      "category": "batteries",
+      "badge": "96V",
+      "tier": "premium",
+      "price_usd": 3499.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah",
+      "stock_status": "in_stock",
+      "weight_kg": 25.0,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $3,499, in stock. Engineered/assembled by VTB International (sold via Charged). 96V operation requires unplugging/removing the OEM 12V converter and an aftermarket controller.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 3499.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah"
+        }
+      ],
+      "weight_delta_kg": 4.8,
+      "image": "img/parts/ventus-ultrabee-96v-56ah.jpg",
+      "batt_max_kw": 26.9,
+      "batt_peak_kw": 76.8,
+      "batt_max_kw_est": true,
+      "batt_rating_source": "derived from vendor 280A continuous / 800A peak @ 96V"
+    }
+  ]
+}

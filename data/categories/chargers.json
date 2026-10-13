@@ -1,0 +1,293 @@
+{
+  "category": {
+    "id": "chargers",
+    "name": "Charger"
+  },
+  "products": [
+    {
+      "id": "surron-lightbee-oem-charger",
+      "name": "OEM 67.2V 10A Charger for Surron Light Bee",
+      "brand": "Sur-Ron",
+      "category": "chargers",
+      "price_usd": 339.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Genuine OEM charger: 67.2V/10A output, 110V US input, factory connector. For OEM 60V Light Bee batteries only - NOT for the 2026 72V Light Bee battery.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 339.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/surron-lightbee-oem-charger.jpg"
+    },
+    {
+      "id": "eride-e7305-charger",
+      "name": "E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR",
+      "brand": "E Ride Pro",
+      "category": "chargers",
+      "price_usd": 299.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7305",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Official 72V UL-certified charger. Manufacturer lists Pro-S, SS2.0, SS3.0 and SR fitment. Output current and exact connector details not confirmed on the listing.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 299.0,
+          "buy_url": "https://www.eridepro.com/products/e7305"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eride-e7305-charger.jpg"
+    },
+    {
+      "id": "talaria-mx4-oem-charger",
+      "name": "Talaria Sting R MX4 OEM Battery Charger (110V)",
+      "brand": "Talaria",
+      "category": "chargers",
+      "price_usd": 250.0,
+      "vendor": "Talaria USA",
+      "buy_url": "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM 110V AC wall charger, 60V DC output (~6A spec), BMS handshake with auto shut-off. Fits MX4 (TL4000) and Sting R Road Legal (TL50). MX3 needs dedicated charger SKU 1930; 12A fast charger (SKU 1626) roughly halves charge time. 12-month Talaria warranty.",
+      "source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "Talaria USA",
+          "price_usd": 250.0,
+          "buy_url": "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+        }
+      ],
+      "weight_delta_kg": null
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "surron-lightbee-oem-charger",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "notes": "OEM 60V battery only; not for 2026 72V Light Bee"
+    },
+    {
+      "product_id": "surron-lightbee-oem-charger",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "surron-lightbee-oem-charger",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "surron-lightbee-oem-charger",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "surron-lightbee-oem-charger",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "eride-e7305-charger",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7305"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": "Also fits Sting R Road Legal (TL50)"
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
+      ],
+      "notes": ""
+    }
+  ]
+}

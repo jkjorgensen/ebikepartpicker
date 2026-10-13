@@ -1,0 +1,1290 @@
+{
+  "category": {
+    "id": "motor",
+    "name": "Motor"
+  },
+  "compatibility": [
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ebmx-xlb-60-race-motor"
+      ],
+      "notes": "",
+      "product_id": "ebmx-xlb-60",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ebmx-xlb-60-race-motor"
+      ],
+      "notes": "E-Ride Pro kit",
+      "product_id": "ebmx-xlb-60",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ebmx-xlb-60-race-motor"
+      ],
+      "notes": "E-Ride Pro kit",
+      "product_id": "ebmx-xlb-60",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ebmx-xlb-60-race-motor"
+      ],
+      "notes": "E-Ride Pro kit",
+      "product_id": "ebmx-xlb-60",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [],
+      "notes": "Same E Ride Pro platform family; confirm kit with vendor",
+      "product_id": "ebmx-xlb-60",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes"
+      ],
+      "notes": "FW01 variant",
+      "product_id": "sotion-fw01",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes"
+      ],
+      "notes": "FW01 Pro variant",
+      "product_id": "sotion-fw01",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit",
+        "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor"
+      ],
+      "notes": "Hardware for MX3/MX4 included",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "mx5",
+      "status": "confirmed_fit_with_adapter",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit"
+      ],
+      "notes": "MX5 adapter kit sold separately",
+      "required_adapters": null
+    },
+    {
+      "product_id": "sotion-fw02",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "vtb-41kw-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-81kw",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "ss20",
+      "status": "verify",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "notes": "Title names E-Ride/Ventus without models",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "ss30",
+      "status": "verify",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "notes": "Title names E-Ride/Ventus without models",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "notes": "Title names E-Ride/Ventus without models",
+      "required_adapters": null
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "notes": "Title names E-Ride/Ventus without models",
+      "required_adapters": null
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm25",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm40-pro",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xlb-60",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "ebmx-xta-60",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.ebmx.com/xta-60"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "stormbee-motor-oem",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tm50-offroad-torque-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"built for the Ultra Bee\""
+    },
+    {
+      "product_id": "torp-tm50-pro-topspeed-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"built for the Ultra Bee\""
+    },
+    {
+      "product_id": "torp-tm50-speed-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"built for the Ultra Bee\""
+    }
+  ],
+  "products": [
+    {
+      "badge": "XLB-60",
+      "brand": "EBMX",
+      "buy_url": "https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor",
+      "category": "motor",
+      "id": "ebmx-xlb-60",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "EBMX XLB-60 Motor",
+      "notes": "Needs X-9000 controller + high-output battery. XLB-60 RACE (air-cooled): 50kW peak, 24kW continuous for 2m20s, 95KV, NJDC 605 encoder, 10-pole/12-slot dual-Y. EBMX lists Light Bee, Talaria XXX and E Ride Pro SS fitment (harness adapters required for Talaria XXX / E Ride Pro SS). Earlier research cited 42kW peak at 92V/1200A.",
+      "power_change_kw": 41,
+      "price_usd": 999.89,
+      "source_urls": [
+        "https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit",
+        "https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor",
+        "https://www.ebmx.com/xlb-60-race"
+      ],
+      "stock_status": "verify",
+      "tier": "premium",
+      "vendor": "TB Electric Moto",
+      "vendors": [
+        {
+          "buy_url": "https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor",
+          "price_usd": 999.89,
+          "vendor": "TB Electric Moto"
+        },
+        {
+          "buy_url": "https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit",
+          "price_usd": 1249.99,
+          "vendor": "Electric Cycle Rider"
+        }
+      ],
+      "weight_kg": null,
+      "motor_peak_kw": 50,
+      "weight_delta_kg": null,
+      "image": "img/parts/ebmx-xlb-60.png"
+    },
+    {
+      "badge": "Sotion FW01",
+      "brand": "Sotion",
+      "buy_url": "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto",
+      "category": "motor",
+      "id": "sotion-fw01",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "Sotion FW01 Motor",
+      "notes": "FW01: 26 kW peak, 800A phase. Hall sensor for X-9000, encoder for Nucular.",
+      "power_change_kw": 26,
+      "price_usd": 739.0,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto",
+        "https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "TB Electric Moto",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 739.0,
+          "buy_url": "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto"
+        },
+        {
+          "vendor": "Darwin EV",
+          "price_usd": 789.0,
+          "buy_url": "https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes"
+        }
+      ],
+      "weight_kg": 10.66,
+      "weight_delta_kg": 3.66,
+      "image": "img/parts/sotion-fw01.jpg"
+    },
+    {
+      "id": "ebmx-xta-60",
+      "name": "EBMX XTA-60 Talaria Motor",
+      "brand": "EBMX",
+      "category": "motor",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit"
+        },
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 1034.1,
+          "buy_url": "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "XTA-60",
+      "power_change_kw": 40,
+      "weight_kg": null,
+      "notes": "Needs EBMX X-9000 controller. 40 kW peak at 90V/1000A; 35 kW real-world on 72V. Designed for Talaria MX3/MX4; MX5 needs the EBMX XTA-60 MX5 adapter kit.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit",
+        "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor",
+        "https://www.ebmx.com/xta-60"
+      ],
+      "last_checked": "2026-10-12",
+      "motor_peak_kw": 40,
+      "weight_delta_kg": null,
+      "image": "img/parts/ebmx-xta-60.png"
+    },
+    {
+      "id": "sotion-fw02",
+      "name": "Sotion FW02 Talaria Motor",
+      "brand": "Sotion",
+      "category": "motor",
+      "price_usd": 739.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 739.0,
+          "buy_url": "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "FW02",
+      "power_change_kw": 24,
+      "weight_kg": 9.8,
+      "notes": "Plug-and-play for MX4 (new gearbox bracket incl). Pairs with X-9000/Nucular/Torp.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_delta_kg": 2.8,
+      "image": "img/parts/sotion-fw02.jpg"
+    },
+    {
+      "id": "vtb-41kw-ultra-bee",
+      "name": "VTB 41kW Ultra Bee Motor",
+      "brand": "VTB",
+      "category": "motor",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "VTB 41kW",
+      "power_change_kw": 48,
+      "weight_kg": null,
+      "notes": "48 kW peak with VTB V9600 controller (page title says 41 kW). Drop-in for Ultra Bee; 1100A phase; 11.8 kg.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_delta_kg": null,
+      "image": "img/parts/vtb-41kw-ultra-bee.jpg"
+    },
+    {
+      "id": "vtb-28kw-light",
+      "name": "VTB 28kW Light E-moto Motor",
+      "brand": "VTB",
+      "category": "motor",
+      "price_usd": 799.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 799.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "VTB 28kW",
+      "power_change_kw": 28,
+      "weight_kg": null,
+      "notes": "Aftermarket controller required (VTB V9600 / Aetos Gen.2). 850A phase; 10.9 kg; 48-100V. Sold by TB Electric Moto as the Ventus 28 kW light e-moto motor.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor",
+        "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "last_checked": "2026-10-12",
+      "motor_peak_kw": 28,
+      "weight_delta_kg": null,
+      "image": "img/parts/vtb-28kw-light.jpg"
+    },
+    {
+      "id": "ventus-ryuga-81kw",
+      "name": "Ventus Ryuga 81kW Motor",
+      "brand": "Ventus",
+      "category": "motor",
+      "price_usd": 1399.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1399.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor"
+        },
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 1399.0,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "Ryuga 81kW",
+      "power_change_kw": 81,
+      "weight_kg": null,
+      "notes": "Requires VTB AETOS V9600 controller for 81+ kW. 114 Nm. Direct plug-and-play for Ultra Bee.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor",
+        "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_delta_kg": null,
+      "image": "img/parts/ventus-ryuga-81kw.png"
+    },
+    {
+      "id": "ventus-ryuga-52kw",
+      "name": "Ventus Ryuga 52kW Motor",
+      "brand": "Ventus",
+      "category": "motor",
+      "price_usd": 1199.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 1199.0,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "Ryuga 52kW",
+      "power_change_kw": 52.5,
+      "weight_kg": null,
+      "notes": "Aftermarket VTB controller required. 91 Nm with V9600 + high-capacity battery. Out of stock at TB as of check.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_delta_kg": null,
+      "image": "img/parts/ventus-ryuga-52kw.jpg"
+    },
+    {
+      "id": "torp-tm25",
+      "name": "TORP TM25 Motor",
+      "brand": "TORP",
+      "category": "motor",
+      "price_usd": 915.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tm25-motor",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "13kW continuous; peak 27kW @72V / 31kW @80V / 40kW @120V. 48-90V, 750A phase, 9.8kg, IP67, Hall + Encoder (1024) sensors. Requires aftermarket controller; needs TC500 HW v1.3+ if paired with a TC500. TORP official webshop lists EUR 811.25 incl. VAT.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm25-motor",
+        "https://webshop.torpmotors.com/product/torp-tm25-motor-surron-light-bee/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": 9.8,
+      "power_change_kw": 27.0,
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 915.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tm25-motor"
+        },
+        {
+          "vendor": "Darwin EV",
+          "price_usd": 950.0,
+          "buy_url": "https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee"
+        }
+      ],
+      "motor_peak_kw": 27,
+      "weight_delta_kg": 2.8,
+      "image": "img/parts/torp-tm25.jpg"
+    },
+    {
+      "id": "torp-tm40-pro",
+      "name": "TORP TM40 Pro Motor",
+      "brand": "TORP",
+      "category": "motor",
+      "price_usd": 1260.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "50kW peak, 19kW continuous, 1100A phase, 86Nm, 12kg, IP67, 65mm magnets, Encoder (1024) or Hall. Verify sensor version against controller. So powerful a full bike upgrade (chain, sprocket, belt, brakes, high-discharge battery) is required.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee",
+        "https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": 12.02,
+      "power_change_kw": 50.0,
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1260.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee"
+        },
+        {
+          "vendor": "E-Moto USA",
+          "price_usd": 1289.99,
+          "buy_url": "https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/"
+        },
+        {
+          "vendor": "TORP Motors",
+          "price_usd": 1299.0,
+          "buy_url": "https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/"
+        }
+      ],
+      "motor_peak_kw": 50,
+      "weight_delta_kg": 5.02,
+      "image": "img/parts/torp-tm40-pro.png"
+    },
+    {
+      "id": "stormbee-motor-oem",
+      "name": "Storm Bee Motor Assembly",
+      "brand": "Sur-Ron",
+      "category": "motor",
+      "price_usd": 2099.99,
+      "vendor": "SurronMotos",
+      "buy_url": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM Storm Bee motor assembly. PMSM, liquid-cooled, 22.5 kW peak / 10 kW nominal, 520 Nm at rear wheel, 96V system, ~24 kg, IP67. Vendor lists Storm Bee MX/Enduro/Road/Youth — F variant not explicitly named, verify F fitment, model year and connector before ordering.",
+      "source_urls": [
+        "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": 24,
+      "power_change_kw": 22.5,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
+      },
+      "vendors": [
+        {
+          "vendor": "SurronMotos",
+          "price_usd": 2099.99,
+          "buy_url": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
+        }
+      ],
+      "motor_peak_kw": 22.5,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-motor-oem.jpg"
+    },
+    {
+      "id": "torp-tm50-offroad-torque-ultrabee",
+      "name": "Torp TM50 Off Road Torque Motor for Sur-Ron Ultra Bee",
+      "brand": "Torp",
+      "category": "motor",
+      "badge": "Torp",
+      "tier": "performance",
+      "price_usd": 1325.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee",
+      "stock_status": "out_of_stock",
+      "weight_kg": 14.2,
+      "power_change_kw": 58,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,325, currently out of stock on all variants. Torque-focused variant on the shared TM50 page (58kW/102Nm class). Page explicitly states both Torp motors are built for the Ultra Bee.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1325.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/torp-tm50-offroad-torque-ultrabee.png"
+    },
+    {
+      "id": "torp-tm50-pro-topspeed-ultrabee",
+      "name": "Torp TM50 Pro High Top Speed Motor for Sur-Ron Ultra Bee",
+      "brand": "Torp",
+      "category": "motor",
+      "badge": "Torp",
+      "tier": "performance",
+      "price_usd": 1499.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee",
+      "stock_status": "out_of_stock",
+      "weight_kg": 14.2,
+      "power_change_kw": 55,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,499 (corrected from $1,325 in research notes), currently out of stock. High-top-speed variant on the shared TM50 page.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1499.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/torp-tm50-pro-topspeed-ultrabee.png"
+    },
+    {
+      "id": "torp-tm50-speed-ultrabee",
+      "name": "Torp TM50 Speed Motor for Sur-Ron Ultra Bee",
+      "brand": "Torp",
+      "category": "motor",
+      "badge": "Torp",
+      "tier": "performance",
+      "price_usd": 1499.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee",
+      "stock_status": "out_of_stock",
+      "weight_kg": 14.2,
+      "power_change_kw": 55,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,499 (corrected from $1,325), currently out of stock. Road/top-speed variant: 55kW peak, 89Nm, KV97 per page specs table.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1499.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/torp-tm50-speed-ultrabee.png"
+    }
+  ]
+}

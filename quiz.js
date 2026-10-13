@@ -524,7 +524,7 @@ function recCard(picks, kind, a){
   card.appendChild(el('div','qkicker', kicker));
   var top = el('div','qrec-top');
   var img = document.createElement('img');
-  img.src = 'img/bike-'+bike.id+'.png'; img.alt = bike.name; img.loading='lazy';
+  img.src = 'img/bike-'+bike.id+'.png'; img.alt = 'Electric dirt bike '+bike.name; img.loading='lazy';
   img.onerror = function(){ img.style.display='none'; };
   top.appendChild(img);
   var info = el('div','qrec-info');
@@ -568,7 +568,14 @@ function recCard(picks, kind, a){
     var pa = el('a','qlink', p.name+' — '+p.note); pa.href=p.url; pa.target='_blank'; pa.rel='noopener';
     card.appendChild(pa);
   });
-  var btn = el('button','cta qopen','Open in builder');
+  /* verified purchase link, same treatment as part buy links */
+  var buy = (typeof BUY_URLS!=='undefined') ? BUY_URLS[bike.id] : null;
+  if(buy && buy.url){
+    var ba = el('a','qlink qbuy', 'Buy the '+bike.name+' — '+buy.source);
+    ba.href = buy.url; ba.target='_blank'; ba.rel='noopener sponsored';
+    card.appendChild(ba);
+  }
+  var btn = el('button','cta qopen','Start building this bike');
   btn.addEventListener('click', function(){
     if(typeof window.openBikeInBuilder==='function') window.openBikeInBuilder(bike.id);
   });

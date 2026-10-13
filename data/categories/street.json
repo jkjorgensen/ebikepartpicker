@@ -1,0 +1,520 @@
+{
+  "category": {
+    "id": "street",
+    "name": "Street"
+  },
+  "products": [
+    {
+      "id": "street-lightbee-street-kit",
+      "name": "Sur-Ron Light Bee X Street Legal Kit",
+      "brand": "Rare Form Company",
+      "category": "street",
+      "price_usd": 310,
+      "vendor": "Rare Form Company",
+      "buy_url": "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit",
+      "vendors": [
+        {
+          "vendor": "Rare Form Company",
+          "price_usd": 310,
+          "buy_url": "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Mirrors, switch housing, LED turn signals, plate bracket/light, tail/brake lights, plug-and-play harness and hardware. Page shows $310 (og price) with a second $350 variant (option label not shown). Parts alone do not guarantee road-legal registration \u2014 check local laws.",
+      "source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Rare Form",
+      "weight_delta_kg": null,
+      "image": "img/parts/street-lightbee-street-kit.jpg"
+    },
+    {
+      "id": "street-surron-oem-horn",
+      "name": "Sur-Ron Light Bee OEM Horn",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 8,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/light-bee-horn",
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 8,
+          "buy_url": "https://shop.sur-ron.com/products/light-bee-horn"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "COLLECTION_URL_NEEDS_EXACT: exact product page URL not confirmed \u2014 listed as 'light bee Horn' at $8.00 USD on the shop.sur-ron.com collection page (crawl ~2026-09). OEM replacement; confirm connector and voltage before ordering. Exact product page recovered 2026-10-12; page shows sold out.",
+      "source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-horn"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Sur-Ron",
+      "weight_delta_kg": null,
+      "image": "img/parts/street-surron-oem-horn.jpg"
+    },
+    {
+      "id": "street-tusk-signal-kit",
+      "name": "Tusk Plug and Play Turn Signal Kit",
+      "brand": "Tusk",
+      "category": "street",
+      "badge": "Turn Signals",
+      "tier": "midrange",
+      "price_usd": 169.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $169.99 at TB Electric Moto, in stock. Kit includes front/rear turn signals and tail/brake lights. Not bike-specific \u2014 confirm the exact harness and electrical compatibility per bike.",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 169.99,
+          "buy_url": "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/street-tusk-signal-kit.jpg"
+    },
+    {
+      "id": "street-project9-talaria",
+      "name": "Project 9 Talaria Sting MX4/MX5 Turn Signal Kit",
+      "brand": "Project 9",
+      "category": "street",
+      "badge": "Turn Signals",
+      "tier": "midrange",
+      "price_usd": 195.95,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $195.95 (research said $209.95 \u2014 corrected) at TB Electric Moto, in stock. Listing names Talaria Sting MX4/MX5; verify model year, connector and brake-light configuration.",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 195.95,
+          "buy_url": "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/street-project9-talaria.jpg"
+    },
+    {
+      "id": "street-tarazon-walmart",
+      "name": "TARAZON LED Street Legal Turn Signal Kit",
+      "brand": "TARAZON",
+      "category": "street",
+      "badge": "Turn Signals",
+      "tier": "budget",
+      "price_usd": null,
+      "vendor": "TARAZON via Walmart",
+      "buy_url": "https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804",
+      "stock_status": "verify",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Product page exists but Walmart blocked automated price/stock verification \u2014 price shown as TBD. Listing names Light Bee LB-X; confirm wiring, lighting voltage and local road-registration requirements.",
+      "vendors": [],
+      "weight_delta_kg": null
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-lightbee-street-kit",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-surron-oem-horn",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-tusk-signal-kit",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+      ],
+      "notes": "Universal-style kit; confirm harness/connector"
+    },
+    {
+      "product_id": "street-project9-talaria",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-project9-talaria",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "street-tarazon-walmart",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804"
+      ],
+      "notes": ""
+    }
+  ]
+}

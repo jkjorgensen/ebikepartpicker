@@ -1,0 +1,399 @@
+{
+  "category": {
+    "id": "swingarm",
+    "name": "Swingarm"
+  },
+  "products": [
+    {
+      "id": "swingarm-surron-oem",
+      "name": "Sur-Ron Light Bee Replacement Swingarm",
+      "brand": "Sur-Ron",
+      "category": "swingarm",
+      "price_usd": 399,
+      "vendor": "Electric Cycle Rider",
+      "buy_url": "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm",
+      "vendors": [
+        {
+          "vendor": "Electric Cycle Rider",
+          "price_usd": 399,
+          "buy_url": "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Bare swingarm with bearings installed; original axle, linkage and hardware reused. OEM-spec fitment for Light Bee X.",
+      "source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "OEM",
+      "weight_delta_kg": null,
+      "image": "img/parts/swingarm-surron-oem.jpg"
+    },
+    {
+      "id": "swingarm-ebmx-extended",
+      "name": "EBMX Extended Swingarm",
+      "brand": "EBMX",
+      "category": "swingarm",
+      "price_usd": 789,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedpowersports.com/products/ebmx-extended-swingarm",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 789,
+          "buy_url": "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "+60mm (2.4 in) wheelbase, 220mm suspension travel. New longer chain required; pair with EBMX YSS shock + linkage. Variants: Light Bee, E Ride Pro SS 2.0, CPS Edition (3.0/SR). Seller states NOT COMPATIBLE with any other bike.",
+      "source_urls": [
+        "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "EBMX",
+      "weight_delta_kg": null,
+      "image": "img/parts/swingarm-ebmx-extended.png"
+    },
+    {
+      "id": "swingarm-eride-oem",
+      "name": "E Ride Pro OEM Swingarm \u2014 SS3.0 / SR",
+      "brand": "E Ride Pro",
+      "category": "swingarm",
+      "price_usd": 499,
+      "vendor": "Electric Cycle Rider",
+      "buy_url": "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2",
+      "vendors": [
+        {
+          "vendor": "Electric Cycle Rider",
+          "price_usd": 499,
+          "buy_url": "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+        }
+      ],
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM swingarm with 12mm bearings and chain adjusters pre-installed. Bolt-on for SS3.0/SR; fits late-2024/2025 SS2.0 \u2014 older SS2.0 with 10mm bearings must verify.",
+      "source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "E Ride Pro",
+      "weight_delta_kg": null,
+      "image": "img/parts/swingarm-eride-oem.png"
+    },
+    {
+      "id": "stormbee-swingarm-oem",
+      "name": "Storm Bee Swingarm Assembly",
+      "brand": "Sur-Ron",
+      "category": "swingarm",
+      "price_usd": 589.99,
+      "vendor": "SurronMotos",
+      "buy_url": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM Storm Bee swingarm assembly: reinforced aluminum, factory geometry, pre-installed pivot bearings, axle/shock mounts pre-drilled. Confirm F trim and model year.",
+      "source_urls": [
+        "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
+      },
+      "vendors": [
+        {
+          "vendor": "SurronMotos",
+          "price_usd": 589.99,
+          "buy_url": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-swingarm-oem.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-surron-oem",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-ebmx-extended",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-ebmx-extended",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-ebmx-extended",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+      ],
+      "notes": "CPS Edition variant"
+    },
+    {
+      "product_id": "swingarm-ebmx-extended",
+      "bike_id": "sr",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-extended-swingarm"
+      ],
+      "notes": "CPS Edition variant"
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": "Fits late-2024/2025 SS2.0; pre-2024 10mm-bearing bikes must verify"
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "swingarm-eride-oem",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "stormbee-swingarm-oem",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    }
+  ]
+}

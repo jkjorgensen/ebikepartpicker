@@ -1,0 +1,428 @@
+{
+  "category": {
+    "id": "cockpit",
+    "name": "Cockpit"
+  },
+  "products": [
+    {
+      "id": "cockpit-surron-oem-throttle",
+      "name": "Sur-Ron Light Bee OEM Replacement Throttle",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "badge": "Throttle",
+      "tier": "budget",
+      "price_usd": 69.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedpowersports.com/products/oem-replacement-throttle-for-surron-light-bee",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedpowersports.com/products/oem-replacement-throttle-for-surron-light-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Verified $69 in stock. Two variants: 2024-and-earlier ($69, no grip) and 2025 ($99, vulcanized grip, OOS). Grip not included on older variant. Do not assume 2026 compatibility.",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/cockpit-surron-oem-throttle.png"
+    },
+    {
+      "id": "cockpit-surron-oem-grips",
+      "name": "Sur-Ron Light Bee Handle Grips (Left and Right)",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "badge": "Grips",
+      "tier": "budget",
+      "price_usd": 7.0,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/handle-gripleft-or-right-use",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://shop.sur-ron.com/products/handle-gripleft-or-right-use"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Exact product page verified; both black and grey variants sold out on shop.sur-ron.com. Aftermarket grips (ODI/JFG) widely available.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 7.0,
+          "buy_url": "https://shop.sur-ron.com/products/handle-gripleft-or-right-use"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/cockpit-surron-oem-grips.jpg"
+    },
+    {
+      "id": "cockpit-surron-stem",
+      "name": "Sur-Ron Light Bee Stem",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "badge": "Stem",
+      "tier": "budget",
+      "price_usd": 23.6,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Exact product page verified; sold out on shop.sur-ron.com. OEM replacement only - verify steerer dimensions and model year before ordering. Not compatible with Ultra Bee.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 23.6,
+          "buy_url": "https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/cockpit-surron-stem.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-throttle",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "cockpit-surron-stem",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    }
+  ]
+}

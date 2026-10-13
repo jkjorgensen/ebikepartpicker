@@ -1,0 +1,1152 @@
+{
+  "category": {
+    "id": "brakes",
+    "name": "Brakes"
+  },
+  "products": [
+    {
+      "id": "magura-mt5e",
+      "name": "Magura MT5E (per wheel)",
+      "brand": "Magura",
+      "category": "brakes",
+      "badge": "Magura MT5E",
+      "tier": "budget",
+      "price_usd": 179,
+      "vendor": "HPC Bikes",
+      "buy_url": "https://hpcbikes.com/products/magura-mt5-e-brake-kit",
+      "vendors": [
+        {
+          "vendor": "HPC Bikes",
+          "price_usd": 179,
+          "buy_url": "https://hpcbikes.com/products/magura-mt5-e-brake-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": 0.26,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://hpcbikes.com/products/magura-mt5-e-brake-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/magura-mt5e.png"
+    },
+    {
+      "id": "magura-mt7",
+      "name": "Magura MT7 Pro (F+R)",
+      "brand": "Magura",
+      "category": "brakes",
+      "badge": "Magura MT7",
+      "tier": "mid",
+      "price_usd": 349,
+      "vendor": "Jenson USA",
+      "buy_url": "https://www.jensonusa.com/Magura-MT7-Pro-Brakeset",
+      "vendors": [
+        {
+          "vendor": "Jenson USA",
+          "price_usd": 349,
+          "buy_url": "https://www.jensonusa.com/Magura-MT7-Pro-Brakeset"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.jensonusa.com/Magura-MT7-Pro-Brakeset"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "",
+      "variant": null,
+      "weight_delta_kg": null
+    },
+    {
+      "id": "brakes-fxt-ultrabee-rear-kit",
+      "name": "OEM Ultra Bee Rear Brake Upgrade Kit for Sur-Ron LBX / E Ride Pro",
+      "brand": "FXT Racing",
+      "category": "brakes",
+      "price_usd": 229.99,
+      "vendor": "FXT Racing",
+      "buy_url": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "PRICE CORRECTION: batch said $249.99; page shows $229.99 (was $419.99). Ultra Bee rear caliper, master cylinder, line, 240x3.3mm rotor, bracket. Direct bolt-on for Light Bee / E Ride Pro 2.0. 3.0/SR: included rotor not compatible, bracket mod needed. Ventus 1: drill/widen axle hole.",
+      "source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit",
+        "E Ride Pro 3.0": "fit_with_modification",
+        "E Ride Pro SR": "fit_with_modification",
+        "Ventus V1+ EVO": "fit_with_modification",
+        "Ventus One Plus": "verify",
+        "E Ride Pro 4.0": "verify",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "lightbee": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro",
+        "ss20": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro",
+        "ss30": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro",
+        "sr": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro",
+        "ventus-evo": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      },
+      "vendors": [
+        {
+          "vendor": "FXT Racing",
+          "price_usd": 229.99,
+          "buy_url": "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/brakes-fxt-ultrabee-rear-kit.jpg"
+    },
+    {
+      "id": "brakes-eride-e7094-front",
+      "name": "E7094 Front Brake Assembly - Pro-S / SS 2.0",
+      "brand": "E Ride Pro",
+      "category": "brakes",
+      "price_usd": 109,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7094",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM front brake assembly for PRO S/SS 2.0; direct replacement. Verify components/side before ordering.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7094"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit",
+        "Sur-Ron Light Bee X": "not_compatible",
+        "Sur-Ron Ultra Bee": "not_compatible",
+        "Sur-Ron Storm Bee F": "not_compatible",
+        "Talaria Sting R MX4": "not_compatible",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7094"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 109,
+          "buy_url": "https://www.eridepro.com/products/e7094"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/brakes-eride-e7094-front.jpg"
+    },
+    {
+      "id": "brakes-factoryz-lightbee-foot",
+      "name": "Sur-Ron Light Bee Moto Foot Brake Kit",
+      "brand": "FactoryZ",
+      "category": "brakes",
+      "price_usd": 349.99,
+      "vendor": "FactoryZ",
+      "buy_url": "https://factoryz.co/products/surron-moto-foot-brake-kit",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Light Bee foot-brake conversion: pedal/bracket, master cylinder, braided line, pre-bled caliper (variants: black/silver, YZ/HSK master, FactoryZ or OEM caliper). Seller fits: Light Bee X/S (all years), Ventus One Bike. Requires caliper bracket + 240mm rotor (sold separately).",
+      "source_urls": [
+        "https://factoryz.co/products/surron-moto-foot-brake-kit"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "Sur-Ron Ultra Bee": "not_compatible",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro SS 2.0": "verify",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "lightbee": "https://factoryz.co/products/surron-moto-foot-brake-kit"
+      },
+      "vendors": [
+        {
+          "vendor": "FactoryZ",
+          "price_usd": 349.99,
+          "buy_url": "https://factoryz.co/products/surron-moto-foot-brake-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/brakes-factoryz-lightbee-foot.jpg"
+    },
+    {
+      "id": "komodo-rear-brake-pads",
+      "name": "Rear Brake Pads \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "brakes",
+      "tier": "OEM",
+      "price_usd": 29.86,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/bpr090/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 29.86,
+          "buy_url": "https://emotobykes.com/parts/talaria/bpr090/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/bpr090/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part BPR090. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $29.86, in stock.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-rear-brake-pads.png"
+    },
+    {
+      "id": "komodo-rear-brake-caliper",
+      "name": "Rear Brake Caliper \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "brakes",
+      "tier": "OEM",
+      "price_usd": 75.25,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/bpcfr002/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 75.25,
+          "buy_url": "https://emotobykes.com/parts/talaria/bpcfr002/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/bpcfr002/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part BPCFR002. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $75.25, in stock.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-rear-brake-caliper.png"
+    },
+    {
+      "id": "komodo-front-brake-lever",
+      "name": "Front Brake Lever \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "brakes",
+      "tier": "OEM",
+      "price_usd": 22.97,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/brlvf158/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 22.97,
+          "buy_url": "https://emotobykes.com/parts/talaria/brlvf158/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/brlvf158/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part BRLVF158. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $22.97, in stock.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-front-brake-lever.png"
+    },
+    {
+      "id": "brakes-ventus-folding-levers",
+      "name": "Emoto Folding Brake Levers",
+      "brand": "Emoto",
+      "category": "brakes",
+      "badge": "Brake Levers",
+      "tier": "budget",
+      "price_usd": 46.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $46, in stock. Listed among EVO upgrades; confirm brake switch and connector compatibility with OEM controls.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 46.0,
+          "buy_url": "https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/brakes-ventus-folding-levers.png"
+    },
+    {
+      "id": "brakes-warp9-folding-lever",
+      "name": "Warp 9 E-Moto Folding Brake Lever Type 2",
+      "brand": "Warp 9",
+      "category": "brakes",
+      "badge": "Brake Levers",
+      "tier": "midrange",
+      "price_usd": 46.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $46.89. Seller page names Bonnell 805 fitment. Sold individually per side; left lever includes parking brake.",
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 46.89,
+          "buy_url": "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/brakes-warp9-folding-lever.png"
+    },
+    {
+      "id": "charged-brake-pads-emoto",
+      "name": "Performance Brake Pads for eMoto",
+      "brand": "Charged Cycle Works",
+      "category": "brakes",
+      "badge": "Pads",
+      "tier": "budget",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $16.99 for the Surron/Talaria/ERide 2.0 variant (in stock). Other variants: ERide SR/3.0 / Talaria MX5 $25.95 (out of stock), Ultra Bee $29.95 (out of stock).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/charged-brake-pads-emoto.jpg"
+    },
+    {
+      "id": "warp9-260mm-bracket-ultrabee",
+      "name": "Warp9 Surron Ultra Bee 260mm Front Brake Bracket",
+      "brand": "Warp 9",
+      "category": "brakes",
+      "badge": "Warp 9",
+      "tier": "performance",
+      "price_usd": 42.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $42, in stock. 7075-T6 bracket for OEM Ultra Bee forks only (front use, replaces OEM 240mm bracket). Use with Warp 9 260mm floating rotor S-UL260FR.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/warp9-260mm-bracket-ultrabee.jpg"
+    },
+    {
+      "id": "lbn-ultrab-bee-brake-kit",
+      "name": "Surron Light Bee | Talaria MX4 LBN \"Ultra Bee\" Brake Upgrade Kit",
+      "brand": "LBN",
+      "category": "brakes",
+      "badge": "LBN",
+      "tier": "performance",
+      "price_usd": 250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $250, currently OUT OF STOCK on both kit variants. Ultra Bee brake hardware adapted for Light Bee (or Talaria MX3/MX4). NOT compatible with the Ultra Bee itself; MX5 excluded.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 250.0,
+          "buy_url": "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/lbn-ultrab-bee-brake-kit.png"
+    },
+    {
+      "id": "ultrabee-oem-front-brake",
+      "name": "Surron Ultra Bee - OEM Front Brake Assembly",
+      "brand": "Sur-Ron",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $240, in stock. Includes lever, handlebar mount, reservoir, cable, brake line, caliper and pads. Brake disc NOT included.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/ultrabee-oem-front-brake.gif"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt5e",
+      "bike_id": "arctic-xd",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "magura-mt7",
+      "bike_id": "arctic-xd",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Universal MTB brake standard"
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "sr",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-fxt-ultrabee-rear-kit",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7094"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-eride-e7094-front",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-moto-foot-brake-kit"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-factoryz-lightbee-foot",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-rear-brake-pads",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/bpr090/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-rear-brake-caliper",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/bpcfr002/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-front-brake-lever",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/brlvf158/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-ventus-folding-levers",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "brakes-warp9-folding-lever",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+      ],
+      "notes": "Seller lists Bonnell 805 fitment"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Light Bee (2025 and older)"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Talaria MX3/MX4/XXX"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists E Ride Pro 2.0"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page lists Ventus One"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "SR/3.0 variant $25.95, currently out of stock"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "SR/3.0 variant $25.95, currently out of stock"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "MX5 variant $25.95, currently out of stock"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Ultra Bee variant $29.95, currently out of stock"
+    },
+    {
+      "product_id": "warp9-260mm-bracket-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: for OEM Ultra Bee fork, front wheel"
+    },
+    {
+      "product_id": "lbn-ultrab-bee-brake-kit",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page offers Surron Light Bee Kit variant"
+    },
+    {
+      "product_id": "lbn-ultrab-bee-brake-kit",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page offers Talaria Sting (MX3/MX4) Kit variant"
+    },
+    {
+      "product_id": "ultrabee-oem-front-brake",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "OEM stock front brake assembly for Ultra Bee"
+    }
+  ]
+}

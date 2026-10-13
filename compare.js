@@ -125,7 +125,7 @@ function renderCompare(){
     var th = document.createElement('th');
     if(b){
       var im = document.createElement('img');
-      im.src = 'img/bike-'+b.id+'.png'; im.alt = b.name; im.loading = 'lazy';
+      im.src = 'img/bike-'+b.id+'.png'; im.alt = 'Electric dirt bike '+b.name; im.loading = 'lazy';
       im.onerror = function(){ im.style.display='none'; };
       th.appendChild(im);
       th.appendChild(el('div','cmp-bname', b.name));

@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>eBikePartsPicker — Build your electric dirt bike</title>
-<meta name="description" content="Pick your e-moto, choose real parts, watch the price, weight and power update live.">
-<link rel="stylesheet" href="styles.css?v=3.12.0">
+<title>eBikePartsPicker — Electric Dirt Bike Parts Builder & Price Checker</title>
+<meta name="description" content="Build your electric dirt bike part by part. Compare real parts, prices, weight and power in one place.">
+<link rel="stylesheet" href="styles.css?v=3.12.1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -17,13 +17,7 @@
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto,<br><span>part by part.</span></h1>
   <p class="tagline">Real parts. Real prices. Real fitment. Pick your bike and watch your build come together.</p>
-  <div class="newhere">
-    <div>
-      <strong>Shopping your first e-moto?</strong>
-      <span>Answer 10 quick questions and we'll match you to the right bike.</span>
-    </div>
-    <button id="btnQuiz" class="cta">Find my e-moto</button>
-  </div>
+  <p class="freesub">Free. No sign-up. Pick a bike and start.</p>
   <div class="start-cta-row">
     <span class="havebike">Already have a bike?</span>
     <div class="combobox start-combo">
@@ -32,13 +26,24 @@
     </div>
     <button id="btnStart" class="cta">Start building</button>
   </div>
+  <div class="newhere">
+    <button id="btnQuiz" class="quizlink">Shopping your first e-moto? <span>Find my e-moto →</span></button>
+  </div>
   <div class="sizechips" id="startSizeChips" aria-label="Filter bikes by size"></div>
   <div class="stats">
     <div class="stat"><strong id="statBikes">–</strong><small>bikes</small></div>
     <div class="stat"><strong id="statParts">–</strong><small>parts</small></div>
     <div class="stat"><strong id="statCats">–</strong><small>categories</small></div>
   </div>
-  <img class="hero" id="heroImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike">
+  <img class="hero" id="heroImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike Ventus One Plus">
+  <div class="notify">
+    <p>Get notified when new bikes and parts are added.</p>
+    <div class="notify-row">
+      <input id="notifyEmail" type="email" placeholder="you@email.com" autocomplete="off" aria-label="Email address">
+      <button id="notifyBtn" class="cta">Notify me</button>
+    </div>
+    <p class="formerr" id="notifyErr" hidden>Enter a valid email address.</p>
+  </div>
 </div>
 
 <!-- APP -->
@@ -54,6 +59,7 @@
       <button id="tabBuilds" class="tab">Build guides</button>
       <button id="tabCompare" class="tab">Compare</button>
       <button id="tabUpcoming" class="tab">Upcoming</button>
+      <button id="tabUsed" class="tab">Used Parts</button>
     </nav>
     <button id="btnSuggest" class="suggestbtn">Submit your part</button>
     <a class="contactlink" href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">Contact</a>
@@ -64,7 +70,7 @@
     <div class="builder-grid">
       <div class="bcol-left">
         <div class="stage">
-          <img id="bikeImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike preview">
+          <img id="bikeImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike">
           <div class="badges" id="badges"></div>
         </div>
         <div class="metrics">
@@ -73,6 +79,7 @@
           <div class="metric"><small>Power</small><strong id="mKw">–</strong><span class="geq" id="mGasEq"></span></div>
           <div class="metric"><small>HP</small><strong id="mHp">–</strong></div>
         </div>
+        <button id="btnShareBuild" class="ghostbtn sharebtn">Share my build</button>
         <div class="ptrain" id="ptrain">
           <div class="pt-head">Powertrain</div>
           <div class="pt-chain" id="ptChain"></div>
@@ -99,7 +106,7 @@
             <button id="btnNext" class="cta">Next</button>
           </div>
         </div>
-        <p class="micro">Prices are estimates, checked <span id="checkedDate"></span>. Verify before buying.</p>
+        <p class="micro">Prices are estimates<span id="checkedWrap">, checked <span id="checkedDate"></span></span>. Verify before buying.</p>
       </div>
     </div>
   </main>
@@ -125,6 +132,21 @@
   <main id="comparePane" class="wrap" hidden>
     <div id="compareBody"></div>
   </main>
+  <main id="usedPane" class="wrap" hidden>
+    <div class="qstep">Community listings</div>
+    <h2 class="qtitle">Used parts.</h2>
+    <p class="qsub" id="usedNote"></p>
+    <div class="uhead">
+      <div id="usedFilters" class="ufilters"></div>
+      <button class="cta sellOpen">Sell a part</button>
+    </div>
+    <div id="usedGrid" class="cards"></div>
+    <div id="usedEmpty" class="uempty" hidden>
+      <p><strong>No used parts listed yet — be the first.</strong></p>
+      <p class="qsub">Every listing is checked and hand-approved before it goes live.</p>
+      <button class="cta sellOpen">Sell a part</button>
+    </div>
+  </main>
 </div>
 
 <!-- SUGGEST-A-PART MODAL -->
@@ -136,22 +158,23 @@
     </div>
     <p class="modal-sub">Make parts for e-motos? Send them our way. We check every submission against the real product page before it goes live.</p>
     <div id="suggestForm">
-      <div class="frow">
-        <label class="flabel">Brand / company<input id="sgBrand" type="text" placeholder="e.g. EXC Designs" autocomplete="off"></label>
-        <label class="flabel">Your email<input id="sgEmail" type="email" placeholder="you@company.com" autocomplete="off"></label>
-      </div>
       <label class="flabel">Part name *<input id="sgName" type="text" placeholder="e.g. Titanium bolt kit" autocomplete="off"></label>
       <label class="flabel">Product page URL *<input id="sgUrl" type="url" placeholder="https://…" autocomplete="off"></label>
-      <div class="frow">
-        <label class="flabel">Price (USD)<input id="sgPrice" type="text" inputmode="decimal" placeholder="e.g. 129.99" autocomplete="off"></label>
+      <label class="flabel">Price (USD)<input id="sgPrice" type="text" inputmode="decimal" placeholder="e.g. 129.99" autocomplete="off"></label>
+      <details class="more">
+        <summary>More details (optional)</summary>
+        <div class="frow">
+          <label class="flabel">Brand / company<input id="sgBrand" type="text" placeholder="e.g. EXC Designs" autocomplete="off"></label>
+          <label class="flabel">Your email<input id="sgEmail" type="email" placeholder="you@company.com" autocomplete="off"></label>
+        </div>
         <label class="flabel">Category
           <select id="sgCat">
             <option value="">Pick one…</option>
           </select>
         </label>
-      </div>
-      <label class="flabel">Fits which bike(s)?<input id="sgBikes" type="text" placeholder="e.g. Tuttio Soleil 01, Yozma IN10" autocomplete="off"></label>
-      <label class="flabel">Tell us about it<textarea id="sgWhy" rows="3" placeholder="What makes this part worth listing?"></textarea></label>
+        <label class="flabel">Fits which bike(s)?<input id="sgBikes" type="text" placeholder="e.g. Tuttio Soleil 01, Yozma IN10" autocomplete="off"></label>
+        <label class="flabel">Tell us about it<textarea id="sgWhy" rows="3" placeholder="What makes this part worth listing?"></textarea></label>
+      </details>
       <div class="formerr" id="sgErr" hidden>Please add at least a part name and a product URL.</div>
       <button class="cta full" id="sgSubmit">Review submission</button>
     </div>
@@ -169,16 +192,74 @@
 </div>
 
 <div class="toast" id="toast"></div>
+
+<!-- SELL-A-PART MODAL -->
+<div class="modal-overlay" id="sellOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="sellHeading">
+    <div class="modal-head">
+      <h3 id="sellHeading">Sell a part</h3>
+      <button class="modal-x" id="sellClose" aria-label="Close">✕</button>
+    </div>
+    <p class="modal-sub">List your used part. Every submission is checked and hand-approved before it goes live — no payments here, buyer and seller work it out directly.</p>
+    <div id="sellForm">
+      <label class="flabel">Part title *<input id="sellTitle" type="text" placeholder="e.g. Warp 9 3-inch rise handlebar" autocomplete="off"></label>
+      <div class="frow">
+        <label class="flabel">Category
+          <select id="sellCat">
+            <option value="">Pick one…</option>
+          </select>
+        </label>
+        <label class="flabel">Condition
+          <select id="sellCond">
+            <option value="like-new">Like new</option>
+            <option value="good" selected>Good</option>
+            <option value="worn">Worn</option>
+            <option value="for-parts">For parts</option>
+          </select>
+        </label>
+      </div>
+      <div class="flabel">Fits which bike(s)? *
+        <div id="sellFits" class="fitgrid"></div>
+      </div>
+      <div class="frow">
+        <label class="flabel">Asking price (USD)<input id="sellPrice" type="text" inputmode="decimal" placeholder="e.g. 60" autocomplete="off"></label>
+        <label class="flabel">Location<input id="sellLoc" type="text" placeholder="e.g. St. George, UT" autocomplete="off"></label>
+      </div>
+      <div class="frow">
+        <label class="flabel">Your name<input id="sellName" type="text" placeholder="e.g. Josh" autocomplete="off"></label>
+        <label class="flabel">Contact email *<input id="sellEmail" type="email" placeholder="you@email.com" autocomplete="off"></label>
+      </div>
+      <label class="flabel">Description<textarea id="sellDesc" rows="3" placeholder="Condition details, mileage, what's included…"></textarea></label>
+      <p class="micro">Photos: no upload here yet — after submitting, email your photos to ebikepartspicker@gmail.com and we'll attach them to your listing.</p>
+      <div class="formerr" id="sellErr" hidden>Please add a part title, your email, and at least one bike it fits.</div>
+      <button class="cta full" id="sellSubmit">Review submission</button>
+    </div>
+    <div id="sellDone" hidden>
+      <p class="micro">Here's the submission, ready to send:</p>
+      <pre class="sgpreview" id="sellPreview"></pre>
+      <div class="sgactions">
+        <button class="copybtn" id="sellCopy">Copy</button>
+        <a class="buy" id="sellMail" href="#">Send via email</a>
+      </div>
+      <p class="micro center">Email opens in your mail app — or copy it and send it however you like. Then send your photos to the same address.</p>
+      <button class="link" id="sellAgain">Submit another part</button>
+    </div>
+  </div>
+</div>
 <footer class="sitefoot">
   <span>Built by Josh in St. George, UT</span>
   <span class="dot">·</span>
   <a href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">ebikepartspicker@gmail.com</a>
+  <span class="dot">·</span>
+  <span class="fineprint">Some links may be affiliate links. Prices are estimates, verify before buying.</span>
 </footer>
 <script src="data.js"></script>
 <script src="upcoming.js?v=3.12.0"></script>
 <script src="builds.js?v=3.12.0"></script>
-<script src="app.js?v=3.12.0"></script>
+<script src="app.js?v=3.12.1"></script>
+<script src="buy.js?v=3.12.1"></script>
 <script src="quiz.js?v=3.12.0"></script>
 <script src="compare.js?v=3.12.0"></script>
+<script src="used.js?v=3.12.1"></script>
 </body>
 </html>

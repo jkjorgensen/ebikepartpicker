@@ -1,0 +1,260 @@
+{
+  "bike_count": 36,
+  "build_script": "tools/build-catalog.js",
+  "catalog_version": "3.10.6",
+  "categories": [
+    {
+      "file": "data/categories/motors.json",
+      "id": "motor",
+      "name": "Motor",
+      "blurb": "The motor is what actually makes the power \u2014 the heart of the build. Everything else in the powertrain exists to feed it.",
+      "tips": [
+        "Needs a controller with enough phase amps to drive it",
+        "Check mounting \u2014 some motors need adapter plates for your bike",
+        "A bigger motor only helps if your battery can feed it (see the Powertrain panel)",
+        "High-power motors build heat \u2014 consider cooling above ~15 kW"
+      ]
+    },
+    {
+      "file": "data/categories/controllers.json",
+      "id": "controller",
+      "name": "Controller",
+      "blurb": "The controller is the brain \u2014 it meters power from the battery to the motor and sets how the bike feels.",
+      "tips": [
+        "Voltage range must cover your battery",
+        "Match phase amps to your motor \u2014 too small chokes it",
+        "Some bikes need a wiring harness adapter \u2014 check fitment",
+        "App and Bluetooth tuning varies a lot by brand"
+      ]
+    },
+    {
+      "file": "data/categories/forks.json",
+      "id": "fork",
+      "name": "Fork",
+      "blurb": "Front suspension \u2014 dictates how the bike handles braking bumps, rocks, and landings.",
+      "tips": [
+        "Axle size and triple-clamp fitment must match your bike",
+        "Spring rate should suit your weight \u2014 ask the vendor",
+        "More travel isn't always better if the geometry suffers"
+      ]
+    },
+    {
+      "file": "data/categories/shocks.json",
+      "id": "shock",
+      "name": "Shock",
+      "blurb": "Rear suspension \u2014 traction and comfort over chatter.",
+      "tips": [
+        "Eye-to-eye length and stroke must match stock",
+        "Spring rate should suit your weight",
+        "Pairs with linkage choice on some bikes"
+      ]
+    },
+    {
+      "file": "data/categories/wheels.json",
+      "id": "wheels",
+      "name": "Wheels",
+      "blurb": "Lighter, stronger wheels sharpen handling and acceleration \u2014 often the best-feeling upgrade per dollar.",
+      "tips": [
+        "Hub and axle size must match your bike",
+        "Check your brake rotor bolt pattern carries over",
+        "Spoked vs billet \u2014 weight vs strength tradeoff"
+      ]
+    },
+    {
+      "file": "data/categories/brakes.json",
+      "id": "brakes",
+      "name": "Brakes",
+      "blurb": "As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.",
+      "tips": [
+        "Rotor size changes may need a caliper relocation bracket",
+        "Match master cylinder to caliper",
+        "Pad compound: organic for feel, sintered for bite and life"
+      ]
+    },
+    {
+      "file": "data/categories/plastics.json",
+      "id": "plastics",
+      "name": "Plastics",
+      "blurb": "Bodywork \u2014 the look of the bike plus roost protection.",
+      "tips": [
+        "Mounting is bike-specific \u2014 'universal' rarely is",
+        "Full kits look cleaner than piecing together",
+        "Graphics usually sold separately"
+      ],
+      "fitment_detail": true
+    },
+    {
+      "id": "batteries",
+      "name": "Batteries",
+      "file": "data/categories/batteries.json",
+      "blurb": "Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.",
+      "tips": [
+        "Continuous kW rating must meet what your controller pulls \u2014 check the Powertrain panel for bottlenecks",
+        "Voltage must match your controller's range",
+        "Confirm it physically fits your frame \u2014 sizes vary a lot",
+        "Swappable packs are convenient; fixed packs usually hold more capacity"
+      ]
+    },
+    {
+      "id": "handlebar",
+      "name": "Handlebar",
+      "file": "data/categories/handlebars.json",
+      "blurb": "Your main control point \u2014 bend and rise change the whole riding position.",
+      "tips": [
+        "Bar diameter must match your clamps (7/8\" vs 1-1/8\")",
+        "Taller riders usually want more rise",
+        "Cut to width if they feel too wide"
+      ]
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "file": "data/categories/chargers.json",
+      "blurb": "Faster charging means less downtime between rides.",
+      "tips": [
+        "Voltage must match your battery exactly",
+        "More amps = faster charging, but also more heat",
+        "Some fast chargers need 220V for full speed"
+      ]
+    },
+    {
+      "id": "cockpit",
+      "name": "Cockpit",
+      "file": "data/categories/cockpit.json",
+      "blurb": "Grips, throttles, and displays \u2014 the details you touch every ride.",
+      "tips": [
+        "Throttle type must match your controller",
+        "Lock-on grips stay put; slip-ons are cheaper"
+      ]
+    },
+    {
+      "id": "cooling",
+      "name": "Cooling",
+      "file": "data/categories/cooling.json",
+      "blurb": "High-power builds make serious heat. Cooling keeps your motor and controller alive when you're pushing hard.",
+      "tips": [
+        "Mostly needed above ~15 kW or for sustained high load",
+        "Check fitment against your specific motor"
+      ]
+    },
+    {
+      "id": "drivetrain",
+      "name": "Drivetrain",
+      "file": "data/categories/drivetrain.json",
+      "blurb": "Chain or belt and sprockets \u2014 how power actually reaches the rear wheel.",
+      "tips": [
+        "Chain pitch must match front and rear sprockets",
+        "Gearing changes trade top speed for torque (and vice versa)",
+        "Belt drives are quieter but less tolerant of misalignment"
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "file": "data/categories/electrical.json",
+      "blurb": "Dashboards, lights, and wiring that tie the build together.",
+      "tips": [
+        "Check voltage compatibility with your battery",
+        "Plug-and-play beats splicing \u2014 look for bike-specific kits"
+      ]
+    },
+    {
+      "id": "guards",
+      "name": "Guards",
+      "file": "data/categories/guards.json",
+      "blurb": "Cheap insurance \u2014 frame, rotor, and case protection that pays for itself the first crash.",
+      "tips": [
+        "Bike-specific fitment",
+        "Rotor guards need caliper clearance"
+      ]
+    },
+    {
+      "id": "linkage",
+      "name": "Linkage",
+      "file": "data/categories/linkage.json",
+      "blurb": "Connects the shock to the swingarm and sets the leverage curve \u2014 subtle but noticeable.",
+      "tips": [
+        "Bike-specific fitment \u2014 no universal options",
+        "Usually chosen alongside the shock"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Maintenance",
+      "file": "data/categories/maintenance.json",
+      "blurb": "Consumables and shop supplies to keep the build running.",
+      "tips": [
+        "Stock up on what wears: chains, brake pads, tires"
+      ]
+    },
+    {
+      "id": "pegs",
+      "name": "Foot Pegs",
+      "file": "data/categories/pegs.json",
+      "blurb": "Wider, sharper pegs mean more control \u2014 especially standing up.",
+      "tips": [
+        "Mounts are bike-specific",
+        "Titanium saves weight; steel lasts longer"
+      ]
+    },
+    {
+      "id": "seat",
+      "name": "Seat",
+      "file": "data/categories/seats.json",
+      "blurb": "Where you spend the whole ride \u2014 comfort and control.",
+      "tips": [
+        "Tall seats help taller riders; standard keeps footing easy",
+        "Gripper covers for aggressive riding, smooth for moving around"
+      ]
+    },
+    {
+      "id": "street",
+      "name": "Street Kit",
+      "file": "data/categories/street.json",
+      "blurb": "Lights, mirrors, and signals for road-legal riding where it's allowed.",
+      "tips": [
+        "Legality varies wildly by state \u2014 check yours",
+        "Wiring effort ranges from plug-and-play to a full afternoon"
+      ]
+    },
+    {
+      "id": "swingarm",
+      "name": "Swingarm",
+      "file": "data/categories/swingarms.json",
+      "blurb": "A longer swingarm adds straight-line stability at speed.",
+      "tips": [
+        "Axle and linkage fitment are bike-specific",
+        "A longer arm usually means a longer chain",
+        "Check tire clearance"
+      ]
+    },
+    {
+      "id": "tires",
+      "name": "Tires",
+      "file": "data/categories/tires.json",
+      "blurb": "Traction. The right tire for your terrain matters more than most upgrades.",
+      "tips": [
+        "Size must match your rims",
+        "Soft-terrain, intermediate, and hard-pack tires are very different",
+        "DOT-rated if you ride street"
+      ]
+    },
+    {
+      "file": "data/categories/titanium.json",
+      "id": "titanium",
+      "name": "Titanium Hardware",
+      "blurb": "Titanium bolt kits and hardware \u2014 shed grams and add color to your build.",
+      "tips": [
+        "Match thread pitch and length to your OEM bolts before ordering",
+        "Use anti-seize \u2014 titanium galls easily",
+        "Axle, brake and motor-mount bolts are safety-critical: follow torque specs",
+        "Anodized colors vary between batches \u2014 order kits together for a match"
+      ],
+      "fitment_detail": true
+    }
+  ],
+  "category_files": "data/categories/*.json",
+  "generated": "2026-10-12",
+  "last_researched": "2026-10-12",
+  "product_count": 170
+}

@@ -1,0 +1,1073 @@
+{
+  "category": {
+    "id": "controller",
+    "name": "Controller"
+  },
+  "compatibility": [
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://revrides.com/products/ebmx-x-9000-v3-controller"
+      ],
+      "notes": "",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://revrides.com/products/ebmx-x-9000-v3-controller"
+      ],
+      "notes": "",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit"
+      ],
+      "notes": "Talaria adapter kit",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": "Talaria Sting adapter kit",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit"
+      ],
+      "notes": "Talaria adapter kit",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": "Talaria Sting adapter kit",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [],
+      "notes": "EBMX Talaria platform kit; confirm harness with vendor",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+      ],
+      "notes": "E Ride Pro power loom",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": "E Ride Pro power loom",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+      ],
+      "notes": "E Ride Pro power loom",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": "E Ride Pro power loom",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+      ],
+      "notes": "E Ride Pro power loom",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": "E Ride Pro power loom",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [],
+      "notes": "Same E Ride Pro platform family; confirm loom with vendor",
+      "product_id": "ebmx-x-9000-v3",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "Stock Ventus part, not sold standalone",
+      "product_id": "vtb-aetos",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "Stock Ventus part, not sold standalone",
+      "product_id": "vtb-aetos",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Bike-specific kit sold; confirm variant before ordering"
+    },
+    {
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Bike-specific kit sold; confirm variant before ordering"
+    },
+    {
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Bike-specific kit sold; confirm variant before ordering"
+    },
+    {
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Bike-specific kit sold; confirm variant before ordering"
+    },
+    {
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Bike-specific kit sold; confirm variant before ordering"
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": "60V Light Bee models up to 2025 only; 2026 72V harness differs"
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-2x",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": "60V Light Bee models up to 2025 only; 2026 72V harness differs"
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc500-2x",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "lightbee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ss20",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "sr",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "mx4",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "mx5",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": "Requires bike-specific Aetos Gen.2 harness"
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-pro",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "Ultra Bee harness variant out of stock as of 2026-10-12"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "stormbee-controller-oem",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "ctrl-ventus-aetos-max",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/ventus-aetos-max-controller"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "torp-tc1000-v1-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"Developed specifically for the SurRon Ultra Bee\""
+    },
+    {
+      "product_id": "torp-tc1000-v2-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"Developed specifically for the SurRon Ultra Bee\""
+    },
+    {
+      "product_id": "ventus-aetos-ultra",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Explicit Ultra Bee compatibility; requires harness + 100V+ battery"
+    }
+  ],
+  "products": [
+    {
+      "badge": "X-9000",
+      "brand": "EBMX",
+      "buy_url": "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product",
+      "category": "controller",
+      "controller_max_kw": 60,
+      "id": "ebmx-x-9000-v3",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "EBMX X-9000 V3",
+      "notes": "Full kit (controller + plug-and-play harness/mount kit, heatsink, SW102T display, thumb throttle, Bluetooth module). 50kW rated, 1000A continuous / 1600A burst phase, 48-93V working (22S), IP67, VESC-based. Bike-specific kit required; V2 wiring harnesses do NOT fit V3.",
+      "power_change_kw": 0,
+      "price_usd": 1164,
+      "source_urls": [
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product",
+          "price_usd": 1164,
+          "vendor": "Charged Cycle Works"
+        },
+        {
+          "buy_url": "https://revrides.com/products/ebmx-x-9000-v3-controller",
+          "price_usd": 1164,
+          "vendor": "REV Rides"
+        },
+        {
+          "vendor": "Charged Powersports",
+          "price_usd": 1199.0,
+          "buy_url": "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/ebmx-x-9000-v3.jpg"
+    },
+    {
+      "badge": "VTB",
+      "brand": "Ventus",
+      "buy_url": "",
+      "category": "controller",
+      "controller_max_kw": 28,
+      "id": "vtb-aetos",
+      "is_upgrade": false,
+      "last_checked": "2026-10-11",
+      "name": "VTB Controller w/ Aetos cover",
+      "notes": "Stock Ventus part; price from owner records",
+      "power_change_kw": 0,
+      "price_usd": 300,
+      "source_urls": [],
+      "stock_status": "unknown",
+      "tier": "mid",
+      "vendor": "Ventus (stock part)",
+      "vendors": [
+        {
+          "buy_url": "",
+          "price_usd": 300,
+          "vendor": "Ventus (stock part)"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null
+    },
+    {
+      "id": "torp-tc1000-2x",
+      "name": "TORP TC1000 2.X Controller Kit",
+      "brand": "TORP",
+      "category": "controller",
+      "price_usd": 1295.0,
+      "vendor": "TORP Motors",
+      "buy_url": "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "700A battery / 1000A phase FOC controller. Up to 19kW stock motor, 31kW with TM25, 50kW with TM40 Pro. 60-80V nominal (up to 22S / 92.4V). Kit includes controller, harness and cover; tune via TORP mobile app. NOT compatible with the 2026 72V Light Bee (harness differs). Official webshop price is location-dependent (~EUR 1,061 incl. VAT).",
+      "source_urls": [
+        "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/",
+        "https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "TORP Motors",
+          "price_usd": 1295.0,
+          "buy_url": "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
+        },
+        {
+          "vendor": "Darwin EV",
+          "price_usd": 1295.0,
+          "buy_url": "https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 50.0,
+      "image": "img/parts/torp-tc1000-2x.jpg"
+    },
+    {
+      "id": "torp-tc500-2x",
+      "name": "TORP TC500 2.X Controller Kit",
+      "brand": "TORP",
+      "category": "controller",
+      "price_usd": 929.99,
+      "vendor": "TORP Motors",
+      "buy_url": "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "500A phase / 350A battery FOC controller. Up to 17kW stock motor, 30kW with TM25 (80V battery). 60-80V nominal (up to 22S). Kit includes controller, harness and cover; tune via TORP mobile app. NOT compatible with the 2026 72V Light Bee (harness differs). Official webshop price is location-dependent (~EUR 861 incl. VAT).",
+      "source_urls": [
+        "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/",
+        "https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "TORP Motors",
+          "price_usd": 929.99,
+          "buy_url": "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
+        },
+        {
+          "vendor": "E-Moto USA",
+          "price_usd": 929.99,
+          "buy_url": "https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 30.0,
+      "image": "img/parts/torp-tc500-2x.jpg"
+    },
+    {
+      "id": "vtb-aetos-pro",
+      "name": "VTB V9600 Aetos Pro Gen.2 Controller",
+      "brand": "VTB",
+      "category": "controller",
+      "price_usd": 1099.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "72V (20S) / 81V (22S) nominal, 1200A phase (1600A tested), 12S-22S, up to 76kW. Requires bike-specific Aetos Gen.2 harness (sold separately; Gen.1 harness does not fit). Fits Light Bee, Ultra Bee, Talaria Sting, E Ride Pro. Talaria XXX and 79 Bike Pro stock motors are NOT compatible - upgrade motor required.",
+      "source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 1099.0,
+          "buy_url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 76.0,
+      "image": "img/parts/vtb-aetos-pro.png"
+    },
+    {
+      "id": "vtb-aetos-gen2-harness",
+      "name": "VTB Aetos Gen.2 Bike-Specific Harness Kit",
+      "brand": "VTB",
+      "category": "controller",
+      "price_usd": 60.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+      "tier": "accessory",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Harness-only; no controller included. Only for Gen.2 / 1.7 controllers (Aetos Pro, Max, Ultra). Bike-specific variants: Light Bee $60, Ultra Bee $60 (variant out of stock as of check), Talaria MX3/4/5 $60, E Ride Pro SS 2.0/3.0/SR $90.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 60.0,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/vtb-aetos-gen2-harness.jpg"
+    },
+    {
+      "id": "stormbee-controller-oem",
+      "name": "Storm Bee FOC Sine Wave Controller",
+      "brand": "Sur-Ron",
+      "category": "controller",
+      "price_usd": 1779.99,
+      "vendor": "SurronMotos",
+      "buy_url": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM stock-replacement FOC sine wave controller (encoder MCU). 96V nominal, 104V/55A aluminum case, up to 22.5 kW peak, CAN bus, IP67, factory plug-and-play. On sale $1,779.99 (reg $2,079.99). Verify F variant, battery voltage and harness before ordering.",
+      "source_urls": [
+        "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
+      },
+      "vendors": [
+        {
+          "vendor": "SurronMotos",
+          "price_usd": 1779.99,
+          "buy_url": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
+        }
+      ],
+      "controller_max_kw": 22.5,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-controller-oem.jpg"
+    },
+    {
+      "id": "ctrl-ventus-aetos-max",
+      "name": "VTB Aetos Max Controller",
+      "brand": "VTB",
+      "category": "controllers",
+      "badge": "Controller",
+      "tier": "premium",
+      "price_usd": 1199.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/ventus-aetos-max-controller",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/ventus-aetos-max-controller"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro \u2014 confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 1199.0,
+          "buy_url": "https://ventusbikes.us/products/ventus-aetos-max-controller"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 76.0,
+      "image": "img/parts/ctrl-ventus-aetos-max.png"
+    },
+    {
+      "id": "torp-tc1000-v1-ultrabee",
+      "name": "Torp TC1000 V1 Controller for Sur-Ron Ultra Bee",
+      "brand": "Torp",
+      "category": "controller",
+      "badge": "Torp",
+      "tier": "performance",
+      "price_usd": 1249.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tc1000-controller",
+      "stock_status": "out_of_stock",
+      "weight_kg": 1.29,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tc1000-controller"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,249 (V1), currently out of stock. This is the Ultra Bee-specific TC1000 \u2014 distinct from the Light Bee 2.X kit already in the catalog.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1249.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tc1000-controller"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 50.0,
+      "image": "img/parts/torp-tc1000-v1-ultrabee.png"
+    },
+    {
+      "id": "torp-tc1000-v2-ultrabee",
+      "name": "Torp TC1000 V2 Controller for Sur-Ron Ultra Bee",
+      "brand": "Torp",
+      "category": "controller",
+      "badge": "Torp",
+      "tier": "performance",
+      "price_usd": 1299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-tc1000-controller",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-tc1000-controller"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,299 (V2), currently out of stock. V2 adds 60-80V support, 58kW max power. Ultra Bee-specific.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1299.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-tc1000-controller"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 58.0,
+      "image": "img/parts/torp-tc1000-v2-ultrabee.png"
+    },
+    {
+      "id": "ventus-aetos-ultra",
+      "name": "Ventus Aetos Ultra Controller for 118V Batteries",
+      "brand": "Ventus",
+      "category": "controller",
+      "badge": "Aetos Ultra",
+      "tier": "premium",
+      "price_usd": 1399.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $1,399, in stock. Page names Ultra Bee explicitly. REQUIRES bike-specific harness (sold separately) and a 100V+ battery \u2014 not for stock-voltage builds.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1399.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
+        }
+      ],
+      "weight_delta_kg": null,
+      "controller_max_kw": 76.0,
+      "image": "img/parts/ventus-aetos-ultra.png"
+    }
+  ]
+}

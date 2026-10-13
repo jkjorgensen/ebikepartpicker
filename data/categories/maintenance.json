@@ -1,0 +1,497 @@
+{
+  "category": {
+    "id": "maintenance",
+    "name": "Maintenance"
+  },
+  "products": [
+    {
+      "id": "maintenance-lightbee-headset",
+      "name": "Sur-Ron Light Bee Tapered Roller Bearing Headset Kit",
+      "brand": "Sur-Ron",
+      "category": "maintenance",
+      "price_usd": 20,
+      "vendor": "Sur-Ron",
+      "buy_url": "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset",
+      "vendors": [
+        {
+          "vendor": "Sur-Ron",
+          "price_usd": 20,
+          "buy_url": "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Sold out on shop.sur-ron.com as of 2026-10-12 check. Tapered roller headset bearing upgrade kit.",
+      "source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "Sur-Ron",
+      "weight_delta_kg": null,
+      "image": "img/parts/maintenance-lightbee-headset.jpg"
+    },
+    {
+      "id": "maintenance-eride-surron-talaria-headset",
+      "name": "Headset Roller Bearing Kit \u2014 E Ride Pro SS / Sur-Ron Light Bee / Talaria MX",
+      "brand": "The Ride Guru",
+      "category": "maintenance",
+      "price_usd": 29.95,
+      "vendor": "The Ride Guru",
+      "buy_url": "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet",
+      "vendors": [
+        {
+          "vendor": "The Ride Guru",
+          "price_usd": 29.95,
+          "buy_url": "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Upper/lower roller bearings, cups, crown race, dust cap, lock ring, spacer/cap hardware. Seller lists E Ride Pro SS, Light Bee and Talaria MX.",
+      "source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "The Ride Guru",
+      "weight_delta_kg": null,
+      "image": "img/parts/maintenance-eride-surron-talaria-headset.jpg"
+    },
+    {
+      "id": "maintenance-lightbee-swingarm-axle",
+      "name": "IZI Brothers Titanium Swingarm Pivot Axle \u2014 Sur-Ron Light Bee",
+      "brand": "IZI Brothers",
+      "category": "maintenance",
+      "price_usd": null,
+      "vendor": "IZI Brothers",
+      "buy_url": "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee",
+      "vendors": [
+        {
+          "vendor": "IZI Brothers",
+          "price_usd": null,
+          "buy_url": "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Price TBD \u2014 vendor lists EUR 109 (no USD price published). Grade 5 titanium (Ti-6Al-4V) pivot axle + matching nut; direct replacement for OEM Light Bee X / L1E swingarms. Torque to OEM spec.",
+      "source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "IZI Brothers",
+      "weight_delta_kg": null,
+      "image": "img/parts/maintenance-lightbee-swingarm-axle.png"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-headset",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-eride-surron-talaria-headset",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": "Fits OEM Light Bee X and L1E swingarms"
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "maintenance-lightbee-swingarm-axle",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
+      ],
+      "notes": ""
+    }
+  ]
+}

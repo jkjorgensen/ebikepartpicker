@@ -1,0 +1,410 @@
+{
+  "category": {
+    "id": "pegs",
+    "name": "Foot Pegs"
+  },
+  "products": [
+    {
+      "id": "pegs-kke-ultrabee",
+      "name": "KKE Billet Foot Pegs for Sur-Ron Ultra Bee",
+      "brand": "KKE",
+      "category": "pegs",
+      "badge": "Foot Pegs",
+      "tier": "midrange",
+      "price_usd": 79.99,
+      "vendor": "SURRON Canada",
+      "buy_url": "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $79.99 (on sale from $81.99), in stock. 7075-T6 aluminum, 57x87mm platform. Uses OEM foot-peg spring and pin. Blue/black/purple/gold/red anodized options.",
+      "variant": "custom",
+      "vendors": [
+        {
+          "vendor": "SURRON Canada",
+          "price_usd": 79.99,
+          "buy_url": "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/"
+        }
+      ],
+      "weight_delta_kg": null
+    },
+    {
+      "id": "pegs-ultrabee-oem-brackets",
+      "name": "Sur-Ron Ultra Bee OEM Pegs & Brackets",
+      "brand": "Sur-Ron",
+      "category": "pegs",
+      "badge": "Peg Brackets",
+      "tier": "budget",
+      "price_usd": 89.0,
+      "vendor": "SurRonshop",
+      "buy_url": "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified: Left foot pedal $89, Right foot pedal $85 (both in stock). OEM replacement pedal + bracket assembly; choose left or right side.",
+      "variant": null,
+      "vendors": [
+        {
+          "vendor": "SurRonshop",
+          "price_usd": 89.0,
+          "buy_url": "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/pegs-ultrabee-oem-brackets.jpg"
+    },
+    {
+      "id": "pegs-prickly-wide",
+      "name": "Prickly Foot Pegs Wide",
+      "brand": "Prickly",
+      "category": "pegs",
+      "badge": "Foot Pegs",
+      "tier": "premium",
+      "price_usd": 170.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/prickly-foot-pegs-wide",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/prickly-foot-pegs-wide"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $170 (research said $160 \u2014 corrected), in stock. Verify peg mount width, pin diameter and return-spring fit.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 170.0,
+          "buy_url": "https://ventusbikes.us/products/prickly-foot-pegs-wide"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/pegs-prickly-wide.jpg"
+    },
+    {
+      "id": "pegs-prickly-mx",
+      "name": "Prickly Foot Pegs MX",
+      "brand": "Prickly",
+      "category": "pegs",
+      "badge": "Foot Pegs",
+      "tier": "premium",
+      "price_usd": 170.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/prickly-foot-pegs-mx",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/prickly-foot-pegs-mx"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $170 (research said $160 \u2014 corrected), in stock. Verify peg mount and spring compatibility.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 170.0,
+          "buy_url": "https://ventusbikes.us/products/prickly-foot-pegs-mx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/pegs-prickly-mx.jpg"
+    },
+    {
+      "id": "pegs-ventus-lbx",
+      "name": "Surron LBX Foot Pegs (Collective)",
+      "brand": "Ventus",
+      "category": "pegs",
+      "badge": "Foot Pegs",
+      "tier": "midrange",
+      "price_usd": 117.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $117 (research said $109 \u2014 corrected), in stock. Product named for Light Bee X; confirm exact version and hardware.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 117.0,
+          "buy_url": "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/pegs-ventus-lbx.jpg"
+    },
+    {
+      "id": "pegs-tarazon-walmart",
+      "name": "CNC Billet Foot Pegs for Sur-Ron Light Bee LBX",
+      "brand": "TARAZON",
+      "category": "pegs",
+      "badge": "Foot Pegs",
+      "tier": "budget",
+      "price_usd": null,
+      "vendor": "TARAZON via Walmart",
+      "buy_url": "https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186",
+      "stock_status": "verify",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Product page exists but Walmart blocked automated price/stock verification \u2014 price shown as TBD. Listing names Light Bee LBX; verify year, pin diameter and mount fit before ordering.",
+      "vendors": [],
+      "weight_delta_kg": null
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ultrabee-oem-brackets",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-prickly-wide",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/prickly-foot-pegs-wide"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-prickly-mx",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/prickly-foot-pegs-mx"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-ventus-lbx",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "pegs-tarazon-walmart",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186"
+      ],
+      "notes": ""
+    }
+  ]
+}

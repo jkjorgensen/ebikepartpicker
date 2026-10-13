@@ -1,0 +1,257 @@
+{
+  "category": {
+    "id": "cooling",
+    "name": "Cooling"
+  },
+  "products": [
+    {
+      "id": "cooling-ebmx-x9000-air-heatsink",
+      "name": "EBMX X-9000 V3 Air-Cooled Heatsink",
+      "brand": "EBMX",
+      "category": "cooling",
+      "price_usd": 65,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Controller accessory only \u2014 does not change the controller's electrical rating. Compatible with v2 and v3 X-9000. Black/Blue/Red/White in stock; Gold/Purple/Bronze/Orange sold out. Original ebmx.com URL was an accessories collection page, not a product page.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "EBMX",
+      "weight_delta_kg": null,
+      "image": "img/parts/cooling-ebmx-x9000-air-heatsink.png"
+    },
+    {
+      "id": "cooling-ventus-aetos-heatsink",
+      "name": "VTB Aetos Heatsink",
+      "brand": "VTB",
+      "category": "cooling",
+      "badge": "Heatsink",
+      "tier": "midrange",
+      "price_usd": 89.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $89, in stock. Fits Gen.2 Pro/Max/Ultra controllers; confirm the EVO Aetos Pro mounting and thermal interface.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 89.0,
+          "buy_url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/cooling-ventus-aetos-heatsink.jpg"
+    },
+    {
+      "id": "cooling-ventus-handlebar-fan",
+      "name": "Ventus Handlebar Fan",
+      "brand": "Ventus",
+      "category": "cooling",
+      "badge": "Fan",
+      "tier": "budget",
+      "price_usd": 89.0,
+      "vendor": "Ventus Bikes USA",
+      "buy_url": "https://ventusbikes.us/products/ventus-handlebar-fan",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://ventusbikes.us/products/ventus-handlebar-fan"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $89 but OUT OF STOCK. This is a RIDER-cooling handlebar fan, not a motor or controller cooling upgrade.",
+      "vendors": [
+        {
+          "vendor": "Ventus Bikes USA",
+          "price_usd": 89.0,
+          "buy_url": "https://ventusbikes.us/products/ventus-handlebar-fan"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/cooling-ventus-handlebar-fan.png"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "lightbee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ultrabee",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "mx4",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "mx5",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ss20",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ss30",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "sr",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": "Requires EBMX X-9000 controller"
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ebmx-x9000-air-heatsink",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ventus-aetos-heatsink",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "cooling-ventus-handlebar-fan",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/ventus-handlebar-fan"
+      ],
+      "notes": ""
+    }
+  ]
+}

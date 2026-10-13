@@ -1,0 +1,1005 @@
+{
+  "category": {
+    "id": "fork",
+    "name": "Fork"
+  },
+  "compatibility": [
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+      ],
+      "notes": "",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+      ],
+      "notes": "Ultra Bee tune",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "TB Electric lists MX5 tune; riot.racing E-MX listing excluded MX5 \u2014 confirm tune with vendor before ordering",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "Talaria platform",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+      ],
+      "notes": "E Ride Pro tune",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "E Ride Pro tune",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "E Ride Pro tune",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "E Ride Pro tune; brake caliper adapter needed on SR",
+      "product_id": "ext-ferro",
+      "required_adapters": "Brake caliper adapter (SR)",
+      "status": "confirmed_fit_with_adapter"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+      ],
+      "notes": "Ventus One+ tune",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "notes": "Ventus platform",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "EXT makes Storm Bee tunes; confirm with vendor",
+      "product_id": "ext-ferro",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "notes": "Talaria platform",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [],
+      "notes": "FastAce makes E Ride tunes; confirm with vendor",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [],
+      "notes": "FastAce makes E Ride tunes; confirm with vendor",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [],
+      "notes": "FastAce makes E Ride tunes; confirm with vendor",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [],
+      "notes": "FastAce makes E Ride tunes; confirm with vendor",
+      "product_id": "fastace-20",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "product_id": "sirris-f43-cmx-light-bee",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
+      ],
+      "notes": "Needs direct-mount stem + 220mm rotor",
+      "required_adapters": "Direct-mount stem; 220mm rotor"
+    },
+    {
+      "product_id": "sirris-f43-cmx-light-bee",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
+      ],
+      "notes": "Vendor lists Talaria MX3/MX4",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-37mm-fork-kit",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-37mm-fork-kit",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "E-Ride Pro-SS 2024",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-37mm-fork-kit",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "Talaria Sting MX3/MX4/R",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "E-Ride Pro SS (2024)",
+      "required_adapters": null
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "mx4",
+      "status": "confirmed_fit_with_modifications",
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "notes": "May need minor outer-tube grinding for frame clearance",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-alx13rc-2",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-alx13rc-2",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "notes": "Talaria MX3/MX4/XXX",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-alx13rc-2",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "notes": "E-Ride Pro S/SS 1.0/2.0",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-alx13rc-2",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "notes": "Ventus One/V1+ listed",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-alx13rc-2",
+      "bike_id": "ss30",
+      "status": "not_compatible",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "notes": "Vendor explicitly excludes 3.0",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk32",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk32",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk32",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+      ],
+      "notes": "Eride pro S/SS",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "Talaria MX3/MX4/XXX",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "E-Ride Pro S/SS 1.0/2.0",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "Ventus One listed",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-ahx12rv",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-ahx12rv",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "Talaria MX3/MX4/XXX",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-ahx12rv",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "E-Ride Pro S/SS 1.0/2.0",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-ahx12rv",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "Ventus One/V1+ listed",
+      "required_adapters": null
+    },
+    {
+      "product_id": "fastace-ahx12rv",
+      "bike_id": "ss30",
+      "status": "not_compatible",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "Vendor explicitly excludes 3.0",
+      "required_adapters": null
+    },
+    {
+      "product_id": "sirris-f43-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee"
+      ],
+      "notes": "Plug-and-play, no mods",
+      "required_adapters": null
+    },
+    {
+      "product_id": "rfloxa-ultra43",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://alienrides.com/products/rfloxa-ultra43"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "pure-traxion",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://moddedmotoco.com/products/untitled-nov4_12-25"
+      ],
+      "notes": "",
+      "required_adapters": null
+    },
+    {
+      "product_id": "pure-traxion",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://moddedmotoco.com/products/untitled-nov4_12-25"
+      ],
+      "notes": "Vendor lists Komodo fitment",
+      "required_adapters": null
+    },
+    {
+      "product_id": "oem-light-bee-kke",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000"
+      ],
+      "notes": "OEM replacement",
+      "required_adapters": null
+    },
+    {
+      "product_id": "stormbee-fork-right-kke",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-fork-left-oem",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/frkl186/"
+      ],
+      "notes": "Single left leg."
+    }
+  ],
+  "products": [
+    {
+      "badge": "EXT Ferro",
+      "brand": "EXT",
+      "buy_url": "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+      "category": "fork",
+      "id": "ext-ferro",
+      "is_upgrade": true,
+      "last_checked": "2026-10-12",
+      "name": "EXT Ferro E-MX Fork",
+      "notes": "Pick your bike tune at checkout",
+      "power_change_kw": 0,
+      "price_usd": 1599,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+        "https://tbelectricmoto.com/products/ext-ferro"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "buy_url": "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+          "price_usd": 1599,
+          "vendor": "Charged Cycle Works"
+        },
+        {
+          "buy_url": "https://tbelectricmoto.com/products/ext-ferro",
+          "price_usd": 1599,
+          "vendor": "TB Electric Moto"
+        }
+      ],
+      "weight_kg": 4.5,
+      "weight_delta_kg": null,
+      "image": "img/parts/ext-ferro.jpg"
+    },
+    {
+      "badge": "Fastace",
+      "brand": "Fastace",
+      "buy_url": "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/",
+      "category": "fork",
+      "id": "fastace-20",
+      "is_upgrade": true,
+      "last_checked": "2026-10-11",
+      "name": "Fastace Fork 2.0",
+      "notes": "With custom tuning",
+      "power_change_kw": 0,
+      "price_usd": 775,
+      "source_urls": [
+        "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "Luna Cycle",
+      "vendors": [
+        {
+          "buy_url": "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/",
+          "price_usd": 775,
+          "vendor": "Luna Cycle"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/fastace-20.jpg"
+    },
+    {
+      "id": "sirris-f43-cmx-light-bee",
+      "name": "Sirris F43 CMX Fork",
+      "brand": "Sirris",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 2250,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x",
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "Sirris",
+      "notes": "220mm travel, tool-free LSC. Requires direct-mount stem and 220mm rotor upgrade (stock LBX rotor is 200mm).",
+      "source_urls": [
+        "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
+      ],
+      "last_checked": "2026-10-12",
+      "power_change_kw": 0,
+      "weight_kg": 8.0,
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 2250,
+          "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-f43-cmx-light-bee.jpg"
+    },
+    {
+      "id": "kke-37mm-fork-kit",
+      "name": "KKE 37MM Aluminum Front Fork Suspension Kit",
+      "brand": "KKE",
+      "category": "fork",
+      "product_type": "fork_and_triple_assembly",
+      "price_usd": 799,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective",
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "KKE",
+      "notes": "210mm travel, includes CNC triple clamps. On sale from $899.",
+      "source_urls": [
+        "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "last_checked": "2026-10-12",
+      "power_change_kw": 0,
+      "weight_kg": 5.3,
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 799,
+          "buy_url": "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/kke-37mm-fork-kit.jpg"
+    },
+    {
+      "id": "kke-35mm-55",
+      "name": "KKE 35MM Upgraded 5.5 Front Suspension Fork",
+      "brand": "KKE",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 699,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective",
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "KKE",
+      "notes": "MX4/Sting R may need minor outer-tube grinding for frame clearance. Not plug-and-play with large calipers (E Ride 3.0/SR, Ventus One+ stock brakes).",
+      "source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 699,
+          "buy_url": "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/kke-35mm-55.jpg"
+    },
+    {
+      "id": "fastace-alx13rc-2",
+      "name": "FASTACE ALX13RC 2.0 Front Fork",
+      "brand": "FASTACE",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 499,
+      "vendor": "FASTACE",
+      "buy_url": "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike",
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "Fastace",
+      "notes": "200mm travel, 37mm legs. On sale from $699. Explicitly does not fit E Ride Pro 3.0.",
+      "source_urls": [
+        "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "FASTACE",
+          "price_usd": 499,
+          "buy_url": "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/fastace-alx13rc-2.jpg"
+    },
+    {
+      "id": "rfloxa-hawk32",
+      "name": "RFLOXA Hawk32 Front Fork",
+      "brand": "RFLOXA",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 599,
+      "vendor": "RFLOXA",
+      "buy_url": "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross",
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "RFLOXA",
+      "notes": "Check spring weight option at checkout. Steering bearings may be separate.",
+      "source_urls": [
+        "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "RFLOXA",
+          "price_usd": 599,
+          "buy_url": "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/rfloxa-hawk32.jpg"
+    },
+    {
+      "id": "rfloxa-hawk31-pro",
+      "name": "RFLOXA Hawk31 PRO Front Fork",
+      "brand": "RFLOXA",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 899,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-pro",
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "RFLOXA",
+      "notes": "203/228mm travel options. Charged Cycle Works out of stock at last check \u2014 available direct from RFLOXA ($863).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro",
+        "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+        },
+        {
+          "vendor": "RFLOXA",
+          "price_usd": 863,
+          "buy_url": "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/rfloxa-hawk31-pro.jpg"
+    },
+    {
+      "id": "fastace-ahx12rv",
+      "name": "FASTACE AHX12RV Front Fork",
+      "brand": "FASTACE",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 899,
+      "vendor": "FASTACE",
+      "buy_url": "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0",
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "is_upgrade": true,
+      "badge": "Fastace",
+      "notes": "200mm travel, 37mm stanchions, 60lb spring (80-120kg rider). Explicitly does not fit E Ride Pro 3.0.",
+      "source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "FASTACE",
+          "price_usd": 899,
+          "buy_url": "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/fastace-ahx12rv.jpg"
+    },
+    {
+      "id": "sirris-f43-ultra-bee",
+      "name": "Sirris F43 Fork (Ultra Bee)",
+      "brand": "Sirris",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 2250,
+      "vendor": "Darwin EV",
+      "buy_url": "https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee",
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "Sirris",
+      "notes": "246mm travel, plug-and-play for Ultra Bee (headset bearing pre-installed). Trail/MX tunes $2,250; SX tune $2,550.",
+      "source_urls": [
+        "https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "Darwin EV",
+          "price_usd": 2250,
+          "buy_url": "https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-f43-ultra-bee.jpg"
+    },
+    {
+      "id": "rfloxa-ultra43",
+      "name": "RFLOXA Ultra43 Front Fork",
+      "brand": "RFLOXA",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 1526,
+      "vendor": "Alien Rides",
+      "buy_url": "https://alienrides.com/products/rfloxa-ultra43",
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "RFLOXA",
+      "notes": "251mm travel, 43mm tubes. Select spring weight (24/27/30 lb) for rider weight at checkout.",
+      "source_urls": [
+        "https://alienrides.com/products/rfloxa-ultra43"
+      ],
+      "last_checked": "2026-10-12",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "Alien Rides",
+          "price_usd": 1526,
+          "buy_url": "https://alienrides.com/products/rfloxa-ultra43"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1526.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-ultra43"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/rfloxa-ultra43.jpg"
+    },
+    {
+      "id": "pure-traxion",
+      "name": "PURE Racing TRAXION Fork",
+      "brand": "PURE Racing",
+      "category": "fork",
+      "product_type": "complete_fork",
+      "price_usd": 1499,
+      "vendor": "Modded Moto Co",
+      "buy_url": "https://moddedmotoco.com/products/untitled-nov4_12-25",
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "badge": "PURE",
+      "notes": "260mm travel, dual closed cartridges. Trail (960N) or MX (1420N) tune. Stanchion guards not included \u2014 reuse stock Ultra Bee guards.",
+      "source_urls": [
+        "https://moddedmotoco.com/products/untitled-nov4_12-25"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "Modded Moto Co",
+          "price_usd": 1499,
+          "buy_url": "https://moddedmotoco.com/products/untitled-nov4_12-25"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/pure-traxion.jpg"
+    },
+    {
+      "id": "oem-light-bee-kke",
+      "name": "OEM KKE Front Fork Assembly (2025 Light Bee)",
+      "brand": "Sur-Ron / KKE",
+      "category": "fork",
+      "product_type": "oem_replacement",
+      "price_usd": 763,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000",
+      "stock_status": "in_stock",
+      "tier": "stock_replacement",
+      "is_upgrade": false,
+      "badge": null,
+      "notes": "Genuine OEM replacement, SKU 51000-Y029A-0000. Not a performance upgrade.",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000"
+      ],
+      "last_checked": "2026-10-11",
+      "power_change_kw": 0,
+      "weight_kg": null,
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 763,
+          "buy_url": "https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/oem-light-bee-kke.jpg"
+    },
+    {
+      "id": "stormbee-fork-right-kke",
+      "name": "Storm Bee Front Right Fork (KKE)",
+      "brand": "KKE",
+      "category": "fork",
+      "price_usd": 649.99,
+      "vendor": "SurronMotos",
+      "buy_url": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM-spec KKE fork \u2014 RIGHT side single leg only, not a pair. Inverted, rebound + compression adjustable, forged aluminum, ~4.2 kg. Verify F-variant and model-year fitment.",
+      "source_urls": [
+        "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": 4.2,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
+      },
+      "vendors": [
+        {
+          "vendor": "SurronMotos",
+          "price_usd": 649.99,
+          "buy_url": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-fork-right-kke.jpg"
+    },
+    {
+      "id": "komodo-fork-left-oem",
+      "name": "Suspension/Fork (Left) Black \u2014 Komodo OEM",
+      "brand": "Talaria",
+      "category": "fork",
+      "tier": "OEM",
+      "price_usd": 444.61,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/frkl186/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 444.61,
+          "buy_url": "https://emotobykes.com/parts/talaria/frkl186/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/frkl186/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part FRKL186. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $444.61, in stock. SINGLE LEFT FORK LEG ONLY, not a pair. Replacement component, not a performance upgrade.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-fork-left-oem.png"
+    }
+  ]
+}

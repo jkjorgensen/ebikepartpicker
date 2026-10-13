@@ -1,0 +1,936 @@
+{
+  "category": {
+    "id": "wheels",
+    "name": "Wheels"
+  },
+  "products": [
+    {
+      "id": "warp9-1619",
+      "name": "Warp 9 16/19 Wheelset",
+      "brand": "Warp 9",
+      "category": "wheels",
+      "badge": "Warp 9",
+      "tier": "premium",
+      "price_usd": 806,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 806,
+          "buy_url": "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "",
+      "variant": "warp9",
+      "weight_delta_kg": null,
+      "image": "img/parts/warp9-1619.jpg"
+    },
+    {
+      "id": "supermoto-17",
+      "name": "17\" Supermoto Wheelset",
+      "brand": "MX Wraps",
+      "category": "wheels",
+      "badge": "Supermoto",
+      "tier": "mid",
+      "price_usd": 439,
+      "vendor": "MX Wraps",
+      "buy_url": "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus",
+      "vendors": [
+        {
+          "vendor": "MX Wraps",
+          "price_usd": 439,
+          "buy_url": "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "last_checked": "2026-10-11",
+      "notes": "",
+      "variant": "warp9",
+      "weight_delta_kg": null,
+      "image": "img/parts/supermoto-17.jpg"
+    },
+    {
+      "id": "wheels-kke-lightbee-16-19",
+      "name": "KKE Light Bee 16/19-Inch Wheel Rim Kit",
+      "brand": "KKE",
+      "category": "wheels",
+      "price_usd": 505,
+      "vendor": "Surron USA",
+      "buy_url": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Wheelset: front 1.6x19, rear 1.85x16; hubs, rims, spokes, bearings, seals, spacers included. Seller lists Light Bee 2019-2023; stock brake discs and sprocket reusable.",
+      "source_urls": [
+        "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "Sur-Ron Ultra Bee": "not_compatible",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro SS 2.0": "verify",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "lightbee": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
+      },
+      "vendors": [
+        {
+          "vendor": "Surron USA",
+          "price_usd": 505,
+          "buy_url": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/wheels-kke-lightbee-16-19.jpg"
+    },
+    {
+      "id": "wheels-ion-lightbee-eride20",
+      "name": "ION 16/19-Inch Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 599.99,
+      "vendor": "eMotoZone",
+      "buy_url": "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Wheelset only (from $599.99 base black; colors/tires vary price). Bearings, seals, spacers included; stock rotors/sprocket reusable. Seller fitment: Light Bee-X 2019-2024, E Ride Pro S/SS 2.0.",
+      "source_urls": [
+        "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro 3.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "E Ride Pro SR": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "lightbee": "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset",
+        "ss20": "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
+      },
+      "vendors": [
+        {
+          "vendor": "eMotoZone",
+          "price_usd": 599.99,
+          "buy_url": "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/wheels-ion-lightbee-eride20.jpg"
+    },
+    {
+      "id": "wheels-ion-eride30-sr-1619",
+      "name": "ION E Ride Pro 3.0 / SR 16/19-Inch Wheelset",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 599.0,
+      "vendor": "Electrix Moto",
+      "buy_url": "https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "COLLECTION_URL_NEEDS_EXACT: product confirmed in Charged Cycle Works 'E Ride Pro SS 3.0 Wheels' collection (in stock, from $569.99) but the exact product-page URL could not be captured - add it before publishing. Price is the starting (from) price; varies by color combo and tire options. Exact product page recovered at Electrix Moto 2026-10-12 ($599, sold out / notify-me); page explicitly names E Ride Pro 3.0 and SR fitment. Charged Cycle Works collection listing ($569.99 starting) kept as alternative.",
+      "source_urls": [
+        "https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro 3.0": "direct_fit",
+        "E Ride Pro SR": "direct_fit",
+        "Sur-Ron Light Bee X": "verify",
+        "Sur-Ron Ultra Bee": "verify",
+        "Sur-Ron Storm Bee F": "verify",
+        "Ventus One Plus": "verify",
+        "Ventus V1+ EVO": "verify",
+        "E Ride Pro SS 2.0": "verify",
+        "E Ride Pro 4.0": "verify",
+        "Talaria Sting R MX4": "verify",
+        "Talaria MX5 Pro": "verify",
+        "Talaria Komodo": "verify",
+        "Bonnell 805 RX": "verify",
+        "Arctic Leopard XD": "verify"
+      },
+      "_fit_src": {
+        "ss30": "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels",
+        "sr": "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels"
+      },
+      "vendors": [
+        {
+          "vendor": "Electrix Moto",
+          "price_usd": 599.0,
+          "buy_url": "https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/wheels-ion-eride30-sr-1619.jpg"
+    },
+    {
+      "id": "stormbee-supermoto-wheels",
+      "name": "Storm Bee Supermoto Wheel Kit",
+      "brand": "Sur-Ron",
+      "category": "wheels",
+      "price_usd": 889.0,
+      "vendor": "SurronMotos",
+      "buy_url": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Genuine Storm Bee 17-inch supermoto conversion kit: front+rear rims with stainless spokes, CST street tires (110/70-17 front, 140/60-17 rear), tubes, 270mm front / 240mm rear discs, sensor gears, 52T sprocket. Verify F trim before purchase.",
+      "source_urls": [
+        "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Storm Bee F": "verify"
+      },
+      "_fit_src": {
+        "storm-bee": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
+      },
+      "vendors": [
+        {
+          "vendor": "SurronMotos",
+          "price_usd": 889.0,
+          "buy_url": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-supermoto-wheels.jpg"
+    },
+    {
+      "id": "komodo-supermoto-wheelset",
+      "name": "Supermoto Front & Rear Wheel Set for Komodo",
+      "brand": "Talaria",
+      "category": "wheels",
+      "tier": "OEM",
+      "price_usd": 746.78,
+      "vendor": "eMoto Bykes",
+      "buy_url": "https://emotobykes.com/parts/talaria/frws007/",
+      "vendors": [
+        {
+          "vendor": "eMoto Bykes",
+          "price_usd": 746.78,
+          "buy_url": "https://emotobykes.com/parts/talaria/frws007/"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": 0,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://emotobykes.com/parts/talaria/frws007/"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Genuine Talaria OEM part FRWS007. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $746.78, in stock. Supermoto wheel configuration.",
+      "weight_delta_kg": null,
+      "image": "img/parts/komodo-supermoto-wheelset.png"
+    },
+    {
+      "id": "charged-21-front-wheel-ultrabee",
+      "name": "21\" Wheel Upgrade for Surron Ultra Bee (Front Wheel Only)",
+      "brand": "Charged Cycle Works",
+      "category": "wheels",
+      "badge": "21\" Front",
+      "tier": "midrange",
+      "price_usd": 299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified from $299 (ION/KKE no-tire; Warp9 no-tire $383; with tire $464-$549), in stock. FRONT WHEEL ONLY \u2014 single 21\" front wheel by brand with optional tire. Tusk variants out of stock.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 299.0,
+          "buy_url": "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/charged-21-front-wheel-ultrabee.jpg"
+    },
+    {
+      "id": "ion-18-21-ultrabee",
+      "name": "ION - 18/21\" Wheelset for Surron Ultra Bee",
+      "brand": "ION",
+      "category": "wheels",
+      "badge": "ION",
+      "tier": "midrange",
+      "price_usd": 599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $599 base (no tires; with tires $864-$1,146), in stock on select colorways. Fitment: Surron Ultra Bee 2023-2026. Reuses stock rotors and sprocket.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.0,
+          "buy_url": "https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/ion-18-21-ultrabee.jpg"
+    },
+    {
+      "id": "kke-18-21-ultrabee",
+      "name": "KKE 18/21 Wheels for Surron Ultra Bee (NO TIRES)",
+      "brand": "KKE",
+      "category": "wheels",
+      "badge": "KKE",
+      "tier": "midrange",
+      "price_usd": 599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $599 ($619 for gold-rim colorways), in stock on select colorways. Front+rear set with bearings/seals, no tires. Page lists fitment as 2023-2025 \u2014 confirm 2026 before ordering.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/kke-18-21-ultrabee.jpg"
+    }
+  ],
+  "compatibility": [
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Warp 9 makes bike-specific kits; confirm with vendor"
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Warp 9 makes bike-specific kits; confirm with vendor"
+    },
+    {
+      "product_id": "warp9-1619",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Warp 9 makes bike-specific kits; confirm with vendor"
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "supermoto-17",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-kke-lightbee-16-19",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "sr",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-lightbee-eride20",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "lightbee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ss20",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "mx4",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "mx5",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "wheels-ion-eride30-sr-1619",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "stormbee-supermoto-wheels",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "komodo-supermoto-wheelset",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://emotobykes.com/parts/talaria/frws007/"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "charged-21-front-wheel-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Ultra Bee-specific upgrade page"
+    },
+    {
+      "product_id": "ion-18-21-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"Fitment: Surron Ultra Bee 2023-2026\""
+    },
+    {
+      "product_id": "kke-18-21-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Page: \"For Surron Ultra Bee 2023-2025\""
+    }
+  ]
+}

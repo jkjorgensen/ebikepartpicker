@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>eBikePartsPicker — Build your electric dirt bike</title>
 <meta name="description" content="Pick your e-moto, choose real parts, watch the price, weight and power update live.">
-<link rel="stylesheet" href="styles.css?v=3.11.0">
+<link rel="stylesheet" href="styles.css?v=3.12.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -17,14 +17,22 @@
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto,<br><span>part by part.</span></h1>
   <p class="tagline">Real parts. Real prices. Real fitment. Pick your bike and watch your build come together.</p>
+  <div class="newhere">
+    <div>
+      <strong>Shopping your first e-moto?</strong>
+      <span>Answer 10 quick questions and we'll match you to the right bike.</span>
+    </div>
+    <button id="btnQuiz" class="cta">Find my e-moto</button>
+  </div>
   <div class="start-cta-row">
+    <span class="havebike">Already have a bike?</span>
     <div class="combobox start-combo">
       <input id="startBikeInput" type="text" placeholder="Type your bike…" autocomplete="off" aria-label="Type to find your bike">
       <div class="combo-list" id="startBikeList" hidden></div>
     </div>
     <button id="btnStart" class="cta">Start building</button>
-    <button id="btnQuiz" class="ghostbtn">Which e-moto fits me?</button>
   </div>
+  <div class="sizechips" id="startSizeChips" aria-label="Filter bikes by size"></div>
   <div class="stats">
     <div class="stat"><strong id="statBikes">–</strong><small>bikes</small></div>
     <div class="stat"><strong id="statParts">–</strong><small>parts</small></div>
@@ -42,9 +50,10 @@
     </div>
     <nav class="tabs">
       <button id="tabBuilder" class="tab on">Builder</button>
-      <button id="tabBuilds" class="tab">Builds</button>
+      <button id="tabQuiz" class="tab">Find your bike</button>
+      <button id="tabBuilds" class="tab">Build guides</button>
+      <button id="tabCompare" class="tab">Compare</button>
       <button id="tabUpcoming" class="tab">Upcoming</button>
-      <button id="tabQuiz" class="tab">Quiz</button>
     </nav>
     <button id="btnSuggest" class="suggestbtn">Submit your part</button>
     <a class="contactlink" href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">Contact</a>
@@ -76,6 +85,7 @@
             <input id="bikeSelectInput" type="text" placeholder="Type your bike…" autocomplete="off" aria-label="Type to find your bike">
             <div class="combo-list" id="bikeSelectList" hidden></div>
           </div>
+          <div class="sizechips small" id="builderSizeChips" aria-label="Filter bikes by size"></div>
           <div class="src" id="bikeSrc"></div>
         </div>
         <div id="wizard">
@@ -96,19 +106,24 @@
 
   <!-- BUILDS -->
   <main id="buildsPane" class="wrap" hidden>
-    <h2 class="sect">Featured builds</h2>
-    <div id="featuredBuilds" class="cards"></div>
-    <h2 class="sect">Build guides</h2>
-    <div id="guideBikes" class="guide-bikes"></div>
+    <div class="qstep">Build guides</div>
+    <h2 class="qtitle">Pick a bike, pick a budget.</h2>
+    <p class="qsub">Three proven paths per bike — every part is in the catalog with a real buy link. Copy any of them straight into the builder.</p>
+    <div class="gstep"><span class="gnum">1</span> Choose your bike</div>
+    <div id="guideBikes" class="guide-grid"></div>
     <div id="buildGuides" class="cards"></div>
   </main>
   <main id="upcomingPane" class="wrap" hidden>
-    <h2 class="sect">Upcoming e-motos</h2>
-    <p class="blurb" id="upcomingNote" style="margin-bottom:14px"></p>
+    <div class="qstep">On the horizon</div>
+    <h2 class="qtitle">Upcoming e-motos.</h2>
+    <p class="qsub" id="upcomingNote"></p>
     <div id="upcomingList" class="cards"></div>
   </main>
   <main id="quizPane" class="wrap" hidden>
     <div id="quizBody"></div>
+  </main>
+  <main id="comparePane" class="wrap" hidden>
+    <div id="compareBody"></div>
   </main>
 </div>
 
@@ -160,9 +175,10 @@
   <a href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">ebikepartspicker@gmail.com</a>
 </footer>
 <script src="data.js"></script>
-<script src="upcoming.js?v=3.11.0"></script>
-<script src="builds.js?v=3.11.0"></script>
-<script src="app.js?v=3.11.0"></script>
-<script src="quiz.js?v=3.11.0"></script>
+<script src="upcoming.js?v=3.12.0"></script>
+<script src="builds.js?v=3.12.0"></script>
+<script src="app.js?v=3.12.0"></script>
+<script src="quiz.js?v=3.12.0"></script>
+<script src="compare.js?v=3.12.0"></script>
 </body>
 </html>

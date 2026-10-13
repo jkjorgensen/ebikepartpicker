@@ -705,11 +705,11 @@ function startQuiz(){
 function showQuizPane(){
   if($('start')) $('start').hidden = true;
   if($('app')) $('app').hidden = false;
-  ['tabBuilder','tabBuilds','tabUpcoming'].forEach(function(id){
+  ['tabBuilder','tabBuilds','tabUpcoming','tabCompare'].forEach(function(id){
     var t = $(id); if(t) t.classList.remove('on');
   });
   var tq = $('tabQuiz'); if(tq) tq.classList.add('on');
-  ['builderPane','buildsPane','upcomingPane'].forEach(function(id){
+  ['builderPane','buildsPane','upcomingPane','comparePane'].forEach(function(id){
     var p = $(id); if(p) p.hidden = true;
   });
   var qp = $('quizPane'); if(qp) qp.hidden = false;
@@ -728,7 +728,7 @@ function init(){
   });
   var bq = $('btnQuiz');
   if(bq) bq.addEventListener('click', startQuiz);
-  ['tabBuilder','tabBuilds','tabUpcoming'].forEach(function(id){
+  ['tabBuilder','tabBuilds','tabUpcoming','tabCompare'].forEach(function(id){
     var t = $(id);
     if(t) t.addEventListener('click', hideQuizPane);
   });

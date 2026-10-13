@@ -218,6 +218,45 @@ function batteryRecs(demand){
     .map(function(o){ return o.badge || o.name; });
 }
 
+/* ---------- bike size filter chips (lightweight / mid-size / full-size) ---------- */
+var SIZE_LABEL = { light:'Lightweight', mid:'Mid-size', full:'Full-size' };
+function sizeClassName(b){
+  if(b.size==='light') return 'Lightweight · under 150 lb';
+  if(b.size==='mid') return 'Mid-size · 150–200 lb';
+  if(b.size==='full') return 'Full-size · over 200 lb';
+  return 'Size unlisted';
+}
+function initSizeChips(containerId){
+  var host = $(containerId);
+  if(!host) return;
+  if(!window.__bikeSizeFilter) window.__bikeSizeFilter = 'all';
+  var defs = [['all','All bikes'],['light','Lightweight'],['mid','Mid-size'],['full','Full-size']];
+  function render(){
+    host.innerHTML = '';
+    defs.forEach(function(d){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'sizechip' + (window.__bikeSizeFilter===d[0] ? ' on' : '');
+      b.textContent = d[1];
+      b.setAttribute('aria-pressed', window.__bikeSizeFilter===d[0] ? 'true' : 'false');
+      b.addEventListener('click', function(){
+        window.__bikeSizeFilter = d[0];
+        document.querySelectorAll('.sizechips').forEach(function(h){
+          h.querySelectorAll('.sizechip').forEach(function(c){
+            var on = c.textContent===d[1];
+            c.classList.toggle('on', on);
+            c.setAttribute('aria-pressed', on?'true':'false');
+          });
+        });
+        /* close any open bike dropdowns so they re-render filtered */
+        document.querySelectorAll('.combo-list').forEach(function(l){ l.hidden = true; });
+      });
+      host.appendChild(b);
+    });
+  }
+  render();
+}
+
 /* ---------- searchable bike picker ---------- */
 function syncBikeInputs(){
   var b = bike();
@@ -231,7 +270,9 @@ function initBikePicker(inputId, listId, onPick){
   function close(){ list.hidden = true; }
   function renderItems(showAll){
     var q = showAll ? '' : input.value.trim().toLowerCase();
+    var sf = window.__bikeSizeFilter;
     var matches = BIKES.filter(function(b){
+      if(sf && sf!=='all' && b.size!==sf) return false;
       return !q || b.name.toLowerCase().indexOf(q)!==-1;
     });
     list.innerHTML = '';
@@ -627,12 +668,7 @@ function partCard(opts){
   card.appendChild(body); host.appendChild(card);
 }
 function renderBuilds(){
-  var f = $('featuredBuilds'); f.innerHTML='';
-  BUILDS.forEach(function(bd){
-    partCard({host:f, kicker:'Featured · '+bd.owner, title:bd.title||bikeById(bd.bike).name,
-      img:bd.img, parts:bd.parts, extras:bd.extras, bikeId:bd.bike});
-  });
-  /* guide bike picker: one bike at a time, three tiers */
+  /* guide bike picker: one bike at a time, three tier options */
   var gb = $('guideBikes'); gb.innerHTML='';
   var bikes = [];
   GUIDES.forEach(function(gd){ if(bikes.indexOf(gd.bike)<0) bikes.push(gd.bike); });
@@ -648,10 +684,16 @@ function renderBuilds(){
     gb.appendChild(btn);
   });
   var g = $('buildGuides'); g.innerHTML='';
+  var s2 = document.createElement('div');
+  s2.className = 'gstep';
+  s2.innerHTML = '<span class="gnum">2</span> Pick one of the 3 options for the '+bikeById(state.guideBike).name;
+  g.appendChild(s2);
+  var n = 0;
   GUIDES.forEach(function(gd){
     if(gd.bike!==state.guideBike) return;
+    n++;
     var b = bikeById(gd.bike);
-    partCard({host:g, kicker:'Guide · '+b.name, title:gd.name, blurb:gd.blurb,
+    partCard({host:g, kicker:'Option '+n+' · '+b.name, title:gd.name, blurb:gd.blurb,
       img:'img/bike-'+gd.bike+'.png?v='+IMGV, parts:gd.parts, bikeId:gd.bike});
   });
 }
@@ -661,9 +703,13 @@ function showTab(which){
   $('tabBuilder').classList.toggle('on', which==='builder');
   $('tabBuilds').classList.toggle('on', which==='builds');
   $('tabUpcoming').classList.toggle('on', which==='upcoming');
+  var tq = $('tabQuiz'); if(tq) tq.classList.toggle('on', which==='quiz');
+  var tc = $('tabCompare'); if(tc) tc.classList.toggle('on', which==='compare');
   $('builderPane').hidden = which!=='builder';
   $('buildsPane').hidden = which!=='builds';
   $('upcomingPane').hidden = which!=='upcoming';
+  var qp = $('quizPane'); if(qp) qp.hidden = which!=='quiz';
+  var cp = $('comparePane'); if(cp) cp.hidden = which!=='compare';
   if(which==='builds') renderBuilds();
   if(which==='upcoming') renderUpcoming();
 }
@@ -840,6 +886,8 @@ initBikePicker('startBikeInput', 'startBikeList', function(id){
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();
 });
+initSizeChips('startSizeChips');
+initSizeChips('builderSizeChips');
 syncBikeInputs();
 /* start-page live stats */
 (function(){

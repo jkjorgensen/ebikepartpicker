@@ -5,42 +5,42 @@
 var CHECKED = 'Oct 12, 2026';
 
 var BIKES = [
-  {id:'ventus-plus', name:'Ventus One Plus', price:5999, src:'msrp', weight:152, kw:28},
-  {id:'ventus-evo', name:'Ventus V1+ EVO', price:5599, src:'charged_cycle_works', weight:159, kw:32},
-  {id:'lightbee', name:'Sur-Ron Light Bee X', price:4999, src:'msrp', weight:130, kw:10},
-  {id:'ultrabee', name:'Sur-Ron Ultra Bee 24.5kW', price:6999, src:'msrp', weight:195, kw:24.5},
-  {id:'ss20', name:'E Ride Pro SS 2.0', price:4599, src:'charged_cycle_works', weight:139, kw:12},
-  {id:'ss30', name:'E Ride Pro SS 3.0', price:4999, src:'msrp', weight:167, kw:16},
-  {id:'ss40', name:'E Ride Pro SS 4.0', price:4999, src:'charged_cycle_works', weight:167, kw:18},
-  {id:'sr', name:'E Ride Pro SR', price:5599, src:'msrp', weight:183, kw:25},
-  {id:'mx4', name:'Talaria Sting R MX4', price:4500, src:'msrp', weight:145, kw:8},
-  {id:'mx5', name:'Talaria Sting MX5 Pro', price:4990, src:'msrp', weight:163, kw:13.4},
-  {id:'komodo', name:'Talaria Komodo', price:5699, src:'msrp', weight:216, kw:32},
-  {id:'bonnell-805rx', name:'Bonnell 805 RX', price:8250, src:'charged_cycle_works', weight:218, kw:42},
-  {id:'storm-bee', name:'Sur-Ron Storm Bee F', price:8499, src:'msrp', weight:280, kw:22.5},
-  {id:'arctic-xd', name:'Arctic Leopard XD', price:null, src:'tbd', weight:null, kw:35},
-  {id:'rerode-rx', name:'Re Rode RX', price:6200, src:'msrp', weight:225, kw:35, sparse:1},
-  {id:'rawrr-mantis-72v', name:'Rawrr Mantis 72V', price:4499, src:'msrp', weight:158.5, kw:15, sparse:1},
-  {id:'rawrr-mantis-x-pro', name:'Rawrr Mantis X Pro', price:3899, src:'msrp', weight:158.5, kw:15, sparse:1},
-  {id:'rawrr-mantis-x', name:'Rawrr Mantis X', price:3599, src:'dealer', weight:139, kw:6.5, sparse:1},
-  {id:'falcon-pro', name:'79BIKE Falcon Pro', price:3799, src:'msrp', weight:130, kw:10, sparse:1},
-  {id:'falcon-gt', name:'79BIKE Falcon GT', price:4799, src:'msrp', weight:152, kw:16, sparse:1},
-  {id:'rtr-lite', name:'ETM RTR Lite', price:1799, src:'msrp', weight:120, kw:5, sparse:1},
-  {id:'rtr-lite-2-0', name:'ETM RTR Lite 2.0', price:2199, src:'msrp', weight:null, kw:null, sparse:1},
-  {id:'rtr-sport', name:'ETM RTR Sport', price:2999, src:'msrp', weight:130, kw:8, sparse:1},
-  {id:'rtr-alpha', name:'ETM RTR Alpha', price:4299, src:'msrp', weight:135, kw:18, sparse:1},
-  {id:'rtr-xl', name:'ETM RTR XL', price:3799, src:'msrp', weight:145, kw:16, sparse:1},
-  {id:'rtr-xl-alpha', name:'ETM RTR XL Alpha', price:4499, src:'msrp', weight:145, kw:18, sparse:1},
-  {id:'yozma-in10', name:'Yozma IN10', price:1099, src:'msrp', weight:121, kw:2.6, sparse:1},
-  {id:'yozma-in10-pro', name:'Yozma IN10 Pro', price:1799, src:'msrp', weight:143, kw:5.5, sparse:1},
-  {id:'tuttio-soleil01', name:'Tuttio Soleil01', price:1055.59, src:'msrp', weight:105, kw:3, sparse:1},
-  {id:'stark-vargex', name:'Stark Varg EX', price:12900, src:'msrp', weight:265, kw:44.7, sparse:1},
-  {id:'altis-sigma', name:'Altis Sigma', price:5299, src:'msrp', weight:198.4, kw:25, sparse:1},
-  {id:'ultrabee-21kw', name:'Sur-Ron Ultra Bee 21kW', price:null, src:'msrp', weight:195, kw:21, sparse:1},
-  {id:'ultrabee-hd', name:'Sur-Ron Ultra Bee HD', price:null, src:'msrp', weight:null, kw:null, sparse:1},
-  {id:'yvolt-surge-v', name:'Yvolt Surge V', price:5499, src:'msrp', weight:204, kw:35, sparse:1},
-  {id:'supermach-sm01', name:'Supermach SM01 6000 META', price:4999, src:'msrp', weight:null, kw:13.5, sparse:1},
-  {id:'supermach-sm62', name:'Supermach SM62', price:3800, src:'msrp', weight:154, kw:16, sparse:1},
+  {id:'ventus-plus', name:'Ventus One Plus', price:5999, src:'msrp', weight:152, kw:28, size:'mid'},
+  {id:'ventus-evo', name:'Ventus V1+ EVO', price:5599, src:'charged_cycle_works', weight:159, kw:32, size:'mid'},
+  {id:'lightbee', name:'Sur-Ron Light Bee X', price:4999, src:'msrp', weight:130, kw:10, size:'light'},
+  {id:'ultrabee', name:'Sur-Ron Ultra Bee 24.5kW', price:6999, src:'msrp', weight:195, kw:24.5, size:'mid'},
+  {id:'ss20', name:'E Ride Pro SS 2.0', price:4599, src:'charged_cycle_works', weight:139, kw:12, size:'light'},
+  {id:'ss30', name:'E Ride Pro SS 3.0', price:4999, src:'msrp', weight:167, kw:16, size:'mid'},
+  {id:'ss40', name:'E Ride Pro SS 4.0', price:4999, src:'charged_cycle_works', weight:167, kw:18, size:'mid'},
+  {id:'sr', name:'E Ride Pro SR', price:5599, src:'msrp', weight:183, kw:25, size:'mid'},
+  {id:'mx4', name:'Talaria Sting R MX4', price:4500, src:'msrp', weight:145, kw:8, size:'light'},
+  {id:'mx5', name:'Talaria Sting MX5 Pro', price:4990, src:'msrp', weight:163, kw:13.4, size:'mid'},
+  {id:'komodo', name:'Talaria Komodo', price:5699, src:'msrp', weight:216, kw:32, size:'full'},
+  {id:'bonnell-805rx', name:'Bonnell 805 RX', price:8250, src:'charged_cycle_works', weight:218, kw:42, size:'full'},
+  {id:'storm-bee', name:'Sur-Ron Storm Bee F', price:8499, src:'msrp', weight:280, kw:22.5, size:'full'},
+  {id:'arctic-xd', name:'Arctic Leopard XD', price:null, src:'tbd', weight:null, kw:35, size:null},
+  {id:'rerode-rx', name:'Re Rode RX', price:6200, src:'msrp', weight:225, kw:35, size:'full', sparse:1},
+  {id:'rawrr-mantis-72v', name:'Rawrr Mantis 72V', price:4499, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
+  {id:'rawrr-mantis-x-pro', name:'Rawrr Mantis X Pro', price:3899, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
+  {id:'rawrr-mantis-x', name:'Rawrr Mantis X', price:3599, src:'dealer', weight:139, kw:6.5, size:'light', sparse:1},
+  {id:'falcon-pro', name:'79BIKE Falcon Pro', price:3799, src:'msrp', weight:130, kw:10, size:'light', sparse:1},
+  {id:'falcon-gt', name:'79BIKE Falcon GT', price:4799, src:'msrp', weight:152, kw:16, size:'mid', sparse:1},
+  {id:'rtr-lite', name:'ETM RTR Lite', price:1799, src:'msrp', weight:120, kw:5, size:'light', sparse:1},
+  {id:'rtr-lite-2-0', name:'ETM RTR Lite 2.0', price:2199, src:'msrp', weight:null, kw:null, size:null, sparse:1},
+  {id:'rtr-sport', name:'ETM RTR Sport', price:2999, src:'msrp', weight:130, kw:8, size:'light', sparse:1},
+  {id:'rtr-alpha', name:'ETM RTR Alpha', price:4299, src:'msrp', weight:135, kw:18, size:'light', sparse:1},
+  {id:'rtr-xl', name:'ETM RTR XL', price:3799, src:'msrp', weight:145, kw:16, size:'light', sparse:1},
+  {id:'rtr-xl-alpha', name:'ETM RTR XL Alpha', price:4499, src:'msrp', weight:145, kw:18, size:'light', sparse:1},
+  {id:'yozma-in10', name:'Yozma IN10', price:1099, src:'msrp', weight:121, kw:2.6, size:'light', sparse:1},
+  {id:'yozma-in10-pro', name:'Yozma IN10 Pro', price:1799, src:'msrp', weight:143, kw:5.5, size:'light', sparse:1},
+  {id:'tuttio-soleil01', name:'Tuttio Soleil01', price:1055.59, src:'msrp', weight:105, kw:3, size:'light', sparse:1},
+  {id:'stark-vargex', name:'Stark Varg EX', price:12900, src:'msrp', weight:265, kw:44.7, size:'full', sparse:1},
+  {id:'altis-sigma', name:'Altis Sigma', price:5299, src:'msrp', weight:198.4, kw:25, size:'mid', sparse:1},
+  {id:'ultrabee-21kw', name:'Sur-Ron Ultra Bee 21kW', price:null, src:'msrp', weight:195, kw:21, size:'mid', sparse:1},
+  {id:'ultrabee-hd', name:'Sur-Ron Ultra Bee HD', price:null, src:'msrp', weight:null, kw:null, size:null, sparse:1},
+  {id:'yvolt-surge-v', name:'Yvolt Surge V', price:5499, src:'msrp', weight:204, kw:35, size:'full', sparse:1},
+  {id:'supermach-sm01', name:'Supermach SM01 6000 META', price:4999, src:'msrp', weight:null, kw:13.5, size:null, sparse:1},
+  {id:'supermach-sm62', name:'Supermach SM62', price:3800, src:'msrp', weight:154, kw:16, size:'mid', sparse:1},
 ];
 
 var FITMENT = {
@@ -1380,7 +1380,7 @@ var CATEGORIES = [
       {v:'Scooterworks USA', p:45, url:'https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ventus-plus","ventus-evo","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'out_of_stock', img:'img/parts/tire-surron-oem-70100-19.jpg'
     },
     {name:'E Ride Pro 18-Inch Fatty Rear Tire', pid:'tire-eride-fatty-rear-1009018', tier:'OEM',
@@ -1388,7 +1388,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/e7235-1'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["ss30","sr","ventus-plus","lightbee","ultrabee","ss40","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
      stock:'in_stock', img:'img/parts/tire-eride-fatty-rear-1009018.jpg'
     },
     {name:'Rippin Moto 70/100-19 Performance Duty Inner Tube', pid:'tube-rippin-70100-19', tier:'midrange',
@@ -1396,7 +1396,7 @@ var CATEGORIES = [
       {v:'Rippin Moto', p:20.99, url:'https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr","ss40","lightbee","mx4"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["ss20","ss30","sr","ss40","lightbee","mx4","ventus-plus","ventus-evo","ultrabee","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'in_stock', wtKg:0.5, img:'img/parts/tube-rippin-70100-19.jpg'
     },
     {name:'Talaria Sting MX3/MX4 OEM CST Front Tire', pid:'tire-talaria-cst-70100-19', tier:'OEM',
@@ -1404,7 +1404,7 @@ var CATEGORIES = [
       {v:'Zeal Racing', p:94.99, url:'https://zealracing.com/products/front-wheel'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["mx4","ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'out_of_stock', img:'img/parts/tire-talaria-cst-70100-19.png'
     },
     {name:'Plews MX2 Matterly GP Rear Tire', pid:'tires-plews-mx2-rear', tier:'midrange',
@@ -1412,8 +1412,258 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:99, url:'https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ventus-evo"], no:[],
+     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Tire', stock:'in_stock', img:'img/parts/tires-plews-mx2-rear.jpg'
+    },
+    {name:'Shinko 244 Dual Sport Tire', pid:'tire-shinko-244-dualsport', tier:'budget',
+     prices:[
+      {v:'Rocky Mountain ATV/MC', p:59, url:'https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609'},
+      /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Shinko', stock:'unknown'
+    },
+    {name:'Kenda K270 Dual Sport Tire', pid:'tire-kenda-k270-dualsport', tier:'budget',
+     prices:[
+      {v:'RevZilla', p:48, url:'https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Kenda', stock:'unknown'
+    },
+    {name:'Tusk Dsport Adventure Tire', pid:'tire-tusk-dsport-adventure', tier:'budget',
+     prices:[
+      {v:'Rocky Mountain ATV/MC', p:70, url:'https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-xl","rtr-xl-alpha","yozma-in10-pro","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     badge:'Tusk', stock:'unknown'
+    },
+    {name:'Kenda Millville II K785 Tire', pid:'tire-kenda-millville2-k785', tier:'budget',
+     prices:[
+      {v:'Cycle Gear', p:35, url:'https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Kenda', stock:'unknown'
+    },
+    {name:'Shinko 525 Cheater Rear Tire', pid:'tire-shinko-525-cheater', tier:'budget',
+     prices:[
+      {v:'MotoSport', p:120, url:'https://www.motosport.com/shinko-r525-cheater-rear-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Shinko', stock:'unknown'
+    },
+    {name:'Dunlop Geomax MX34 Tire', pid:'tire-dunlop-mx34', tier:'mid',
+     prices:[
+      {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Dunlop', stock:'unknown'
+    },
+    {name:'Michelin StarCross 6 Medium Soft Tire', pid:'tire-michelin-starcross6-ms', tier:'premium',
+     prices:[
+      {v:'Rocky Mountain ATV/MC', p:130, url:'https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Michelin', stock:'unknown'
+    },
+    {name:'Pirelli Scorpion MX32 Mid Soft Tire', pid:'tire-pirelli-mx32-midsoft', tier:'premium',
+     prices:[
+      {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Pirelli', stock:'unknown'
+    },
+    {name:'Kenda K760 Trakmaster II Tire', pid:'tire-kenda-k760-trakmaster', tier:'budget',
+     prices:[
+      {v:'RevZilla', p:85, url:'https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Kenda', stock:'unknown'
+    },
+    {name:'Bridgestone Battlecross X31 Tire', pid:'tire-bridgestone-x31', tier:'premium',
+     prices:[
+      {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Bridgestone', stock:'unknown'
+    },
+    {name:'Maxxis Maxxcross MX-SI Tire', pid:'tire-maxxis-mxsi', tier:'mid',
+     prices:[
+      {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Maxxis', stock:'unknown'
+    },
+    {name:'IRC M5B EVO Soft Terrain Tire', pid:'tire-irc-m5b-evo', tier:'mid',
+     prices:[
+      {v:'Rocky Mountain ATV/MC', p:100, url:'https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"], likely:[], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
+     badge:'IRC', stock:'unknown'
+    },
+    {name:'Sur-Ron 19" Off-Road Tire (OEM)', pid:'tire-surron-oem-19', tier:'OEM',
+     prices:[
+      {v:'Surron Canada', p:79, url:'https://surron.ca/products/light-bee-off-road-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Sur-Ron', stock:'unknown'
+    },
+    {name:'CST OEM Take-Off Tire 70/100-19', pid:'tire-cst-takeoff-70100-19', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:20, url:'https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'CST', stock:'unknown'
+    },
+    {name:'CST CM713 80/100-19 Rear Tire (Talaria OEM)', pid:'tire-cst-cm713-80100-19', tier:'OEM',
+     prices:[
+      {v:'Ghostbikes', p:99, url:'https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","altis-sigma","supermach-sm01"], likely:[], no:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"],
+     badge:'CST', stock:'unknown'
+    },
+    {name:'CST OEM Off-Road Tire 70/100-19', pid:'tire-cst-oem-70100-19-eu', tier:'OEM',
+     prices:[
+      {v:'ELMOX', p:58, url:'https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'CST', stock:'unknown'
+    },
+    {name:'Kenda Washougal III Tire', pid:'tire-kenda-washougal3-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Kenda', stock:'unknown'
+    },
+    {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     badge:'Mitas', stock:'unknown'
+    },
+    {name:'IRC VE33 Rear Tire', pid:'tire-irc-ve33-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:83, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     badge:'IRC', stock:'unknown'
+    },
+    {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:68, url:'https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Michelin', stock:'unknown'
+    },
+    {name:'Tusk T-35 Front Tire', pid:'tire-tusk-t35-front-ccw', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:26, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Tusk', stock:'unknown'
+    },
+    {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:36, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     badge:'Tusk', stock:'unknown'
+    },
+    {name:'Tusk Recon Sticky Tire', pid:'tire-tusk-recon-ccw', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Tusk', stock:'unknown'
+    },
+    {name:'Tusk Ground Wire eMoto Tire', pid:'tire-tusk-groundwire-ccw', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:51, url:'https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Tusk', stock:'unknown'
+    },
+    {name:'Bridgestone M203 Front Tire', pid:'tire-bridgestone-m203-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","stark-vargex"],
+     badge:'Bridgestone', stock:'unknown'
+    },
+    {name:'Bridgestone M204 Rear Tire', pid:'tire-bridgestone-m204-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:52, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-evo","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     badge:'Bridgestone', stock:'unknown'
+    },
+    {name:'Bridgestone Battlecross X30 Tire', pid:'tire-bridgestone-x30-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Bridgestone', stock:'unknown'
+    },
+    {name:'Dunlop MX33 Tire', pid:'tire-dunlop-mx33-ccw', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     badge:'Dunlop', stock:'unknown'
+    },
+    {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Dunlop', stock:'unknown'
+    },
+    {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     badge:'Shinko', stock:'unknown'
+    },
+    {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:90, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
+     badge:'IRC', stock:'unknown'
     },
   ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[

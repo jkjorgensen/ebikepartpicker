@@ -202,6 +202,11 @@
     </div>
     <p class="modal-sub">List your used part. Every submission is checked and hand-approved before it goes live — no payments here, buyer and seller work it out directly.</p>
     <div id="sellForm">
+      <label class="flabel">Find it in our catalog <span class="opt">(optional — we'll fill in what it fits)</span>
+        <input id="sellCatalog" type="text" placeholder="Start typing — e.g. EBMX XLB-60…" autocomplete="off" list="sellCatalogList">
+        <datalist id="sellCatalogList"></datalist>
+      </label>
+      <p class="micro" id="sellCatalogNote" hidden></p>
       <label class="flabel">Part title *<input id="sellTitle" type="text" placeholder="e.g. Warp 9 3-inch rise handlebar" autocomplete="off"></label>
       <div class="frow">
         <label class="flabel">Category

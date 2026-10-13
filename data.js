@@ -845,7 +845,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'DHS 65Ah', battMaxKw:43.2, battPeakKw:61, dw:8.47, stock:'in_stock', wtKg:24.04, img:'img/parts/dhs-72v-65ah-ub.jpg'
+     badge:'DHS 65Ah', battMaxKw:43.2, battPeakKw:61, battKwh:4.68, dw:8.47, stock:'in_stock', wtKg:24.04, img:'img/parts/dhs-72v-65ah-ub.jpg'
     },
     {name:'DHS 80V 45Ah Race Battery (44kW)', pid:'dhs-80v-45ah-lbx', tier:'premium',
      prices:[
@@ -853,7 +853,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ventus-plus","ventus-evo"], likely:[], no:[],
-     badge:'DHS 45Ah', battMaxKw:24, battPeakKw:44, dw:16.42, stock:'in_stock', wtKg:19.05, img:'img/parts/dhs-80v-45ah-lbx.jpg'
+     badge:'DHS 45Ah', battMaxKw:24, battPeakKw:44, battKwh:3.6, dw:16.42, stock:'in_stock', wtKg:19.05, img:'img/parts/dhs-80v-45ah-lbx.jpg'
     },
     {name:'eWatt 72V 63Ah Race Battery', pid:'ewatt-72v-63ah-t', tier:'premium',
      prices:[
@@ -863,7 +863,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","mx5","lightbee"], likely:[], no:[],
-     badge:'eWatt 63Ah', battPeakKw:28, dw:16.67, stock:'in_stock', wtKg:20.41, img:'img/parts/ewatt-72v-63ah-t.jpg'
+     badge:'eWatt 63Ah', battPeakKw:28, battKwh:4.54, dw:16.67, stock:'in_stock', wtKg:20.41, img:'img/parts/ewatt-72v-63ah-t.jpg'
     },
     {name:'Ventus EVO GT 72V 50Ah Battery', pid:'ventus-evo-gt-72v', tier:'premium',
      prices:[
@@ -871,7 +871,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
-     badge:'EVO GT', battMaxKw:19.2, battPeakKw:32, stock:'in_stock', img:'img/parts/ventus-evo-gt-72v.jpg'
+     badge:'EVO GT', battMaxKw:19.2, battPeakKw:32, battKwh:3.6, stock:'in_stock', img:'img/parts/ventus-evo-gt-72v.jpg'
     },
     {name:'Sur-Ron Ultra Bee 74V 60Ah OEM Battery (2025)', pid:'ultrabee-2025-oem-battery', tier:'OEM',
      prices:[
@@ -879,7 +879,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
-     stock:'in_stock'
+     battKwh:4.44, stock:'in_stock'
     },
     {name:'E7271 72V 50Ah Battery - SS3.0 Type A / SS2.0 / Pro-S', pid:'eride-e7271-battery', tier:'OEM',
      prices:[
@@ -887,7 +887,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30"], likely:["sr","arctic-xd","bonnell-805rx","ss40","komodo","ventus-plus","ventus-evo"], no:[],
-     stock:'in_stock', img:'img/parts/eride-e7271-battery.jpg'
+     battKwh:3.6, stock:'in_stock', img:'img/parts/eride-e7271-battery.jpg'
     },
     {name:'E Ride Pro 4.0 72V 50Ah Pouch Cell Battery', pid:'eride-pro40-oem-battery', tier:'OEM',
      prices:[
@@ -895,7 +895,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss40"], likely:["ss30","sr","arctic-xd","bonnell-805rx","ss20","komodo","ventus-plus","ventus-evo"], no:[],
-     stock:'in_stock', img:'img/parts/eride-pro40-oem-battery.jpg'
+     battKwh:3.6, stock:'in_stock', img:'img/parts/eride-pro40-oem-battery.jpg'
     },
     {name:'DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!', pid:'dhs-88v-60ah-ultrabee', tier:'premium',
      prices:[
@@ -903,7 +903,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, dw:10.47, stock:'in_stock', wtKg:24.95, img:'img/parts/dhs-88v-60ah-ultrabee.jpg'
+     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, battKwh:5.28, dw:10.47, stock:'in_stock', wtKg:24.95, img:'img/parts/dhs-88v-60ah-ultrabee.jpg'
     },
     {name:'Ventus Ultra Bee Battery 96V 56AH', pid:'ventus-ultrabee-96v-56ah', tier:'premium',
      prices:[
@@ -911,7 +911,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'96V', battMaxKw:26.9, battMaxKwEst:1, battPeakKw:76.8, dw:10.58, stock:'in_stock', wtKg:25, img:'img/parts/ventus-ultrabee-96v-56ah.jpg'
+     badge:'96V', battMaxKw:26.9, battMaxKwEst:1, battPeakKw:76.8, battKwh:5.38, dw:10.58, stock:'in_stock', wtKg:25, img:'img/parts/ventus-ultrabee-96v-56ah.jpg'
     },
   ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[

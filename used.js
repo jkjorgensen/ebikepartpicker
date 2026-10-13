@@ -223,6 +223,82 @@ function renderUsed(){
     var s = document.createElement('span'); s.textContent = b.name; l.appendChild(s);
     fitsHost.appendChild(l);
   });
+  /* "Not sure" — seller doesn't know the fitment; we classify it on approval */
+  var nsLabel = document.createElement('label'); nsLabel.className = 'fitcheck notsure';
+  var nsBox = document.createElement('input'); nsBox.type = 'checkbox'; nsBox.id = 'sellNotSure';
+  nsLabel.appendChild(nsBox);
+  var nsSpan = document.createElement('span'); nsSpan.textContent = 'Not sure';
+  nsLabel.appendChild(nsSpan);
+  fitsHost.appendChild(nsLabel);
+  nsBox.addEventListener('change', function(){
+    if(nsBox.checked) fitsHost.querySelectorAll('input[type=checkbox]:not(#sellNotSure)').forEach(function(c){ c.checked = false; });
+  });
+  fitsHost.querySelectorAll('input[type=checkbox]:not(#sellNotSure)').forEach(function(c){
+    c.addEventListener('change', function(){ if(c.checked) nsBox.checked = false; });
+  });
+
+  /* ---------- catalog picker: pick the part, we fill in the fitment ---------- */
+  var SELL_CATALOG = [];
+  (typeof CATEGORIES !== 'undefined' ? CATEGORIES : []).forEach(function(cat){
+    (cat.options || []).forEach(function(o){
+      if(!o.pid || !o.name || /^stock /i.test(o.name)) return;
+      SELL_CATALOG.push({pid:o.pid, name:o.name, catId:cat.id, catName:cat.name, fits:o.fits});
+    });
+  });
+  var dl = $('sellCatalogList');
+  if(dl){
+    SELL_CATALOG.forEach(function(p){
+      var o = document.createElement('option'); o.value = p.name;
+      o.label = p.catName;
+      dl.appendChild(o);
+    });
+  }
+  function catalogConfirmedFits(pid){
+    var out = [];
+    if(window.FITMENT){
+      usedBikes().forEach(function(b){
+        var e = window.FITMENT[pid + '|' + b.id];
+        if(e && (e.s === 'confirmed_direct_fit' || e.s === 'confirmed_fit_with_adapter' || e.s === 'confirmed_fit_with_modifications') && out.indexOf(b.id) < 0) out.push(b.id);
+      });
+    }
+    return out;
+  }
+  var sellCatalogInput = $('sellCatalog');
+  var sellCatalogNote = $('sellCatalogNote');
+  var sellCatalogHit = null;
+  if(sellCatalogInput){
+    sellCatalogInput.addEventListener('input', function(){
+      var v = sellCatalogInput.value.trim().toLowerCase();
+      sellCatalogHit = null;
+      var hit = null;
+      for(var i = 0; i < SELL_CATALOG.length; i++){
+        if(SELL_CATALOG[i].name.toLowerCase() === v){ hit = SELL_CATALOG[i]; break; }
+      }
+      if(!hit){
+        if(sellCatalogNote) sellCatalogNote.hidden = true;
+        return;
+      }
+      sellCatalogHit = hit;
+      $('sellTitle').value = hit.name;
+      if(hit.catId) $('sellCat').value = hit.catId;
+      var fits = catalogConfirmedFits(hit.pid);
+      (hit.fits || []).forEach(function(id){ if(fits.indexOf(id) < 0) fits.push(id); });
+      /* only check boxes that exist in the form */
+      var validIds = [];
+      fitsHost.querySelectorAll('input[type=checkbox]:not(#sellNotSure)').forEach(function(c){
+        var on = fits.indexOf(c.value) >= 0;
+        c.checked = on;
+        if(on) validIds.push(c.value);
+      });
+      nsBox.checked = false;
+      if(sellCatalogNote){
+        sellCatalogNote.hidden = false;
+        sellCatalogNote.textContent = validIds.length
+          ? 'From our catalog — fits ' + validIds.length + ' bike' + (validIds.length === 1 ? '' : 's') + '. Uncheck any that don\'t apply to yours.'
+          : 'From our catalog, but we don\'t have confirmed fitment yet — check the bikes it fits or pick "Not sure".';
+      }
+    });
+  }
   function open(){ overlay.hidden = false; document.body.style.overflow = 'hidden'; }
   function close(){ overlay.hidden = true; document.body.style.overflow = ''; }
   document.querySelectorAll('.sellOpen').forEach(function(b){
@@ -234,8 +310,10 @@ function renderUsed(){
   function val(id){ return $(id).value.trim(); }
   $('sellSubmit').addEventListener('click', function(){
     var err = $('sellErr');
-    var checked = fitsHost.querySelectorAll('input:checked');
-    if(!val('sellTitle') || !val('sellEmail') || !checked.length){
+    var notSure = nsBox.checked;
+    var checked = fitsHost.querySelectorAll('input[type=checkbox]:not(#sellNotSure):checked');
+    if(!val('sellTitle') || !val('sellEmail') || (!checked.length && !notSure)){
+      err.textContent = 'Please add a part title, your email, and either the bike(s) it fits or "Not sure".';
       err.hidden = false; return;
     }
     err.hidden = true;
@@ -248,7 +326,7 @@ function renderUsed(){
       'Part: ' + val('sellTitle'),
       'Category: ' + (catSel.options[catSel.selectedIndex]
         ? catSel.options[catSel.selectedIndex].text : '—'),
-      'Fits: ' + (fitNames.length ? fitNames.join(', ') : '—'),
+      'Fits: ' + (notSure ? 'NOT SURE — needs classification' : (fitNames.length ? fitNames.join(', ') : '—')),
       'Condition: ' + USED_CONDITIONS[$('sellCond').value],
       'Asking price: ' + (val('sellPrice') ? '$' + val('sellPrice') : '—'),
       'Location: ' + (val('sellLoc') || '—'),
@@ -257,6 +335,7 @@ function renderUsed(){
       'Description: ' + (val('sellDesc') || '—'), '',
       'Note: seller will email photos separately.'
     ];
+    if(sellCatalogHit) lines.push('Catalog match: ' + sellCatalogHit.name + ' (' + sellCatalogHit.pid + ') — fitment auto-filled.');
     var text = lines.join('\n');
     $('sellPreview').textContent = text;
     $('sellMail').href = 'mailto:' + USED_INBOX +
@@ -273,7 +352,9 @@ function renderUsed(){
   $('sellAgain').addEventListener('click', function(){
     $('sellDone').hidden = true;
     $('sellForm').hidden = false;
-    ['sellTitle','sellPrice','sellLoc','sellName','sellEmail','sellDesc'].forEach(function(id){ $(id).value = ''; });
+    ['sellTitle','sellPrice','sellLoc','sellName','sellEmail','sellDesc','sellCatalog'].forEach(function(id){ var el = $(id); if(el) el.value = ''; });
+    sellCatalogHit = null;
+    if(sellCatalogNote) sellCatalogNote.hidden = true;
     catSel.value = '';
     fitsHost.querySelectorAll('input:checked').forEach(function(c){ c.checked = false; });
   });

@@ -369,8 +369,17 @@ function optMeta(o, fl){
   var bp = best(o), parts = [];
   parts.push(bp ? money(bp.p) : 'Included');
   if(o.wtKg!=null) parts.push((o.wtKg*2.20462).toFixed(1)+' lb');
+  if(o.battKwh!=null) parts.push(o.battKwh.toFixed(2)+' kWh');
+  if(o.battPeakKw!=null) parts.push(o.battPeakKw+' kW peak');
   if(fl==='likely') parts.push('verify fit');
   return parts.join(' · ');
+}
+/* battery class: long range (>=4.5 kWh) vs high output (>=40 kW peak). A pack can be both. */
+function battClass(o){
+  var out = [];
+  if(o.battKwh!=null && o.battKwh >= 4.5) out.push('long-range');
+  if(o.battPeakKw!=null && o.battPeakKw >= 40) out.push('high-output');
+  return out;
 }
 function renderPick(c, b, host){
     var wrap = document.createElement('div'); wrap.className='ppick';
@@ -414,6 +423,11 @@ function renderPick(c, b, host){
         var tx=document.createElement('span');
         var nm=document.createElement('span'); nm.textContent=v.o.name; tx.appendChild(nm);
         var mt=document.createElement('span'); mt.className='meta'; mt.textContent=optMeta(v.o, v.fl); tx.appendChild(mt);
+        battClass(v.o).forEach(function(cls){
+          var bdg=document.createElement('span'); bdg.className='battbadge '+cls;
+          bdg.textContent = cls==='long-range' ? 'Long range' : 'High output';
+          tx.appendChild(bdg);
+        });
         r.appendChild(tx);
         var pr=document.createElement('span'); pr.className='pr';
         var bb=best(v.o); pr.textContent = bb?money(bb.p):'Incl.';

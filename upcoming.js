@@ -1,6 +1,6 @@
 /* eBikePartsPicker — upcoming e-motos. Release dates change; verify before relying.
    Research date below. status: shipping|preorder|announced|rumored */
-var UPCOMING_CHECKED = 'Oct 12, 2026';
+var UPCOMING_CHECKED = 'Oct 13, 2026';
 var UPCOMING = [
   {name:'Bonnell 805RX', bikeId:'bonnell-805rx', status:'shipping',
    date:'Launched Sept 2026 — available now', price:8250,

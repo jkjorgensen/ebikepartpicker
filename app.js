@@ -751,6 +751,7 @@ var STATUS_LABEL = {'shipping':'Shipping now','preorder':'Pre-order','announced'
 function renderUpcoming(){
   var host = $('upcomingList'); host.innerHTML='';
   UPCOMING.forEach(function(u){
+    if(u.status==='shipping') return; /* released bikes don't belong in Upcoming */
     var card = document.createElement('div'); card.className='card';
     var img = document.createElement('img');
     img.src = u.bikeId ? 'img/bike-'+u.bikeId+'.png?v='+IMGV : 'img/bike-lightbee.png?v='+IMGV;

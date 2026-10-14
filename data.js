@@ -41,6 +41,12 @@ var BIKES = [
   {id:'yvolt-surge-v', name:'Yvolt Surge V', price:5499, src:'msrp', weight:204, kw:35, size:'full', sparse:1},
   {id:'supermach-sm01', name:'Supermach SM01 6000 META', price:4999, src:'msrp', weight:null, kw:13.5, size:null, sparse:1},
   {id:'supermach-sm62', name:'Supermach SM62', price:3800, src:'msrp', weight:154, kw:16, size:'mid', sparse:1},
+  {id:'zero-xe', name:'Zero XE', price:6495, src:'msrp', weight:223, kw:15.5, size:'full', sparse:1},
+  {id:'rfn-warrior-pro', name:'RFN Warrior Pro', price:5499, src:'msrp', weight:190, kw:15, size:'mid', sparse:1},
+  {id:'arctic-leopard-xe-pro-s', name:'Arctic Leopard XE Pro S', price:5100, src:'msrp', weight:161, kw:20, size:'mid', sparse:1},
+  {id:'arctic-leopard-xe-pro-s-enduro', name:'Arctic Leopard XE Pro S Enduro', price:5599, src:'msrp', weight:148, kw:20, size:'light', sparse:1},
+  {id:'arctic-leopard-xe-pro-r', name:'Arctic Leopard XE Pro R', price:5799, src:'msrp', weight:175, kw:26.5, size:'mid', sparse:1},
+  {id:'arctic-leopard-xf', name:'Arctic Leopard XF', price:3699, src:'msrp', weight:130, kw:12, size:'light', sparse:1},
 ];
 
 var FITMENT = {

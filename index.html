@@ -3,9 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>eBikePartsPicker — Electric Dirt Bike Parts Builder & Price Checker</title>
-<meta name="description" content="Build your electric dirt bike part by part. Compare real parts, prices, weight and power in one place.">
-<link rel="stylesheet" href="styles.css?v=3.12.1">
+<title>eBikePartsPicker — E-Moto Parts Builder & Price Checker</title>
+<meta name="description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
+<meta property="og:title" content="eBikePartsPicker — E-Moto Parts Builder">
+<meta property="og:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
+<meta property="og:image" content="https://ebikepartspicker.pages.dev/img/bike-ventus-plus.png">
+<meta property="og:url" content="https://ebikepartspicker.pages.dev/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="eBikePartsPicker — E-Moto Parts Builder">
+<meta name="twitter:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
+<meta name="twitter:image" content="https://ebikepartspicker.pages.dev/img/bike-ventus-plus.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css?v=3.15.2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +25,7 @@
 <!-- START PAGE -->
 <div id="start" class="start">
   <div class="eyebrow">The e-moto parts builder</div>
-  <h1 class="display">Build your e-moto,<br><span>part by part.</span></h1>
+  <h1 class="display">Build your e-moto, <span>part by part.</span></h1>
   <p class="tagline">Real parts. Real prices. Real fitment. Pick your bike and watch your build come together.</p>
   <p class="freesub">Free. No sign-up. Pick a bike and start.</p>
   <div class="start-cta-row">
@@ -27,7 +37,7 @@
     <button id="btnStart" class="cta">Start building</button>
   </div>
   <div class="newhere">
-    <button id="btnQuiz" class="quizlink">Shopping your first e-moto? <span>Find my e-moto →</span></button>
+    <button id="btnQuiz" class="quizlink">Shopping your first e-moto? <span>Answer 10 quick questions — find my e-moto →</span></button>
   </div>
   <div class="sizechips" id="startSizeChips" aria-label="Filter bikes by size"></div>
   <div class="stats">
@@ -35,7 +45,7 @@
     <div class="stat"><strong id="statParts">–</strong><small>parts</small></div>
     <div class="stat"><strong id="statCats">–</strong><small>categories</small></div>
   </div>
-  <img class="hero" id="heroImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike Ventus One Plus">
+  <img class="hero" id="heroImg" src="img/bike-lightbee.png" alt="Sur-Ron Light Bee X e-moto">
   <div class="notify">
     <p>Get notified when new bikes and parts are added.</p>
     <div class="notify-row">
@@ -60,9 +70,9 @@
       <button id="tabCompare" class="tab">Compare</button>
       <button id="tabUpcoming" class="tab">Upcoming</button>
       <button id="tabUsed" class="tab">Used Parts</button>
+      <a class="tab" href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">Contact</a>
     </nav>
     <button id="btnSuggest" class="suggestbtn">Submit your part</button>
-    <a class="contactlink" href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">Contact</a>
   </header>
 
   <!-- BUILDER -->
@@ -70,11 +80,11 @@
     <div class="builder-grid">
       <div class="bcol-left">
         <div class="stage">
-          <img id="bikeImg" src="img/bike-ventus-plus.png" alt="Electric dirt bike">
+          <img id="bikeImg" src="img/bike-ventus-plus.png" alt="Ventus One Plus e-moto">
           <div class="badges" id="badges"></div>
         </div>
         <div class="metrics">
-          <div class="metric"><small>Total</small><strong id="mTotal">$0</strong></div>
+          <div class="metric"><small>Total</small><strong id="mTotal">–</strong></div>
           <div class="metric"><small>Weight</small><strong id="mWeight">–</strong></div>
           <div class="metric"><small>Power</small><strong id="mKw">–</strong><span class="geq" id="mGasEq"></span></div>
           <div class="metric"><small>HP</small><strong id="mHp">–</strong></div>
@@ -172,7 +182,10 @@
             <option value="">Pick one…</option>
           </select>
         </label>
-        <label class="flabel">Fits which bike(s)?<input id="sgBikes" type="text" placeholder="e.g. Tuttio Soleil 01, Yozma IN10" autocomplete="off"></label>
+        <label class="flabel">Fits which bike(s)?
+          <select id="sgBikes" multiple size="6">
+          </select>
+        </label>
         <label class="flabel">Tell us about it<textarea id="sgWhy" rows="3" placeholder="What makes this part worth listing?"></textarea></label>
       </details>
       <div class="formerr" id="sgErr" hidden>Please add at least a part name and a product URL.</div>
@@ -186,6 +199,7 @@
         <a class="buy" id="sgMail" href="#">Send via email</a>
       </div>
       <p class="micro center">Email opens in your mail app — or copy it and send it however you like.</p>
+      <p class="micro center">Send to: ebikepartspicker@gmail.com</p>
       <button class="link" id="sgAgain">Submit another part</button>
     </div>
   </div>
@@ -259,12 +273,12 @@
   <span class="fineprint">Some links may be affiliate links. Prices are estimates, verify before buying.</span>
 </footer>
 <script src="data.js"></script>
-<script src="upcoming.js?v=3.12.0"></script>
-<script src="builds.js?v=3.12.0"></script>
-<script src="app.js?v=3.12.1"></script>
-<script src="buy.js?v=3.12.1"></script>
-<script src="quiz.js?v=3.12.0"></script>
-<script src="compare.js?v=3.12.0"></script>
-<script src="used.js?v=3.12.1"></script>
+<script src="upcoming.js?v=3.15.2"></script>
+<script src="builds.js?v=3.15.2"></script>
+<script src="app.js?v=3.15.2"></script>
+<script src="buy.js?v=3.15.2"></script>
+<script src="quiz.js?v=3.15.2"></script>
+<script src="compare.js?v=3.15.2"></script>
+<script src="used.js?v=3.15.2"></script>
 </body>
 </html>

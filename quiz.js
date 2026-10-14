@@ -56,7 +56,7 @@ var QUESTIONS = [
       {v:'experienced', t:'Experienced', d:'Years of trail or track time'},
       {v:'expert', t:'Expert', d:'Race pace, big jumps, no fear'}
     ]},
-  { id:'eexp', title:'And electric dirt bikes specifically?',
+  { id:'eexp', title:'And e-motos specifically?',
     sub:'E-motos hit different — instant torque, no clutch, no gears.',
     type:'single', def:'new',
     opts:[
@@ -524,7 +524,7 @@ function recCard(picks, kind, a){
   card.appendChild(el('div','qkicker', kicker));
   var top = el('div','qrec-top');
   var img = document.createElement('img');
-  img.src = 'img/bike-'+bike.id+'.png'; img.alt = 'Electric dirt bike '+bike.name; img.loading='lazy';
+  img.src = 'img/bike-'+bike.id+'.png'; img.alt = bike.name+' e-moto'; img.loading='lazy';
   img.onerror = function(){ img.style.display='none'; };
   top.appendChild(img);
   var info = el('div','qrec-info');
@@ -761,5 +761,6 @@ else init();
 /* exposed for QA */
 window.__quiz = { QUESTIONS:QUESTIONS, scoreAll:scoreAll, pickRecommendations:pickRecommendations,
   encodeShare:encodeShare, decodeShare:decodeShare, upgradeSuggestions:upgradeSuggestions,
-  defaultAnswers:defaultAnswers, finMonthly:finMonthly, WEIGHTS:WEIGHTS, QUIZ_RANGE:QUIZ_RANGE };
+  defaultAnswers:defaultAnswers, finMonthly:finMonthly, WEIGHTS:WEIGHTS, QUIZ_RANGE:QUIZ_RANGE,
+  startQuiz:startQuiz };
 })();

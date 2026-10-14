@@ -600,7 +600,7 @@ function render(){
 
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
-  img.alt = 'Electric dirt bike '+b.name;
+  img.alt = b.name + ' e-moto';
 
   var badges = $('badges'); badges.innerHTML='';
   CATEGORIES.forEach(function(c){
@@ -659,7 +659,7 @@ window.openBikeInBuilder = function(bikeId){
 function partCard(opts){
   var host = opts.host, b = bikeById(opts.bikeId);
   var card = document.createElement('div'); card.className='card';
-  var img = document.createElement('img'); img.src=opts.img; img.alt='Electric dirt bike '+b.name; img.loading='lazy';
+  var img = document.createElement('img'); img.src=opts.img; img.alt=b.name+' electric dirt bike'; img.loading='lazy';
   card.appendChild(img);
   var body = document.createElement('div'); body.className='body';
   var own = document.createElement('div'); own.className='owner'; own.textContent=opts.kicker;
@@ -702,7 +702,7 @@ function renderBuilds(){
     var b = bikeById(bid);
     var btn = document.createElement('button');
     btn.className = 'gbike' + (bid===state.guideBike ? ' on' : '');
-    var im = document.createElement('img'); im.src='img/bike-'+bid+'.png?v='+IMGV; im.alt='Electric dirt bike '+b.name; im.loading='lazy';
+    var im = document.createElement('img'); im.src='img/bike-'+bid+'.png?v='+IMGV; im.alt=b.name+' electric dirt bike'; im.loading='lazy';
     var nm = document.createElement('span'); nm.textContent=b.name;
     btn.appendChild(im); btn.appendChild(nm);
     btn.addEventListener('click', function(){ state.guideBike=bid; renderBuilds(); });
@@ -744,6 +744,8 @@ function showTab(which){
 $('tabBuilder').addEventListener('click', function(){ showTab('builder'); });
 $('tabBuilds').addEventListener('click', function(){ showTab('builds'); });
 $('tabUpcoming').addEventListener('click', function(){ showTab('upcoming'); });
+var tabQuizEl = $('tabQuiz'); if(tabQuizEl) tabQuizEl.addEventListener('click', function(){ if(window.__quiz && window.__quiz.startQuiz) window.__quiz.startQuiz(); });
+var tabCompareEl = $('tabCompare'); if(tabCompareEl) tabCompareEl.addEventListener('click', function(){ showTab('compare'); if(window.__compare && window.__compare.renderCompare) window.__compare.renderCompare(); });
 var tabUsedEl = $('tabUsed'); if(tabUsedEl) tabUsedEl.addEventListener('click', function(){ showTab('used'); });
 
 /* ---------- upcoming bikes ---------- */
@@ -755,7 +757,7 @@ function renderUpcoming(){
     var card = document.createElement('div'); card.className='card';
     var img = document.createElement('img');
     img.src = u.bikeId ? 'img/bike-'+u.bikeId+'.png?v='+IMGV : 'img/bike-lightbee.png?v='+IMGV;
-    img.alt = 'Electric dirt bike '+u.name; img.loading='lazy';
+    img.alt = u.name + ' e-moto'; img.loading='lazy';
     card.appendChild(img);
     var body = document.createElement('div'); body.className='body';
     var top = document.createElement('div'); top.className='urow';
@@ -792,6 +794,14 @@ var IMGV = '3.10.3'; /* bump when bike images change so browsers refetch */
     var o = document.createElement('option'); o.value = c.name; o.textContent = c.name;
     catSel.appendChild(o);
   });
+  /* populate bike multi-select with real bikes */
+  var bikeSel = $('sgBikes');
+  if(bikeSel && typeof BIKES!=='undefined'){
+    BIKES.forEach(function(b){
+      var o = document.createElement('option'); o.value = b.name; o.textContent = b.name;
+      bikeSel.appendChild(o);
+    });
+  }
   function open(){ overlay.hidden = false; document.body.style.overflow='hidden'; }
   function close(){ overlay.hidden = true; document.body.style.overflow=''; }
   $('btnSuggest').addEventListener('click', open);
@@ -799,6 +809,15 @@ var IMGV = '3.10.3'; /* bump when bike images change so browsers refetch */
   overlay.addEventListener('click', function(e){ if(e.target===overlay) close(); });
   document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !overlay.hidden) close(); });
   function val(id){ return $(id).value.trim(); }
+  function selectedBikes(){
+    var sel = $('sgBikes');
+    if(!sel) return '';
+    var out = [];
+    for(var i=0; i<sel.options.length; i++){
+      if(sel.options[i].selected) out.push(sel.options[i].value);
+    }
+    return out.join(', ');
+  }
   $('sgSubmit').addEventListener('click', function(){
     var err = $('sgErr');
     if(!val('sgName') || !val('sgUrl')){ err.hidden = false; return; }
@@ -811,7 +830,7 @@ var IMGV = '3.10.3'; /* bump when bike images change so browsers refetch */
       'Product URL: '+val('sgUrl'),
       'Price: '+(val('sgPrice')?'$'+val('sgPrice'):'—'),
       'Category: '+(val('sgCat')||'—'),
-      'Fits: '+(val('sgBikes')||'—'), '',
+      'Fits: '+(selectedBikes()||'—'), '',
       'About: '+(val('sgWhy')||'—')
     ];
     var text = lines.join('\n');
@@ -832,8 +851,10 @@ var IMGV = '3.10.3'; /* bump when bike images change so browsers refetch */
   $('sgAgain').addEventListener('click', function(){
     $('suggestDone').hidden = true;
     $('suggestForm').hidden = false;
-    ['sgBrand','sgEmail','sgName','sgUrl','sgPrice','sgBikes','sgWhy'].forEach(function(id){ $(id).value=''; });
+    ['sgBrand','sgEmail','sgName','sgUrl','sgPrice','sgWhy'].forEach(function(id){ $(id).value=''; });
     catSel.value = '';
+    var bs = $('sgBikes');
+    if(bs){ for(var i=0; i<bs.options.length; i++) bs.options[i].selected = false; }
   });
 })();
 
@@ -939,7 +960,7 @@ document.addEventListener('click', function(e){
 initBikePicker('startBikeInput', 'startBikeList', function(id){
   state.bike = id; syncBikeInputs();
   var hero = $('heroImg'), b = bikeById(id);
-  if(hero && b){ hero.src = 'img/bike-'+b.id+'.png?v='+IMGV; hero.alt = 'Electric dirt bike '+b.name; }
+  if(hero && b){ hero.src = 'img/bike-'+b.id+'.png?v='+IMGV; hero.alt = b.name+' electric dirt bike'; }
 });
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();

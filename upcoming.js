@@ -28,7 +28,7 @@ var UPCOMING = [
    source:'https://www.revzilla.com/common-tread/stark-varg-ex-first-ride'},
   {name:'Zero XE', bikeId:null, status:'shipping',
    date:'2026 model — shipping now', price:6495,
-   blurb:'Zero\u2019s electric dirt bike for 2026.',
+   blurb:'Zero\u2019s e-moto for 2026.',
    source:'https://electriccyclerider.com/2025/03/07/first-impressions-2026-zero-xe-electric-dirt-bike/'},
   {name:'RFN Warrior Pro', bikeId:null, status:'shipping',
    date:'Shipping now (ships from Lehi, UT)', price:5499,

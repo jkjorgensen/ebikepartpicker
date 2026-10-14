@@ -122,7 +122,7 @@ select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px #b6e61
 .wordmark{font:700 18px/1 var(--display);letter-spacing:-.5px}
 .tabs{display:flex;gap:4px;background:#141920;border:1px solid var(--line);border-radius:999px;padding:4px}
 .tab{border:0;background:none;font:600 14px var(--body);color:var(--muted);
-  padding:9px 20px;border-radius:999px;cursor:pointer;transition:all .16s}
+  padding:9px 20px;border-radius:999px;cursor:pointer;transition:all .16s;text-decoration:none;display:inline-block}
 .tab:hover{color:var(--text)}
 .tab.on{background:var(--accent);color:var(--accent-ink);box-shadow:0 2px 12px #b6e61d40}
 .wrap{max-width:1340px;margin:auto;padding:28px clamp(16px,4vw,44px) 100px}

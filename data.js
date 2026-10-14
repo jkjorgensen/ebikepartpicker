@@ -36,7 +36,7 @@ var BIKES = [
   {id:'tuttio-soleil01', name:'Tuttio Soleil01', price:1055.59, src:'msrp', weight:105, kw:3, size:'light', sparse:1},
   {id:'stark-vargex', name:'Stark Varg EX', price:12900, src:'msrp', weight:265, kw:44.7, size:'full', sparse:1},
   {id:'altis-sigma', name:'Altis Sigma', price:5299, src:'msrp', weight:198.4, kw:25, size:'mid', sparse:1},
-  {id:'ultrabee-21kw', name:'Sur-Ron Ultra Bee 21kW', price:null, src:'msrp', weight:195, kw:21, size:'mid', sparse:1},
+  {id:'ultrabee-21kw', name:'Sur-Ron Ultra Bee 21kW', price:5999, src:'dealer', weight:195, kw:21, size:'mid', sparse:1},
   {id:'ultrabee-hd', name:'Sur-Ron Ultra Bee HD', price:null, src:'msrp', weight:null, kw:null, size:null, sparse:1},
   {id:'yvolt-surge-v', name:'Yvolt Surge V', price:5499, src:'msrp', weight:204, kw:35, size:'full', sparse:1},
   {id:'supermach-sm01', name:'Supermach SM01 6000 META', price:4999, src:'msrp', weight:null, kw:13.5, size:null, sparse:1},

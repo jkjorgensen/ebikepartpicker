@@ -681,7 +681,7 @@ function renderResults(wrap){
   if(R.picks.best){
     var up = el('div','qups');
     up.appendChild(el('h3','','Suggested upgrades for the '+R.picks.best.bike.name));
-    up.appendChild(el('p','qsub','Compatible with your pick, ranked cheapest first. Nothing is pre-selected — opening the builder starts you with a clean slate.'));
+    up.appendChild(el('p','qsub','Compatible with your pick, sorted by price. Nothing is pre-selected — opening the builder starts you with a clean slate.'));
     var list = upgradeSuggestions(R.picks.best.bike.id, a.priorities);
     if(!list.length){
       up.appendChild(el('p','qnote','No catalog upgrades listed for this bike yet.'));

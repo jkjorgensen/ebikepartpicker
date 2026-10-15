@@ -1400,6 +1400,58 @@
       ],
       "position": "rear",
       "image": null
+    },
+    {
+      "id": "voro-eride-ss-cst-80100-19",
+      "name": "CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)",
+      "brand": "OEM",
+      "category": "tires",
+      "price_usd": 49.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Single tire.",
+      "source_urls": [
+        "https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 49.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-cst-80100-19.jpg"
+    },
+    {
+      "id": "voro-altis-sigma-tire",
+      "name": "Altis Sigma OEM Tire (19\" F $45 / 19\" R $50 / 16\" R $55)",
+      "brand": "OEM",
+      "category": "tires",
+      "price_usd": 45.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Single tire.",
+      "source_urls": [
+        "https://voromotors.com/products/outer-tire-for-altis-sigma"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 45.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-altis-sigma-tire.jpg"
     }
   ],
   "compatibility": [
@@ -14788,6 +14840,36 @@
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
       ],
       "notes": "Tire diameter matches stock 16\" rear wheel."
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-cst-80100-19",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-cst-80100-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "altis-sigma",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/outer-tire-for-altis-sigma"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-altis-sigma-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

@@ -25,7 +25,7 @@ function bikeById(id){ return BIKES.find(function(b){return b.id===id;}); }
 function catById(id){ return CATEGORIES.find(function(c){return c.id===id;}); }
 function catOption(cat){ return cat.options[state.sel[cat.id]||0] || cat.options[0]; }
 
-/* lowest-price vendor entry for an option, or null */
+/* primary vendor entry for an option (affiliate partner first), or null */
 function best(opt){
   if(!opt.prices || !opt.prices.length) return null;
   var af = opt.prices.filter(function(p){ return p.aff; });
@@ -456,10 +456,6 @@ function renderPick(c, b, host){
     var row = document.createElement('div'); row.className='prow';
     var pl = document.createElement('div'); pl.className='pprice';
     pl.appendChild(document.createTextNode(bb ? money(bb.p) : 'Included'));
-    if(bb && co.prices.length>1){
-      var tag = document.createElement('span'); tag.className='besttag'; tag.textContent='best price';
-      pl.appendChild(tag);
-    }
     if(co.tier){
       var tt = document.createElement('span'); tt.className='tier'; tt.textContent=co.tier;
       pl.appendChild(tt);
@@ -515,7 +511,7 @@ function renderPick(c, b, host){
     }
     if(bb && co.prices.length>1){
       var alts = document.createElement('div'); alts.className='alts';
-      alts.textContent = 'Also: '+co.prices.filter(function(p){return p!==bb;})
+      alts.textContent = 'Also at: '+co.prices.filter(function(p){return p!==bb;})
         .map(function(p){return p.v+' '+money(p.p);}).join(' · ')+' — checked '+CHECKED;
       wrap.appendChild(alts);
     }

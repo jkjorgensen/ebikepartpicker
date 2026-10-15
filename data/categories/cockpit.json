@@ -93,6 +93,32 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/cockpit-surron-stem.jpg"
+    },
+    {
+      "id": "voro-eride-ss-twist-throttle",
+      "name": "E Ride Pro SS OEM Twist Throttle (E7084)",
+      "brand": "OEM",
+      "category": "cockpit",
+      "price_usd": 69.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ftwist-throttle-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 69.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ftwist-throttle-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-twist-throttle.jpg"
     }
   ],
   "compatibility": [
@@ -423,6 +449,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": ""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-twist-throttle",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-twist-throttle",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

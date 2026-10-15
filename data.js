@@ -326,6 +326,27 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Aetos Ultra', ctrlMaxKw:76, stock:'in_stock', img:'img/parts/ventus-aetos-ultra.png'
     },
+    {name:"Sur-Ron Ultra Bee 74V OEM Controller", pid:'voro-ultrabee-74v-controller', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:699.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee', aff:1},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     ctrlMaxKw:24.5, badge:'OEM', stock:'in_stock'
+    },
+    {name:"E Ride Pro SS 72V OEM Controller (E7003)", pid:'voro-eride-ss-72v-controller', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:360.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     ctrlMaxKw:12, badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-72v-controller.jpg'
+    },
+    {name:"Altis Sigma 98V OEM Controller", pid:'voro-altis-sigma-98v-controller', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma', aff:1},
+     ],
+     fits:["altis-sigma"], likely:[], no:[],
+     ctrlMaxKw:25, badge:'OEM', stock:'in_stock'
+    },
   ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
     {name:'Stock fork', prices:[]},
@@ -455,6 +476,13 @@ var CATEGORIES = [
      fits:["komodo"], likely:[], no:[],
      stock:'in_stock', img:'img/parts/komodo-fork-left-oem.png'
     },
+    {name:"E Ride Pro SS Adjustable RST OEM Fork (E7024)", pid:'voro-eride-ss-rst-fork', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:669.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fadjustable-rst-suspension-fork-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-rst-fork.jpg'
+    },
   ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -523,6 +551,13 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', wtKg:1.76, img:'img/parts/sirris-r46-ultrabee.png'
+    },
+    {name:"E Ride Pro SS OEM Rear Shock (E7025)", pid:'voro-eride-ss-rear-shock', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:80.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-suspension-shock-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-rear-shock.jpg'
     },
   ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
@@ -606,6 +641,13 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'KKE', stock:'in_stock', img:'img/parts/kke-18-21-ultrabee.jpg'
+    },
+    {name:"E Ride Pro SS OEM Wheel Assembly (per wheel: 19\" F / 19\" R / 18\" R)", pid:'voro-eride-ss-wheel-assembly', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:139.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fwheel-assembly-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-wheel-assembly.jpg'
     },
   ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
@@ -721,6 +763,34 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/ultrabee-oem-front-brake.gif'
+    },
+    {name:"E Ride Pro SS 2.0 OEM Brake Pad Kit (E7193)", pid:'voro-eride-ss20-brake-pads', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:19.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss20-brake-pads.jpg'
+    },
+    {name:"E Ride Pro SS 3.0 OEM Brake Pad Kit (SHE7067)", pid:'voro-eride-ss30-brake-pads', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:27.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0', aff:1},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss30-brake-pads.jpg'
+    },
+    {name:"Altis Sigma OEM Brake Pads", pid:'voro-altis-sigma-brake-pads', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:16.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma', aff:1},
+     ],
+     fits:["altis-sigma"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-altis-sigma-brake-pads.jpg'
+    },
+    {name:"Brake Pads — Arctic Leopard XE Pro R / Sur-Ron Ultra Bee", pid:'voro-xepror-ultrabee-brake-pads', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r', aff:1},
+     ],
+     fits:["arctic-leopard-xe-pro-r", "ultrabee"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-xepror-ultrabee-brake-pads.jpg'
     },
   ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
@@ -845,6 +915,20 @@ var CATEGORIES = [
      fits:["ultrabee","komodo","mx4","falcon-pro","falcon-gt","ventus-plus"], likely:[], no:[],
      /* no extras */
     },
+    {name:"Sur-Ron Ultra Bee OEM Side Fairings (L+R)", pid:'voro-ultrabee-side-fairings', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fside-fairings-for-ultra-bee', aff:1},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-side-fairings.jpg'
+    },
+    {name:"Sur-Ron Ultra Bee OEM Decal Set", pid:'voro-ultrabee-decal-set', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:119.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdecal-set-for-ultra-bee', aff:1},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-decal-set.jpg'
+    },
   ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -922,6 +1006,13 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'96V', battMaxKw:26.9, battMaxKwEst:1, battPeakKw:76.8, battKwh:5.38, dw:10.58, stock:'in_stock', wtKg:25, img:'img/parts/ventus-ultrabee-96v-56ah.jpg'
     },
+    {name:"E Ride Pro SS 72V 40Ah OEM Battery (E7001)", pid:'voro-eride-ss-72v-40ah-battery', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:1999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-40ah-battery-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     battKwh:2.88, badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-72v-40ah-battery.jpg'
+    },
   ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
     {name:'Stock handlebar', prices:[]},
@@ -972,6 +1063,13 @@ var CATEGORIES = [
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss30","sr","ventus-plus"], likely:[], no:[],
      badge:'Renthal', stock:'in_stock', img:'img/parts/renthal-fatbar-lite-35.jpg'
+    },
+    {name:"E Ride Pro SS OEM Handlebar (E7083)", pid:'voro-eride-ss-handlebar', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fhandlebar-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-handlebar.jpg'
     },
   ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
@@ -1027,6 +1125,13 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
      badge:'Stem', stock:'out_of_stock', img:'img/parts/cockpit-surron-stem.jpg'
+    },
+    {name:"E Ride Pro SS OEM Twist Throttle (E7084)", pid:'voro-eride-ss-twist-throttle', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:69.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ftwist-throttle-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-twist-throttle.jpg'
     },
   ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -1100,6 +1205,20 @@ var CATEGORIES = [
      fits:[], likely:["ventus-evo"], no:[],
      badge:'Chain Kit', stock:'out_of_stock', img:'img/parts/drivetrain-ventus-chain-kit.png'
     },
+    {name:"E Ride Pro SS OEM Gold Chain (114 or 112 link)", pid:'voro-eride-ss-gold-chain', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-gold-chain.jpg'
+    },
+    {name:"E Ride Pro SS OEM Sprocket (14T $13.95 / 55T $34.95)", pid:'voro-eride-ss-sprockets', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:13.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-sprockets.jpg'
+    },
   ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -1134,6 +1253,20 @@ var CATEGORIES = [
      ],
      fits:[], likely:["ventus-evo"], no:[],
      badge:'Headlight', stock:'in_stock', img:'img/parts/electrical-gigigo-headlight.jpg'
+    },
+    {name:"E Ride Pro SS OEM LCD Display (E7023)", pid:'voro-eride-ss-lcd-display', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:169.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-lcd-display.jpg'
+    },
+    {name:"E Ride Pro SS OEM LED Headlight Bar (E7045)", pid:'voro-eride-ss-headlight-bar', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-headlight-bar.jpg'
     },
   ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
@@ -1179,6 +1312,13 @@ var CATEGORIES = [
      fits:[], likely:["ventus-evo"], no:[],
      badge:'Motor Cover', stock:'in_stock', img:'img/parts/guards-prickly-motor-cover.jpg'
     },
+    {name:"E Ride Pro SS OEM Motor Skid Plate (E7229)", pid:'voro-eride-ss-motor-skid-plate', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-skid-plate-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-motor-skid-plate.jpg'
+    },
   ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -1205,6 +1345,13 @@ var CATEGORIES = [
      ],
      fits:["mx4"], likely:["lightbee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      badge:'Rippin Moto', stock:'in_stock', img:'img/parts/linkage-talaria-mx34.jpg'
+    },
+    {name:"E Ride Pro SS OEM Rear Progression Triangle (E7026)", pid:'voro-eride-ss-progression-triangle', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-progression-triangle-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-progression-triangle.jpg'
     },
   ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -1310,6 +1457,13 @@ var CATEGORIES = [
      fits:["mx4"], likely:["arctic-xd","bonnell-805rx","komodo","mx5","ventus-plus","ventus-evo"], no:[],
      badge:'Seat', stock:'out_of_stock', img:'img/parts/seat-talaria-mx34-oem.png'
     },
+    {name:"E Ride Pro SS OEM Seat (E7165)", pid:'voro-eride-ss-seat', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:44.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fseat-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-seat.jpg'
+    },
   ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
     {name:'Stock street', prices:[]},
@@ -1351,6 +1505,13 @@ var CATEGORIES = [
      fits:[], likely:["lightbee"], no:[],
      badge:'Turn Signals', stock:'verify'
     },
+    {name:"Sur-Ron Ultra Bee OEM Front Turn Signals", pid:'voro-ultrabee-front-turn-signals', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:49.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffront-turn-signals-for-ultra-bee', aff:1},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-front-turn-signals.jpg'
+    },
   ]},
   {id:'swingarm', name:'Swingarm', blurb:'A longer swingarm adds straight-line stability at speed.', tips:['Axle and linkage fitment are bike-specific','A longer arm usually means a longer chain','Check tire clearance'], options:[
     {name:'Stock swingarm', prices:[]},
@@ -1385,6 +1546,13 @@ var CATEGORIES = [
      ],
      fits:[], likely:["storm-bee"], no:[],
      stock:'in_stock', img:'img/parts/stormbee-swingarm-oem.jpg'
+    },
+    {name:"E Ride Pro SS OEM Swingarm (E7008)", pid:'voro-eride-ss-swingarm', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:349.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fswingarm-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-swingarm.jpg'
     },
   ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -1679,6 +1847,20 @@ var CATEGORIES = [
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
      badge:'IRC', stock:'unknown'
     },
+    {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss', aff:1},
+     ],
+     fits:["ss20"], likely:["ss30"], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-cst-80100-19.jpg'
+    },
+    {name:"Altis Sigma OEM Tire (19\" F $45 / 19\" R $50 / 16\" R $55)", pid:'voro-altis-sigma-tire', tier:'OEM',
+     prices:[
+      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma', aff:1},
+     ],
+     fits:["altis-sigma"], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', img:'img/parts/voro-altis-sigma-tire.jpg'
+    },
   ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
     {name:'Stock titanium hardware', prices:[]},
@@ -1814,6 +1996,49 @@ var CATEGORIES = [
 ];
 
 var FITMENT = {
+  'voro-ultrabee-74v-controller|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/74v-controller-for-ultra-bee']},
+  'voro-eride-ss-72v-controller|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/72v-controller-for-e-ride-pro-ss']},
+  'voro-eride-ss-72v-controller|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/72v-controller-for-e-ride-pro-ss']},
+  'voro-altis-sigma-98v-controller|altis-sigma':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/98v-controller-for-altis-sigma']},
+  'voro-eride-ss-72v-40ah-battery|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/72v-40ah-battery-for-e-ride-pro-ss']},
+  'voro-eride-ss-72v-40ah-battery|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/72v-40ah-battery-for-e-ride-pro-ss']},
+  'voro-eride-ss-rst-fork|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/adjustable-rst-suspension-fork-for-e-ride-pro-ss']},
+  'voro-eride-ss-rst-fork|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/adjustable-rst-suspension-fork-for-e-ride-pro-ss']},
+  'voro-eride-ss-rear-shock|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss']},
+  'voro-eride-ss-rear-shock|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss']},
+  'voro-eride-ss-wheel-assembly|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/wheel-assembly-for-e-ride-pro-ss']},
+  'voro-eride-ss-wheel-assembly|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/wheel-assembly-for-e-ride-pro-ss']},
+  'voro-eride-ss-cst-80100-19|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss']},
+  'voro-eride-ss-cst-80100-19|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss']},
+  'voro-altis-sigma-tire|altis-sigma':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/outer-tire-for-altis-sigma']},
+  'voro-eride-ss20-brake-pads|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss']},
+  'voro-eride-ss30-brake-pads|ss30':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss-3-0']},
+  'voro-altis-sigma-brake-pads|altis-sigma':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/brake-pads-for-altis-sigma']},
+  'voro-xepror-ultrabee-brake-pads|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/brake-pads-for-xe-pro-r']},
+  'voro-xepror-ultrabee-brake-pads|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/brake-pads-for-xe-pro-r']},
+  'voro-ultrabee-side-fairings|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/side-fairings-for-ultra-bee']},
+  'voro-ultrabee-decal-set|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/decal-set-for-ultra-bee']},
+  'voro-eride-ss-seat|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/seat-for-e-ride-pro-ss']},
+  'voro-eride-ss-seat|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/seat-for-e-ride-pro-ss']},
+  'voro-eride-ss-lcd-display|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/lcd-display-for-e-ride-pro-ss']},
+  'voro-eride-ss-lcd-display|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/lcd-display-for-e-ride-pro-ss']},
+  'voro-eride-ss-headlight-bar|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss']},
+  'voro-eride-ss-headlight-bar|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss']},
+  'voro-eride-ss-twist-throttle|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss']},
+  'voro-eride-ss-twist-throttle|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss']},
+  'voro-eride-ss-handlebar|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/handlebar-for-e-ride-pro-ss']},
+  'voro-eride-ss-handlebar|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/handlebar-for-e-ride-pro-ss']},
+  'voro-eride-ss-gold-chain|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss']},
+  'voro-eride-ss-gold-chain|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss']},
+  'voro-eride-ss-sprockets|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/sprockets-for-e-ride-pro-ss']},
+  'voro-eride-ss-sprockets|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/sprockets-for-e-ride-pro-ss']},
+  'voro-eride-ss-progression-triangle|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss']},
+  'voro-eride-ss-progression-triangle|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss']},
+  'voro-eride-ss-motor-skid-plate|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/motor-skid-plate-for-e-ride-pro-ss']},
+  'voro-eride-ss-motor-skid-plate|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/motor-skid-plate-for-e-ride-pro-ss']},
+  'voro-ultrabee-front-turn-signals|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/front-turn-signals-for-ultra-bee']},
+  'voro-eride-ss-swingarm|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/swingarm-for-e-ride-pro-ss']},
+  'voro-eride-ss-swingarm|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/swingarm-for-e-ride-pro-ss']},
   'guts-seat-cover|lightbee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},

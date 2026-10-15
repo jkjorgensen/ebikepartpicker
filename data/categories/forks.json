@@ -39,7 +39,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "TB Electric lists MX5 tune; riot.racing E-MX listing excluded MX5 \u2014 confirm tune with vendor before ordering",
+      "notes": "TB Electric lists MX5 tune; riot.racing E-MX listing excluded MX5 — confirm tune with vendor before ordering",
       "product_id": "ext-ferro",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
@@ -531,6 +531,26 @@
         "https://emotobykes.com/parts/talaria/frkl186/"
       ],
       "notes": "Single left leg."
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/adjustable-rst-suspension-fork-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-rst-fork",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/adjustable-rst-suspension-fork-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-rst-fork",
+      "required_adapters": null,
+      "status": "verify"
     }
   ],
   "products": [
@@ -761,7 +781,7 @@
       "tier": "mid",
       "is_upgrade": true,
       "badge": "RFLOXA",
-      "notes": "203/228mm travel options. Charged Cycle Works out of stock at last check \u2014 available direct from RFLOXA ($863).",
+      "notes": "203/228mm travel options. Charged Cycle Works out of stock at last check — available direct from RFLOXA ($863).",
       "source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-hawk31-pro",
         "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload"
@@ -892,7 +912,7 @@
       "tier": "premium",
       "is_upgrade": true,
       "badge": "PURE",
-      "notes": "260mm travel, dual closed cartridges. Trail (960N) or MX (1420N) tune. Stanchion guards not included \u2014 reuse stock Ultra Bee guards.",
+      "notes": "260mm travel, dual closed cartridges. Trail (960N) or MX (1420N) tune. Stanchion guards not included — reuse stock Ultra Bee guards.",
       "source_urls": [
         "https://moddedmotoco.com/products/untitled-nov4_12-25"
       ],
@@ -950,7 +970,7 @@
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
-      "notes": "OEM-spec KKE fork \u2014 RIGHT side single leg only, not a pair. Inverted, rebound + compression adjustable, forged aluminum, ~4.2 kg. Verify F-variant and model-year fitment.",
+      "notes": "OEM-spec KKE fork — RIGHT side single leg only, not a pair. Inverted, rebound + compression adjustable, forged aluminum, ~4.2 kg. Verify F-variant and model-year fitment.",
       "source_urls": [
         "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
       ],
@@ -975,7 +995,7 @@
     },
     {
       "id": "komodo-fork-left-oem",
-      "name": "Suspension/Fork (Left) Black \u2014 Komodo OEM",
+      "name": "Suspension/Fork (Left) Black — Komodo OEM",
       "brand": "Talaria",
       "category": "fork",
       "tier": "OEM",
@@ -1000,6 +1020,32 @@
       "notes": "Genuine Talaria OEM part FRKL186. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $444.61, in stock. SINGLE LEFT FORK LEG ONLY, not a pair. Replacement component, not a performance upgrade.",
       "weight_delta_kg": null,
       "image": "img/parts/komodo-fork-left-oem.png"
+    },
+    {
+      "id": "voro-eride-ss-rst-fork",
+      "name": "E Ride Pro SS Adjustable RST OEM Fork (E7024)",
+      "brand": "OEM",
+      "category": "fork",
+      "price_usd": 669.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fadjustable-rst-suspension-fork-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Original stock adjustable RST fork.",
+      "source_urls": [
+        "https://voromotors.com/products/adjustable-rst-suspension-fork-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 669.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fadjustable-rst-suspension-fork-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-rst-fork.jpg"
     }
   ]
 }

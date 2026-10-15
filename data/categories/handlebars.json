@@ -569,6 +569,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Requires 35mm stem/direct mount"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/handlebar-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-handlebar",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/handlebar-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-handlebar",
+      "required_adapters": null,
+      "status": "verify"
     }
   ],
   "products": [
@@ -735,7 +755,7 @@
         "https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $91.26. Gold 40mm-rise in stock; Black 30mm-rise out of stock. REQUIRES 35mm stem/direct mount \u2014 not a stock-clamp replacement.",
+      "notes": "Price verified $91.26. Gold 40mm-rise in stock; Black 30mm-rise out of stock. REQUIRES 35mm stem/direct mount — not a stock-clamp replacement.",
       "vendors": [
         {
           "vendor": "TB Electric Moto",
@@ -745,6 +765,32 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/renthal-fatbar-lite-35.jpg"
+    },
+    {
+      "id": "voro-eride-ss-handlebar",
+      "name": "E Ride Pro SS OEM Handlebar (E7083)",
+      "brand": "OEM",
+      "category": "handlebar",
+      "price_usd": 39.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fhandlebar-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/handlebar-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 39.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fhandlebar-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-handlebar.jpg"
     }
   ]
 }

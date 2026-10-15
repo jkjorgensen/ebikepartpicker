@@ -210,7 +210,7 @@
     },
     {
       "id": "komodo-rear-brake-pads",
-      "name": "Rear Brake Pads \u2014 Komodo OEM",
+      "name": "Rear Brake Pads — Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -238,7 +238,7 @@
     },
     {
       "id": "komodo-rear-brake-caliper",
-      "name": "Rear Brake Caliper \u2014 Komodo OEM",
+      "name": "Rear Brake Caliper — Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -266,7 +266,7 @@
     },
     {
       "id": "komodo-front-brake-lever",
-      "name": "Front Brake Lever \u2014 Komodo OEM",
+      "name": "Front Brake Lever — Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -465,6 +465,110 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/ultrabee-oem-front-brake.gif"
+    },
+    {
+      "id": "voro-eride-ss20-brake-pads",
+      "name": "E Ride Pro SS 2.0 OEM Brake Pad Kit (E7193)",
+      "brand": "OEM",
+      "category": "brakes",
+      "price_usd": 19.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM pads for SS 2.0.",
+      "source_urls": [
+        "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 19.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss20-brake-pads.jpg"
+    },
+    {
+      "id": "voro-eride-ss30-brake-pads",
+      "name": "E Ride Pro SS 3.0 OEM Brake Pad Kit (SHE7067)",
+      "brand": "OEM",
+      "category": "brakes",
+      "price_usd": 27.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM pads for SS 3.0.",
+      "source_urls": [
+        "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss-3-0"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 27.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss30-brake-pads.jpg"
+    },
+    {
+      "id": "voro-altis-sigma-brake-pads",
+      "name": "Altis Sigma OEM Brake Pads",
+      "brand": "OEM",
+      "category": "brakes",
+      "price_usd": 16.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "OEM pads.",
+      "source_urls": [
+        "https://voromotors.com/products/brake-pads-for-altis-sigma"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 16.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-altis-sigma-brake-pads.jpg"
+    },
+    {
+      "id": "voro-xepror-ultrabee-brake-pads",
+      "name": "Brake Pads — Arctic Leopard XE Pro R / Sur-Ron Ultra Bee",
+      "brand": "OEM",
+      "category": "brakes",
+      "price_usd": 59.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Voro lists fit for both XE Pro R and Ultra Bee.",
+      "source_urls": [
+        "https://voromotors.com/products/brake-pads-for-xe-pro-r"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 59.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-xepror-ultrabee-brake-pads.jpg"
     }
   ],
   "compatibility": [
@@ -1147,6 +1251,56 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "OEM stock front brake assembly for Ultra Bee"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss20-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss-3-0"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss30-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "altis-sigma",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/brake-pads-for-altis-sigma"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-altis-sigma-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/brake-pads-for-xe-pro-r"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-xepror-ultrabee-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/brake-pads-for-xe-pro-r"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-xepror-ultrabee-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

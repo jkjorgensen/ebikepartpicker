@@ -575,6 +575,11 @@ function recCard(picks, kind, a){
     var ba = el('a','qlink qbuy', 'Buy the '+bike.name+' — '+buy.source);
     ba.href = buy.url; ba.target='_blank'; ba.rel='noopener sponsored';
     card.appendChild(ba);
+    if(buy.alt){
+      var aa = el('a','qlink qbuy-alt', 'Also at '+(buy.altSource||'another store'));
+      aa.href = buy.alt; aa.target='_blank'; aa.rel='noopener';
+      card.appendChild(aa);
+    }
   }
   var btn = el('button','cta qopen','Start building this bike');
   btn.addEventListener('click', function(){

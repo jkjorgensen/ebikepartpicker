@@ -592,3 +592,19 @@ details.more[open]{padding-bottom:14px}
   .uhead{flex-direction:column;align-items:stretch}
   .uhead .cta{width:100%}
 }
+
+/* ---------- buy buttons ---------- */
+.buybox{display:flex;flex-direction:column;gap:8px;margin:14px 0}
+.buybtn{display:block;text-align:center;background:var(--accent);color:var(--accent-ink);font:800 15px var(--body);
+  padding:13px 18px;border-radius:12px;text-decoration:none;box-shadow:0 4px 18px #b6e61d33;letter-spacing:.2px}
+.buybtn:hover{background:var(--accent-hi)}
+.buyalt{text-align:center;color:#e8edf2;font:600 13px var(--body);text-decoration:underline;text-underline-offset:3px}
+.buyalt:hover{color:var(--accent)}
+.buybox.compact .buybtn{font-size:13px;padding:9px 12px}
+.review-buy{margin:0 0 18px}
+.review-buy .buybtn{font-size:17px;padding:16px 20px}
+.brow .rb{display:inline-block;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-hi);
+  padding:5px 10px;border-radius:8px;font-size:12.5px;text-decoration:none}
+.brow .rb:hover,.card li .rb:hover{background:var(--accent);color:var(--accent-ink);text-decoration:none}
+.card li .rb{display:inline-block;margin-left:6px;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-hi);
+  padding:2px 8px;border-radius:7px;font-size:11.5px;font-weight:700;text-decoration:none}

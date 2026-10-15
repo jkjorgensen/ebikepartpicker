@@ -129,6 +129,7 @@ function renderCompare(){
       im.onerror = function(){ im.style.display='none'; };
       th.appendChild(im);
       th.appendChild(el('div','cmp-bname', b.name));
+      var cb = (typeof buyBikeEl==='function') ? buyBikeEl(b.id, b.name, true) : null; if(cb) th.appendChild(cb);
       var ob = el('button','ghostbtn cmp-open','Open in builder');
       (function(id){ ob.addEventListener('click', function(){
         if(typeof window.openBikeInBuilder==='function') window.openBikeInBuilder(id);

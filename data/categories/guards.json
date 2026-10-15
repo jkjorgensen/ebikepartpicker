@@ -6,13 +6,19 @@
   "products": [
     {
       "id": "guards-eride-motor-guard",
-      "name": "E7020 Motor Protection Guard \u2014 Pro-S / SS2.0",
+      "name": "E7020 Motor Protection Guard — Pro-S / SS2.0",
       "brand": "E Ride Pro",
       "category": "guards",
-      "price_usd": 9,
-      "vendor": "E Ride Pro",
-      "buy_url": "https://www.eridepro.com/products/e7020",
+      "price_usd": 14.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-protection-guard-for-e-ride-pro-ss",
       "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 14.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-protection-guard-for-e-ride-pro-ss",
+          "affiliate": true
+        },
         {
           "vendor": "E Ride Pro",
           "price_usd": 9,
@@ -102,7 +108,7 @@
       "tier": "budget",
       "is_upgrade": true,
       "stock_status": "in_stock",
-      "notes": "Variant product page \u2014 displayed $59.90 is the brake-levers variant. Also: chain adjuster $40, foot pegs $65, caliper guard $59.90, sprocket guard $60, rear disc guard $79.90, underbody guard $130, frame sliders $142 (black sold out). Confirm the selected variant and availability at checkout.",
+      "notes": "Variant product page — displayed $59.90 is the brake-levers variant. Also: chain adjuster $40, foot pegs $65, caliper guard $59.90, sprocket guard $60, rear disc guard $79.90, underbody guard $130, frame sliders $142 (black sold out). Confirm the selected variant and availability at checkout.",
       "source_urls": [
         "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
       ],
@@ -143,7 +149,7 @@
         "https://ventusbikes.us/products/prickly-motor-cover"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $80, in stock. Protection part \u2014 not a cooling upgrade. Verify motor case and mounting compatibility.",
+      "notes": "Price verified $80, in stock. Protection part — not a cooling upgrade. Verify motor case and mounting compatibility.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",

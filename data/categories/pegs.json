@@ -40,9 +40,9 @@
       "category": "pegs",
       "badge": "Peg Brackets",
       "tier": "budget",
-      "price_usd": 89.0,
-      "vendor": "SurRonshop",
-      "buy_url": "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets",
+      "price_usd": 99.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee",
       "stock_status": "in_stock",
       "weight_kg": null,
       "power_change_kw": null,
@@ -54,6 +54,12 @@
       "notes": "Price verified: Left foot pedal $89, Right foot pedal $85 (both in stock). OEM replacement pedal + bracket assembly; choose left or right side.",
       "variant": null,
       "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 99.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee",
+          "affiliate": true
+        },
         {
           "vendor": "SurRonshop",
           "price_usd": 89.0,
@@ -81,7 +87,7 @@
         "https://ventusbikes.us/products/prickly-foot-pegs-wide"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $170 (research said $160 \u2014 corrected), in stock. Verify peg mount width, pin diameter and return-spring fit.",
+      "notes": "Price verified $170 (research said $160 — corrected), in stock. Verify peg mount width, pin diameter and return-spring fit.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -110,7 +116,7 @@
         "https://ventusbikes.us/products/prickly-foot-pegs-mx"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $170 (research said $160 \u2014 corrected), in stock. Verify peg mount and spring compatibility.",
+      "notes": "Price verified $170 (research said $160 — corrected), in stock. Verify peg mount and spring compatibility.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -139,7 +145,7 @@
         "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $117 (research said $109 \u2014 corrected), in stock. Product named for Light Bee X; confirm exact version and hardware.",
+      "notes": "Price verified $117 (research said $109 — corrected), in stock. Product named for Light Bee X; confirm exact version and hardware.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -168,7 +174,7 @@
         "https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Product page exists but Walmart blocked automated price/stock verification \u2014 price shown as TBD. Listing names Light Bee LBX; verify year, pin diameter and mount fit before ordering.",
+      "notes": "Product page exists but Walmart blocked automated price/stock verification — price shown as TBD. Listing names Light Bee LBX; verify year, pin diameter and mount fit before ordering.",
       "vendors": [],
       "weight_delta_kg": null
     }

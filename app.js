@@ -523,7 +523,7 @@ function renderPick(c, b, host){
 function buildListEl(){
   var b = bike(), t = totals();
   var list = document.createElement('div'); list.className='build-list';
-  function row(cat, name, price, url){
+  function row(cat, name, price, url, vendor){
     var r = document.createElement('div'); r.className='brow';
     var l = document.createElement('div');
     if(cat){ var cs=document.createElement('span'); cs.className='c'; cs.textContent=cat; l.appendChild(cs); }
@@ -531,14 +531,14 @@ function buildListEl(){
     var pr = document.createElement('div');
     var ps = document.createElement('span'); ps.className='p'; ps.textContent=money(price); pr.appendChild(ps);
     if(url){ pr.appendChild(document.createTextNode(' '));
-      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener';
-      a.textContent='buy'; pr.appendChild(a); }
+      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener sponsored';
+      a.textContent=vendor ? ('Buy at '+vendor) : 'Buy'; pr.appendChild(a); }
     r.appendChild(l); r.appendChild(pr); list.appendChild(r);
   }
   row('', b.name, b.price, '');
   CATEGORIES.forEach(function(c){
     var idx = state.sel[c.id]||0;
-    if(idx!==0){ var o=catOption(c), bb=best(o); row(c.name, o.name, bb?bb.p:0, bb?bb.url:''); }
+    if(idx!==0){ var o=catOption(c), bb=best(o); row(c.name, o.name, bb?bb.p:0, bb?bb.url:'', bb?bb.v:''); }
   });
   var tr = document.createElement('div'); tr.className='brow total';
   tr.innerHTML='<div><span class="n">Total</span></div><div><span class="p">'+(t.tbd?'TBD':money(t.price))+'</span></div>';
@@ -572,6 +572,9 @@ function renderStep(){
     $('btnNext').style.display = '';
     $('btnBack').disabled = (state.step===0);
   } else {
+    var rb = buyBikeEl(b.id, b.name);
+    if(rb){ rb.classList.add('review-buy'); host.appendChild(rb); }
+    else { var nb=document.createElement('p'); nb.className='qnote'; nb.textContent='No verified buy link for the '+b.name+' yet.'; host.appendChild(nb); }
     host.appendChild(buildListEl());
     var acts = document.createElement('div'); acts.className='actions';
     [['Reset', doReset], ['Copy', doCopy], ['Share', doShare], ['Export', doExport]].forEach(function(x){
@@ -601,6 +604,7 @@ function render(){
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
   img.alt = b.name + ' e-moto';
+  var bbx = $('bikeBuy'); if(bbx){ bbx.innerHTML=''; var be = buyBikeEl(b.id, b.name); if(be) bbx.appendChild(be); }
 
   var badges = $('badges'); badges.innerHTML='';
   CATEGORIES.forEach(function(c){
@@ -632,7 +636,7 @@ function render(){
 function guideParts(list){
   return list.map(function(p){
     var c = catById(p.cat), o = c.options[p.opt], bb = best(o);
-    return {name:o.name, price:bb?bb.p:0, url:bb?bb.url:''};
+    return {name:o.name, price:bb?bb.p:0, url:bb?bb.url:'', v:bb?bb.v:''};
   });
 }
 function buildTotal(bikeId, parts, extras){
@@ -672,6 +676,8 @@ function partCard(opts){
     var li=document.createElement('li');
     var n=document.createElement('span'); n.textContent=p.name;
     var pr=document.createElement('span'); pr.textContent=money(p.price);
+    if(p.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=p.url; pa.target='_blank'; pa.rel='noopener sponsored';
+      pa.textContent=p.v?('Buy at '+p.v):'Buy'; pr.appendChild(document.createTextNode(' ')); pr.appendChild(pa); }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
   (opts.extras||[]).forEach(function(e){
@@ -680,6 +686,7 @@ function partCard(opts){
     var pr=document.createElement('span'); pr.textContent=money(e.price);
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
+  var gbb = buyBikeEl(opts.bikeId, b.name, true); if(gbb) body.appendChild(gbb);
   body.appendChild(ul);
   var gt=document.createElement('div'); gt.className='gtotal';
   var gl=document.createElement('span'); gl.textContent='Total';

@@ -43,3 +43,14 @@ var BUY_URLS = {
   "rawrr-mantis-mini-r": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frawrr-mantis-mini-r-best-mini-electric-dirt-bike","source":"VORO Motors"},
   "arctic-leopard-xe-pro-r": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Farctic-leopard-xe-pro-r","source":"VORO Motors"},
 };
+
+/* Shared "Buy this bike" button block: primary (Voro affiliate where available) + "Also at" alternate. */
+function buyBikeEl(bikeId, name, compact){
+  var buy = BUY_URLS[bikeId]; if(!buy || !buy.url) return null;
+  var w = document.createElement('div'); w.className = 'buybox' + (compact ? ' compact' : '');
+  var a = document.createElement('a'); a.className = 'buybtn'; a.href = buy.url; a.target = '_blank'; a.rel = 'noopener sponsored';
+  a.textContent = (compact ? 'Buy' : 'Buy the ' + (name||'bike')) + ' \u2014 ' + buy.source; w.appendChild(a);
+  if(buy.alt){ var b = document.createElement('a'); b.className = 'buyalt'; b.href = buy.alt; b.target = '_blank'; b.rel = 'noopener';
+    b.textContent = 'Also at ' + (buy.altSource || 'another store'); w.appendChild(b); }
+  return w;
+}

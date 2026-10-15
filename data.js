@@ -47,6 +47,9 @@ var BIKES = [
   {id:'arctic-leopard-xe-pro-s-enduro', name:'Arctic Leopard XE Pro S Enduro', price:5599, src:'msrp', weight:148, kw:20, size:'light', sparse:1},
   {id:'arctic-leopard-xe-pro-r', name:'Arctic Leopard XE Pro R', price:5799, src:'msrp', weight:175, kw:26.5, size:'mid', sparse:1},
   {id:'arctic-leopard-xf', name:'Arctic Leopard XF', price:3699, src:'msrp', weight:130, kw:12, size:'light', sparse:1},
+  {id:'altis-omega', name:'Altis Omega', price:7899, src:'msrp', weight:257, kw:55, size:'full', sparse:1},
+  {id:'altis-delta', name:'Altis Delta', price:3299, src:'msrp', weight:163, kw:13, size:'light', sparse:1},
+  {id:'rawrr-mantis-mini-r', name:'Rawrr Mantis Mini R', price:2899, src:'msrp', weight:111, kw:4.5, size:'light', sparse:1},
 ];
 
 var FITMENT = {

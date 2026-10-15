@@ -142,7 +142,8 @@ var QUIZ_RANGE = {
   'rtr-lite':25, 'rtr-lite-2-0':25, 'rtr-sport':30,
   'rtr-alpha':40, 'rtr-xl':35, 'rtr-xl-alpha':40,
   'yozma-in10':30, 'yozma-in10-pro':30, 'tuttio-soleil01':22,
-  'yvolt-surge-v':55, 'supermach-sm01':45, 'supermach-sm62':45
+  'yvolt-surge-v':55, 'supermach-sm01':45, 'supermach-sm62':45,
+  'altis-omega':null, 'altis-delta':null, 'rawrr-mantis-mini-r':null
 };
 var DURATION_NEED = { short:15, medium:30, long:45 }; /* miles wanted */
 
@@ -524,7 +525,7 @@ function recCard(picks, kind, a){
   card.appendChild(el('div','qkicker', kicker));
   var top = el('div','qrec-top');
   var img = document.createElement('img');
-  img.src = 'img/bike-'+bike.id+'.png'; img.alt = bike.name+' e-moto'; img.loading='lazy';
+  img.src = 'img/bike-'+bike.id+'.png'+(typeof IMGV!=='undefined'?'?v='+IMGV:''); img.alt = bike.name+' e-moto'; img.loading='lazy';
   img.onerror = function(){ img.style.display='none'; };
   top.appendChild(img);
   var info = el('div','qrec-info');

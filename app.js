@@ -785,7 +785,7 @@ function renderUpcoming(){
 
 /* ---------- submit-your-part modal ---------- */
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
-var IMGV = '3.10.3'; /* bump when bike images change so browsers refetch */
+var IMGV = '3.10.7'; /* bump when bike images change so browsers refetch */
 (function(){
   var overlay = $('suggestOverlay');
   if(!overlay) return;

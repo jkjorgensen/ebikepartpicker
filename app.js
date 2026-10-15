@@ -28,6 +28,8 @@ function catOption(cat){ return cat.options[state.sel[cat.id]||0] || cat.options
 /* lowest-price vendor entry for an option, or null */
 function best(opt){
   if(!opt.prices || !opt.prices.length) return null;
+  var af = opt.prices.filter(function(p){ return p.aff; });
+  if(af.length) return af[0]; /* affiliate partner link is primary */
   return opt.prices.reduce(function(a,b){ return b.p < a.p ? b : a; });
 }
 function optPrice(opt){ var b = best(opt); return b ? b.p : 0; }

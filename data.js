@@ -986,6 +986,7 @@ var CATEGORIES = [
     },
     {name:'E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR', pid:'eride-e7305-charger', tier:'OEM',
      prices:[
+      {v:'VORO Motors', p:306.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F84v-charger-for-e-ride-pro-ss', aff:1},
       {v:'E Ride Pro', p:299, url:'https://www.eridepro.com/products/e7305'},
       /* AFFILIATE: replace with affiliate link */
      ],
@@ -1067,6 +1068,7 @@ var CATEGORIES = [
     },
     {name:'E7004 Upgraded Drive Belt Pulley - Pro-S / SS2.0', pid:'drivetrain-eride-belt-pulley', tier:'OEM',
      prices:[
+      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss', aff:1},
       {v:'E Ride Pro', p:89, url:'https://www.eridepro.com/products/e7004'},
       /* AFFILIATE: replace with affiliate link */
      ],
@@ -1075,6 +1077,7 @@ var CATEGORIES = [
     },
     {name:'E7006 Drive Belt - Pro-S / SS2.0', pid:'drivetrain-eride-belt', tier:'OEM',
      prices:[
+      {v:'VORO Motors', p:64.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss', aff:1},
       {v:'E Ride Pro', p:66, url:'https://www.eridepros.com/product-page/drive-belt'},
       /* AFFILIATE: replace with affiliate link */
      ],
@@ -1137,6 +1140,7 @@ var CATEGORIES = [
     {name:'Stock guards', prices:[]},
     {name:'E7020 Motor Protection Guard — Pro-S / SS2.0', pid:'guards-eride-motor-guard', tier:'stock_replacement',
      prices:[
+      {v:'VORO Motors', p:14.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-protection-guard-for-e-ride-pro-ss', aff:1},
       {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/e7020'},
       /* AFFILIATE: replace with affiliate link */
      ],
@@ -1242,6 +1246,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
+      {v:'VORO Motors', p:99.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee', aff:1},
       {v:'SurRonshop', p:89, url:'https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets'},
       /* AFFILIATE: replace with affiliate link */
      ],

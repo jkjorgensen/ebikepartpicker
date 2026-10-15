@@ -58,9 +58,9 @@
       "name": "E7004 Upgraded Drive Belt Pulley - Pro-S / SS2.0",
       "brand": "E Ride Pro",
       "category": "drivetrain",
-      "price_usd": 89,
-      "vendor": "E Ride Pro",
-      "buy_url": "https://www.eridepro.com/products/e7004",
+      "price_usd": 49.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": true,
       "stock_status": "in_stock",
@@ -92,6 +92,12 @@
       },
       "vendors": [
         {
+          "vendor": "VORO Motors",
+          "price_usd": 49.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss",
+          "affiliate": true
+        },
+        {
           "vendor": "E Ride Pro",
           "price_usd": 89,
           "buy_url": "https://www.eridepro.com/products/e7004"
@@ -105,9 +111,9 @@
       "name": "E7006 Drive Belt - Pro-S / SS2.0",
       "brand": "E Ride Pro",
       "category": "drivetrain",
-      "price_usd": 66,
-      "vendor": "E Ride Pro",
-      "buy_url": "https://www.eridepros.com/product-page/drive-belt",
+      "price_usd": 64.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -139,6 +145,12 @@
       },
       "vendors": [
         {
+          "vendor": "VORO Motors",
+          "price_usd": 64.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss",
+          "affiliate": true
+        },
+        {
           "vendor": "E Ride Pro",
           "price_usd": 66,
           "buy_url": "https://www.eridepros.com/product-page/drive-belt"
@@ -148,7 +160,7 @@
     },
     {
       "id": "komodo-chain-520",
-      "name": "O-ring Chain 520-108 \u2014 Komodo OEM",
+      "name": "O-ring Chain 520-108 — Komodo OEM",
       "brand": "Talaria",
       "category": "drivetrain",
       "tier": "OEM",

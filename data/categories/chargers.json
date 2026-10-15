@@ -37,9 +37,9 @@
       "name": "E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR",
       "brand": "E Ride Pro",
       "category": "chargers",
-      "price_usd": 299.0,
-      "vendor": "E Ride Pro",
-      "buy_url": "https://www.eridepro.com/products/e7305",
+      "price_usd": 306.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F84v-charger-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -51,6 +51,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 306.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F84v-charger-for-e-ride-pro-ss",
+          "affiliate": true
+        },
         {
           "vendor": "E Ride Pro",
           "price_usd": 299.0,

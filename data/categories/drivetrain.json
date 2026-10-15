@@ -214,6 +214,58 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/drivetrain-ventus-chain-kit.png"
+    },
+    {
+      "id": "voro-eride-ss-gold-chain",
+      "name": "E Ride Pro SS OEM Gold Chain (114 or 112 link)",
+      "brand": "OEM",
+      "category": "drivetrain",
+      "price_usd": 39.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "114-link (E7021) or 112-link (E7220).",
+      "source_urls": [
+        "https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 39.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-gold-chain.jpg"
+    },
+    {
+      "id": "voro-eride-ss-sprockets",
+      "name": "E Ride Pro SS OEM Sprocket (14T $13.95 / 55T $34.95)",
+      "brand": "OEM",
+      "category": "drivetrain",
+      "price_usd": 13.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "14T front (E7205) or 55T rear (E7206).",
+      "source_urls": [
+        "https://voromotors.com/products/sprockets-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 13.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-sprockets.jpg"
     }
   ],
   "compatibility": [
@@ -582,6 +634,46 @@
         "https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-gold-chain",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-gold-chain",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/sprockets-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-sprockets",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/sprockets-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-sprockets",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

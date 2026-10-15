@@ -101,7 +101,7 @@ function renderCompare(){
   var wrap = el('div','qwrap cmp-wrap');
   wrap.appendChild(el('div','qstep','Head to head'));
   wrap.appendChild(el('h2','qtitle','Versus: compare e-motos.'));
-  wrap.appendChild(el('p','qsub','Pick up to three bikes. Green marks the best figure in each row — lowest price, lightest weight, most power, longest estimated range. Prices are snapshots, range is an owner-average estimate.'));
+  wrap.appendChild(el('p','qsub','Pick up to three bikes. Green highlights the standout figure in each row for price, weight, power and estimated range. Prices are snapshots, range is an owner-average estimate.'));
 
   var picks = el('div','cmp-picks');
   for(var i=0;i<3;i++){

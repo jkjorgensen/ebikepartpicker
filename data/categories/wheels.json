@@ -287,7 +287,7 @@
         "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified from $299 (ION/KKE no-tire; Warp9 no-tire $383; with tire $464-$549), in stock. FRONT WHEEL ONLY \u2014 single 21\" front wheel by brand with optional tire. Tusk variants out of stock.",
+      "notes": "Price verified from $299 (ION/KKE no-tire; Warp9 no-tire $383; with tire $464-$549), in stock. FRONT WHEEL ONLY — single 21\" front wheel by brand with optional tire. Tusk variants out of stock.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -345,7 +345,7 @@
         "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $599 ($619 for gold-rim colorways), in stock on select colorways. Front+rear set with bearings/seals, no tires. Page lists fitment as 2023-2025 \u2014 confirm 2026 before ordering.",
+      "notes": "Price verified $599 ($619 for gold-rim colorways), in stock on select colorways. Front+rear set with bearings/seals, no tires. Page lists fitment as 2023-2025 — confirm 2026 before ordering.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -355,6 +355,32 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/kke-18-21-ultrabee.jpg"
+    },
+    {
+      "id": "voro-eride-ss-wheel-assembly",
+      "name": "E Ride Pro SS OEM Wheel Assembly (per wheel: 19\" F / 19\" R / 18\" R)",
+      "brand": "OEM",
+      "category": "wheels",
+      "price_usd": 139.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fwheel-assembly-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Single complete wheel, $139.95 each; choose 19\" front, 19\" rear or 18\" rear.",
+      "source_urls": [
+        "https://voromotors.com/products/wheel-assembly-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 139.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fwheel-assembly-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-wheel-assembly.jpg"
     }
   ],
   "compatibility": [
@@ -931,6 +957,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Page: \"For Surron Ultra Bee 2023-2025\""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/wheel-assembly-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-wheel-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/wheel-assembly-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-wheel-assembly",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

@@ -124,6 +124,58 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/electrical-gigigo-headlight.jpg"
+    },
+    {
+      "id": "voro-eride-ss-lcd-display",
+      "name": "E Ride Pro SS OEM LCD Display (E7023)",
+      "brand": "OEM",
+      "category": "electrical",
+      "price_usd": 169.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/lcd-display-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 169.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-lcd-display.jpg"
+    },
+    {
+      "id": "voro-eride-ss-headlight-bar",
+      "name": "E Ride Pro SS OEM LED Headlight Bar (E7045)",
+      "brand": "OEM",
+      "category": "electrical",
+      "price_usd": 39.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 39.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-headlight-bar.jpg"
     }
   ],
   "compatibility": [
@@ -464,6 +516,46 @@
         "https://ventusbikes.us/products/gigigo-gi02-s-headlight"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/lcd-display-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-lcd-display",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/lcd-display-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-lcd-display",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-headlight-bar",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-headlight-bar",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

@@ -717,6 +717,46 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Explicit Ultra Bee compatibility; requires harness + 100V+ battery"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/74v-controller-for-ultra-bee"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-ultrabee-74v-controller",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/72v-controller-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-72v-controller",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/72v-controller-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-72v-controller",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "altis-sigma",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/98v-controller-for-altis-sigma"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-altis-sigma-98v-controller",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -967,7 +1007,7 @@
         "https://ventusbikes.us/products/ventus-aetos-max-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro \u2014 confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
+      "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro — confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -997,7 +1037,7 @@
         "https://chargedcycleworks.com/products/torp-tc1000-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,249 (V1), currently out of stock. This is the Ultra Bee-specific TC1000 \u2014 distinct from the Light Bee 2.X kit already in the catalog.",
+      "notes": "Price verified $1,249 (V1), currently out of stock. This is the Ultra Bee-specific TC1000 — distinct from the Light Bee 2.X kit already in the catalog.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -1057,7 +1097,7 @@
         "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,399, in stock. Page names Ultra Bee explicitly. REQUIRES bike-specific harness (sold separately) and a 100V+ battery \u2014 not for stock-voltage builds.",
+      "notes": "Price verified $1,399, in stock. Page names Ultra Bee explicitly. REQUIRES bike-specific harness (sold separately) and a 100V+ battery — not for stock-voltage builds.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -1068,6 +1108,84 @@
       "weight_delta_kg": null,
       "controller_max_kw": 76.0,
       "image": "img/parts/ventus-aetos-ultra.png"
+    },
+    {
+      "id": "voro-ultrabee-74v-controller",
+      "name": "Sur-Ron Ultra Bee 74V OEM Controller",
+      "brand": "OEM",
+      "category": "controller",
+      "price_usd": 699.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Genuine Surron replacement controller (SR20-UTB-105-72-03). Rating set to the stock bike peak.",
+      "source_urls": [
+        "https://voromotors.com/products/74v-controller-for-ultra-bee"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 699.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee",
+          "affiliate": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "voro-eride-ss-72v-controller",
+      "name": "E Ride Pro SS 72V OEM Controller (E7003)",
+      "brand": "OEM",
+      "category": "controller",
+      "price_usd": 360.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Original stock SS controller. Rating set to the SS 2.0 stock peak.",
+      "source_urls": [
+        "https://voromotors.com/products/72v-controller-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 360.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-72v-controller.jpg"
+    },
+    {
+      "id": "voro-altis-sigma-98v-controller",
+      "name": "Altis Sigma 98V OEM Controller",
+      "brand": "OEM",
+      "category": "controller",
+      "price_usd": 999.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Genuine Altis replacement controller. Rating set to the stock bike peak.",
+      "source_urls": [
+        "https://voromotors.com/products/98v-controller-for-altis-sigma"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 999.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma",
+          "affiliate": true
+        }
+      ],
+      "image": null
     }
   ]
 }

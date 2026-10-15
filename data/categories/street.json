@@ -22,7 +22,7 @@
       "tier": "midrange",
       "is_upgrade": true,
       "stock_status": "in_stock",
-      "notes": "Mirrors, switch housing, LED turn signals, plate bracket/light, tail/brake lights, plug-and-play harness and hardware. Page shows $310 (og price) with a second $350 variant (option label not shown). Parts alone do not guarantee road-legal registration \u2014 check local laws.",
+      "notes": "Mirrors, switch housing, LED turn signals, plate bracket/light, tail/brake lights, plug-and-play harness and hardware. Page shows $310 (og price) with a second $350 variant (option label not shown). Parts alone do not guarantee road-legal registration — check local laws.",
       "source_urls": [
         "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
       ],
@@ -51,7 +51,7 @@
       "tier": "stock_replacement",
       "is_upgrade": false,
       "stock_status": "out_of_stock",
-      "notes": "COLLECTION_URL_NEEDS_EXACT: exact product page URL not confirmed \u2014 listed as 'light bee Horn' at $8.00 USD on the shop.sur-ron.com collection page (crawl ~2026-09). OEM replacement; confirm connector and voltage before ordering. Exact product page recovered 2026-10-12; page shows sold out.",
+      "notes": "COLLECTION_URL_NEEDS_EXACT: exact product page URL not confirmed — listed as 'light bee Horn' at $8.00 USD on the shop.sur-ron.com collection page (crawl ~2026-09). OEM replacement; confirm connector and voltage before ordering. Exact product page recovered 2026-10-12; page shows sold out.",
       "source_urls": [
         "https://shop.sur-ron.com/products/light-bee-horn"
       ],
@@ -80,7 +80,7 @@
         "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $169.99 at TB Electric Moto, in stock. Kit includes front/rear turn signals and tail/brake lights. Not bike-specific \u2014 confirm the exact harness and electrical compatibility per bike.",
+      "notes": "Price verified $169.99 at TB Electric Moto, in stock. Kit includes front/rear turn signals and tail/brake lights. Not bike-specific — confirm the exact harness and electrical compatibility per bike.",
       "vendors": [
         {
           "vendor": "TB Electric Moto",
@@ -109,7 +109,7 @@
         "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $195.95 (research said $209.95 \u2014 corrected) at TB Electric Moto, in stock. Listing names Talaria Sting MX4/MX5; verify model year, connector and brake-light configuration.",
+      "notes": "Price verified $195.95 (research said $209.95 — corrected) at TB Electric Moto, in stock. Listing names Talaria Sting MX4/MX5; verify model year, connector and brake-light configuration.",
       "vendors": [
         {
           "vendor": "TB Electric Moto",
@@ -138,9 +138,35 @@
         "https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Product page exists but Walmart blocked automated price/stock verification \u2014 price shown as TBD. Listing names Light Bee LB-X; confirm wiring, lighting voltage and local road-registration requirements.",
+      "notes": "Product page exists but Walmart blocked automated price/stock verification — price shown as TBD. Listing names Light Bee LB-X; confirm wiring, lighting voltage and local road-registration requirements.",
       "vendors": [],
       "weight_delta_kg": null
+    },
+    {
+      "id": "voro-ultrabee-front-turn-signals",
+      "name": "Sur-Ron Ultra Bee OEM Front Turn Signals",
+      "brand": "OEM",
+      "category": "street",
+      "price_usd": 49.0,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffront-turn-signals-for-ultra-bee",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Mount to fork crown behind headlight shroud.",
+      "source_urls": [
+        "https://voromotors.com/products/front-turn-signals-for-ultra-bee"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 49.0,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffront-turn-signals-for-ultra-bee",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-ultrabee-front-turn-signals.jpg"
     }
   ],
   "compatibility": [
@@ -515,6 +541,16 @@
         "https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/front-turn-signals-for-ultra-bee"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-ultrabee-front-turn-signals",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

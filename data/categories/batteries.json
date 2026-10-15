@@ -399,6 +399,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Explicit Ultra Bee product; 12V converter removal + aftermarket controller required"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/72v-40ah-battery-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-72v-40ah-battery",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/72v-40ah-battery-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-72v-40ah-battery",
+      "required_adapters": null,
+      "status": "verify"
     }
   ],
   "products": [
@@ -680,6 +700,32 @@
       "batt_peak_kw": 76.8,
       "batt_max_kw_est": true,
       "batt_rating_source": "derived from vendor 280A continuous / 800A peak @ 96V"
+    },
+    {
+      "id": "voro-eride-ss-72v-40ah-battery",
+      "name": "E Ride Pro SS 72V 40Ah OEM Battery (E7001)",
+      "brand": "OEM",
+      "category": "batteries",
+      "price_usd": 1999.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-40ah-battery-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Replacement 72V 40Ah pack for the E Ride Pro SS (2.88 kWh nominal).",
+      "source_urls": [
+        "https://voromotors.com/products/72v-40ah-battery-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 1999.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-40ah-battery-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-72v-40ah-battery.jpg"
     }
   ]
 }

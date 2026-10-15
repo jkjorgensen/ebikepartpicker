@@ -64,7 +64,7 @@
     },
     {
       "id": "swingarm-eride-oem",
-      "name": "E Ride Pro OEM Swingarm \u2014 SS3.0 / SR",
+      "name": "E Ride Pro OEM Swingarm — SS3.0 / SR",
       "brand": "E Ride Pro",
       "category": "swingarm",
       "price_usd": 499,
@@ -80,7 +80,7 @@
       "tier": "stock_replacement",
       "is_upgrade": false,
       "stock_status": "in_stock",
-      "notes": "OEM swingarm with 12mm bearings and chain adjusters pre-installed. Bolt-on for SS3.0/SR; fits late-2024/2025 SS2.0 \u2014 older SS2.0 with 10mm bearings must verify.",
+      "notes": "OEM swingarm with 12mm bearings and chain adjusters pre-installed. Bolt-on for SS3.0/SR; fits late-2024/2025 SS2.0 — older SS2.0 with 10mm bearings must verify.",
       "source_urls": [
         "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
       ],
@@ -124,6 +124,32 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/stormbee-swingarm-oem.jpg"
+    },
+    {
+      "id": "voro-eride-ss-swingarm",
+      "name": "E Ride Pro SS OEM Swingarm (E7008)",
+      "brand": "OEM",
+      "category": "swingarm",
+      "price_usd": 349.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fswingarm-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/swingarm-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 349.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fswingarm-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-swingarm.jpg"
     }
   ],
   "compatibility": [
@@ -394,6 +420,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": ""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/swingarm-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-swingarm",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/swingarm-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-swingarm",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

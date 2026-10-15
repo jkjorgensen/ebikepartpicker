@@ -22,7 +22,7 @@
       "tier": "premium",
       "is_upgrade": true,
       "stock_status": "out_of_stock",
-      "notes": "Requires EBMX Ultra Bee triangle, sold separately \u2014 not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
+      "notes": "Requires EBMX Ultra Bee triangle, sold separately — not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
       "source_urls": [
         "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
       ],
@@ -90,6 +90,32 @@
       "badge": "Rippin Moto",
       "weight_delta_kg": null,
       "image": "img/parts/linkage-talaria-mx34.jpg"
+    },
+    {
+      "id": "voro-eride-ss-progression-triangle",
+      "name": "E Ride Pro SS OEM Rear Progression Triangle (E7026)",
+      "brand": "OEM",
+      "category": "linkage",
+      "price_usd": 59.95,
+      "vendor": "VORO Motors",
+      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-progression-triangle-for-e-ride-pro-ss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "",
+      "source_urls": [
+        "https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-10-15",
+      "vendors": [
+        {
+          "vendor": "VORO Motors",
+          "price_usd": 59.95,
+          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-progression-triangle-for-e-ride-pro-ss",
+          "affiliate": true
+        }
+      ],
+      "image": "img/parts/voro-eride-ss-progression-triangle.jpg"
     }
   ],
   "compatibility": [
@@ -462,6 +488,26 @@
         "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss"
+      ],
+      "notes": "VORO Motors lists fitment",
+      "product_id": "voro-eride-ss-progression-triangle",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss"
+      ],
+      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "product_id": "voro-eride-ss-progression-triangle",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

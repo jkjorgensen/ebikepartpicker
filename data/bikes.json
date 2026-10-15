@@ -665,6 +665,57 @@
       "notes": "Compact 12 kW pit-bike-size machine, 17/14\" wheels.",
       "size": "light",
       "fitment_sparse": true
+    },
+    {
+      "id": "altis-omega",
+      "name": "Altis Omega",
+      "image": "img/bike-altis-omega.png",
+      "price_usd": 7899,
+      "price_source": "msrp",
+      "stock_specs": {
+        "peak_kw": 55,
+        "weight_lb": 257,
+        "front_wheel_in": 21,
+        "rear_wheel_in": 18,
+        "wheel_source_url": "https://voromotors.com/products/altis-omega"
+      },
+      "fitment_sparse": true,
+      "size": "full",
+      "notes": "55 kW peak, 144V 5,040 Wh, 257 lb, 21\"/18\" MX wheels. $7,899 Standard on voromotors.com (Pro $9,299, Alpha $10,999). Full-size."
+    },
+    {
+      "id": "altis-delta",
+      "name": "Altis Delta",
+      "image": "img/bike-altis-delta.png",
+      "price_usd": 3299,
+      "price_source": "msrp",
+      "stock_specs": {
+        "peak_kw": 13,
+        "weight_lb": 163,
+        "front_wheel_in": 17,
+        "rear_wheel_in": 14,
+        "wheel_source_url": "https://voromotors.com/products/altis-delta"
+      },
+      "fitment_sparse": true,
+      "size": "light",
+      "notes": "13 kW peak, 72V 35Ah Samsung, 163 lb, 17\"/14\" wheels. $3,299 on voromotors.com (Delta S: 8 kW, 149 lb, $2,699). Mini/pit size."
+    },
+    {
+      "id": "rawrr-mantis-mini-r",
+      "name": "Rawrr Mantis Mini R",
+      "image": "img/bike-rawrr-mantis-mini-r.png",
+      "price_usd": 2899,
+      "price_source": "msrp",
+      "stock_specs": {
+        "peak_kw": 4.5,
+        "weight_lb": 111,
+        "front_wheel_in": 14,
+        "rear_wheel_in": 12,
+        "wheel_source_url": "https://voromotors.com/products/rawrr-mantis-mini-r-best-mini-electric-dirt-bike"
+      },
+      "fitment_sparse": true,
+      "size": "light",
+      "notes": "2000 W rated / ~4500 W peak, 72V 1440 Wh, ~111 lb, 14\"/12\" wheels. $2,899 on voromotors.com (Mini R17 $2,999). Mini size."
     }
   ]
 }

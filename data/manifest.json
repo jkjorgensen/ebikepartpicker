@@ -1,5 +1,5 @@
 {
-  "bike_count": 36,
+  "bike_count": 45,
   "build_script": "tools/build-catalog.js",
   "catalog_version": "3.10.6",
   "categories": [

@@ -34,7 +34,7 @@ var UPCOMING = [
    date:'Shipping now (ships from Lehi, UT)', price:5499,
    blurb:'SX-E15 $5,499 / Plus $5,649.',
    source:'https://ride-rfn.com/products/e15-plus'},
-  {name:'Altis Omega', bikeId:null, status:'preorder',
+  {name:'Altis Omega', bikeId:'altis-omega', status:'preorder',
    date:'Pre-order now \u2014 Pro est. Oct-Nov 2026, Alpha Dec 2026', price:7899,
    blurb:'Full-size high-power e-moto: 144V platform, semi-solid-state battery, 55 kW peak.',
    source:'https://altismotorsports.com/product/altis-omega/'},
